@@ -15,13 +15,16 @@ struct Cell {
     Cell(CellState state_in = CellState::DEAD) : state{ state_in }{};
 };
 
+class GridRenderer;
+
 class Grid {
     using Coord = std::pair<int, int>;
     using CoordVec = std::vector<Coord>;
     using CoordSet = std::set<Coord>;
+    friend GridRenderer;
 private:
-    const size_t width = 10; 
-    const size_t height = 7;
+    const size_t width = 50; 
+    const size_t height = 50;
     CoordSet alive_cells{};
     // dead cells around alive cells that may possibly be made alive
     CoordSet alive_candidates{};
