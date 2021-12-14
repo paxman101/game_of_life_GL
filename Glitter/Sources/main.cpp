@@ -48,12 +48,13 @@ void rendering_loop(GLFWwindow* window, GLuint shader_program) {
 
 void run_loop(GLFWwindow* window, CellRenderer &renderer) {
     auto t_start = std::chrono::high_resolution_clock::now();
-    GridRenderer grid_renderer{ {{1,2},{1,3},{1,4}} };
+    //GridRenderer grid_renderer{ {{1,2},{1,3},{1,4}} };
+    GridRenderer grid_renderer{ {{1,1}, {1,2}, {2,1}, {3,1}, {5,1}, {5,3}, {5,4}, {5,5}, {4,3}, {3,4}, {2,4}, {3,5}, {1,5}} };
     while (glfwWindowShouldClose(window) == false) {
         if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
             glfwSetWindowShouldClose(window, true);
     
-        std::this_thread::sleep_for(round<std::chrono::nanoseconds>(std::chrono::duration<double>{1./4}));
+        std::this_thread::sleep_for(round<std::chrono::nanoseconds>(std::chrono::duration<double>{1./20}));
 
         glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
