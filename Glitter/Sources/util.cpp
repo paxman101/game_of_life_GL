@@ -3,6 +3,7 @@
 #include <fstream>
 #include <cerrno>
 #include <iostream>
+#include <cstring>
 
 char* readShader(const std::string& filename) {
     std::ifstream cur_file(filename);
