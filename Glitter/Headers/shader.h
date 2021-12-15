@@ -23,7 +23,7 @@ public:
     void compile(const char* vertex_source, const char* fragment_source);
     // Set this shader as active 
     Shader& use() { glUseProgram(id); return *this; }
-    GLuint get_id() { return id; }
+    GLuint get_id() const { return id; }
 
     void setBool(const std::string & name, bool value) const {
         glUniform1i(glGetUniformLocation(id, name.c_str()), (int)value);
