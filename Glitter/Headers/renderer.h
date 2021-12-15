@@ -22,6 +22,8 @@ public:
 
     void DrawCell(const glm::vec2& pos, const glm::vec2& size = glm::vec2(10.0f, 10.0f),
         const glm::vec3& color = glm::vec3(0.0f, 0.0f, 0.0f));
+    
+    std::shared_ptr<Shader> getShader() { return shader; }
 };
 
 class GridRenderer {
