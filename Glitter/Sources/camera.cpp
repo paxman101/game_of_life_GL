@@ -4,11 +4,11 @@ void Camera::processKeyboard(CameraMovement direction, float delta_time) {
     float distance = movement_speed * delta_time;
     switch (direction) {
         case CameraMovement::UPWARD:
-            position += up * distance;
+            position -= up * distance;
             break;
 
         case CameraMovement::DOWNWARD:
-            position -= up * distance;
+            position += up * distance;
             break;
 
         case CameraMovement::LEFT:
