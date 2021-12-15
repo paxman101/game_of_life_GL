@@ -4,6 +4,7 @@
 #include "util.h"
 #include "grid.h"
 #include "renderer.h"
+#include "camera.h"
 
 // System Headers
 #include <glad/glad.h>
@@ -18,6 +19,11 @@
 #include <thread>
 #include <memory>
 #include <random>
+
+const float fps{20.0f};
+const float cell_size{ 20.0f };
+
+Camera camera{ {0.0, 0.0, 0.0}, cell_size};
 
 GLFWwindow *init_glfw_window() {
     // Load GLFW and Create a Window
@@ -43,7 +49,25 @@ GLFWwindow *init_glfw_window() {
     return mWindow;
 }
 
-void rendering_loop(GLFWwindow* window, GLuint shader_program) {
+//void rendering_loop(GLFWwindow* window, GLuint shader_program) {
+//}
+
+void processInput(GLFWwindow* window) {
+    if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
+        glfwSetWindowShouldClose(window, true);
+
+    if (glfwGetKey(window, GLFW_KEY_W)) {
+        camera.processKeyboard(CameraMovement::UPWARD, 1);
+    }
+    if (glfwGetKey(window, GLFW_KEY_S)) {
+        camera.processKeyboard(CameraMovement::DOWNWARD, 1);
+    }
+    if (glfwGetKey(window, GLFW_KEY_D)) {
+        camera.processKeyboard(CameraMovement::RIGHT, 1);
+    }
+    if (glfwGetKey(window, GLFW_KEY_A)) {
+        camera.processKeyboard(CameraMovement::LEFT, 1);
+    }
 }
 
 void run_loop(GLFWwindow* window, CellRenderer &renderer) {
@@ -51,21 +75,16 @@ void run_loop(GLFWwindow* window, CellRenderer &renderer) {
     //GridRenderer grid_renderer{ {{1,2},{1,3},{1,4}} };
     GridRenderer grid_renderer{ {{1,1}, {1,2}, {2,1}, {3,1}, {5,1}, {5,3}, {5,4}, {5,5}, {4,3}, {3,4}, {2,4}, {3,5}, {1,5}} };
     while (glfwWindowShouldClose(window) == false) {
-        if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
-            glfwSetWindowShouldClose(window, true);
-    
-        std::this_thread::sleep_for(round<std::chrono::nanoseconds>(std::chrono::duration<double>{1./20}));
+        processInput(window);
+        std::this_thread::sleep_for(round<std::chrono::nanoseconds>(std::chrono::duration<double>{1./fps}));
 
         glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
 
-        //for (int y = 0; y < mHeight; y += 5) {
-        //    for (int x = 0; x < mWidth; x += 5) {
-        //        //renderer.DrawCell({ x,y }, { 4, 4, }, { 1.0,1.0,1.0 });
-        //        //renderer.DrawCell({ x, y }, { 4, 4 }, { 0.5 * std::sin(y+time)*std::cos(x+time),  0.5 * std::cos(x + time), tan((x * y+ std::rand() + time) / 1000)});
-        //    }
-        //}
         grid_renderer.renderGrid(renderer);
+
+        glm::mat4 view = camera.getViewMatrix();
+        renderer.getShader()->setMatrix4("view", view);
     
         glfwSwapBuffers(window);
         glfwPollEvents();
@@ -85,7 +104,7 @@ int main(int argc, char * argv[]) {
     main_shader->compile(vertex_source, frag_source);
     main_shader->use();
     glm::mat4 projection = glm::ortho(0.0f, static_cast<float>(mWidth), static_cast<float>(mHeight),
-        0.0f, -1.0f, 1.0f);
+        0.0f, -1.0f, 1.0f) ;
     main_shader->setMatrix4("projection", projection);
 
     // renderer object
