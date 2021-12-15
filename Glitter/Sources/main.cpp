@@ -22,11 +22,18 @@
 
 float fps{20.0f};
 const float cell_size{ 20.0f };
+float zoom{ 1.0f };
 // a bool to keep track of whether or not to update the GOL grid.
-bool update_grid{ true };
+bool update_grid{ false };
+
+// last mouse values from mouse movement callback
+float mouse_last_x{};
+float mouse_last_y{};
 
 // Make camera object with movement speed of cell_size.
 Camera camera{ {0.0, 0.0, 0.0}, cell_size};
+
+GridRenderer grid_renderer{ {{1,1}, {1,2}, {2,1}, {3,1}, {5,1}, {5,3}, {5,4}, {5,5}, {4,3}, {3,4}, {2,4}, {3,5}, {1,5}} };
 
 GLFWwindow *init_glfw_window() {
     // Load GLFW and Create a Window
@@ -78,7 +85,7 @@ void processInput(GLFWwindow* window) {
     }
     // Speed controls
     if (glfwGetKey(window, GLFW_KEY_EQUAL)) {
-        if (fps < 300) {
+        if (fps < 500) {
             fps += 5;
         }
     }
@@ -93,10 +100,33 @@ void scroll_callback(GLFWwindow *window, double xoffset, double yoffset) {
     camera.processMouseScroll(yoffset);
 }
 
+// cursor_callback to find cursor location relative to world space
+void cursor_callback(GLFWwindow* window, double xoffset, double yoffset) {
+    glm::mat4 view = camera.getViewMatrix();
+    glm::vec4 yep{ xoffset/zoom, yoffset/zoom, 0.0f, 0.0f };
+    mouse_last_x = yep.x;
+    mouse_last_y = yep.y;
+}
+
+// mouse button callback for capturing click
+void mouse_button_callback(GLFWwindow* window, int button, int action, int mods) {
+    // if button is left click
+    if (button == GLFW_MOUSE_BUTTON_LEFT) {
+        //std::cout << "Clicked coord {" << mouse_last_x << "," << mouse_last_y << "}";
+        std::pair<int, int> grid_coord = grid_renderer.getGridCoord({ mouse_last_x, mouse_last_y });
+        std::cout << "Added cell at: " << grid_coord.first << ", " << grid_coord.second << std::endl;
+        grid_renderer.getGrid().addAlive(grid_coord);
+    }
+    if (button == GLFW_MOUSE_BUTTON_RIGHT) {
+        std::pair<int, int> grid_coord = grid_renderer.getGridCoord({ mouse_last_x, mouse_last_y });
+        std::cout << "Killed cell at: " << grid_coord.first << ", " << grid_coord.second << std::endl;
+        grid_renderer.getGrid().killCell(grid_coord);
+    }
+}
+
 void run_loop(GLFWwindow* window, CellRenderer &renderer) {
     auto t_start = std::chrono::high_resolution_clock::now();
     //GridRenderer grid_renderer{ {{1,2},{1,3},{1,4}} };
-    GridRenderer grid_renderer{ {{1,1}, {1,2}, {2,1}, {3,1}, {5,1}, {5,3}, {5,4}, {5,5}, {4,3}, {3,4}, {2,4}, {3,5}, {1,5}} };
     while (glfwWindowShouldClose(window) == false) {
         processInput(window);
         std::this_thread::sleep_for(round<std::chrono::nanoseconds>(std::chrono::duration<double>{1./fps}));
@@ -106,7 +136,7 @@ void run_loop(GLFWwindow* window, CellRenderer &renderer) {
 
         grid_renderer.renderGrid(renderer, update_grid);
 
-        float zoom = camera.getZoom();
+        zoom = camera.getZoom();
         glm::mat4 projection = glm::ortho(0.0f, static_cast<float>(mWidth) / zoom, static_cast<float>(mHeight) / zoom, 0.0f, -1.0f, 1.0f);
         renderer.getShader()->setMatrix4("projection", projection);
 
@@ -124,6 +154,8 @@ int main(int argc, char * argv[]) {
 
     // set callback
     glfwSetScrollCallback(mWindow, scroll_callback);
+    glfwSetCursorPosCallback(mWindow, cursor_callback);
+    glfwSetMouseButtonCallback(mWindow, mouse_button_callback);
      
     // load shaders
     const char* vertex_source = readShader("./Shaders/cell.vert");
@@ -138,10 +170,10 @@ int main(int argc, char * argv[]) {
     main_shader->setMatrix4("projection", projection);
 
     // renderer object
-    CellRenderer renderer{ main_shader };
+    CellRenderer cell_renderer{main_shader};
 
     // Rendering Loop
-    run_loop(mWindow, renderer);
+    run_loop(mWindow, cell_renderer);
 
     glfwTerminate();
     return EXIT_SUCCESS;
