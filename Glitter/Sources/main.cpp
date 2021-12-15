@@ -70,6 +70,10 @@ void processInput(GLFWwindow* window) {
     }
 }
 
+void scroll_callback(GLFWwindow *window, double xoffset, double yoffset) {
+    camera.processMouseScroll(yoffset);
+}
+
 void run_loop(GLFWwindow* window, CellRenderer &renderer) {
     auto t_start = std::chrono::high_resolution_clock::now();
     //GridRenderer grid_renderer{ {{1,2},{1,3},{1,4}} };
@@ -83,6 +87,10 @@ void run_loop(GLFWwindow* window, CellRenderer &renderer) {
 
         grid_renderer.renderGrid(renderer);
 
+        float zoom = camera.getZoom();
+        glm::mat4 projection = glm::ortho(0.0f, static_cast<float>(mWidth) / zoom, static_cast<float>(mHeight) / zoom, 0.0f, -1.0f, 1.0f);
+        renderer.getShader()->setMatrix4("projection", projection);
+
         glm::mat4 view = camera.getViewMatrix();
         renderer.getShader()->setMatrix4("view", view);
     
@@ -94,6 +102,9 @@ void run_loop(GLFWwindow* window, CellRenderer &renderer) {
 int main(int argc, char * argv[]) {
     //init opengl
     GLFWwindow *mWindow{ init_glfw_window() };
+
+    // set callback
+    glfwSetScrollCallback(mWindow, scroll_callback);
      
     // load shaders
     const char* vertex_source = readShader("./Shaders/cell.vert");

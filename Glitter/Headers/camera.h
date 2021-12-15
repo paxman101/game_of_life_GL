@@ -23,7 +23,7 @@ private:
     float mouse_sensitivity;
     float zoom;
 public:
-    Camera(glm::vec3 pos = glm::vec3(0.0f, 0.0f, 0.0f), float speed_in = 2.5f, float sensitivity_in = 0.1f, float zoom_in = 45.0f)
+    Camera(glm::vec3 pos = glm::vec3(0.0f, 0.0f, 0.0f), float speed_in = 2.5f, float sensitivity_in = 0.15f, float zoom_in = 1.0f)
         : position{ pos }, movement_speed{ speed_in }, mouse_sensitivity{ sensitivity_in }, zoom{ zoom_in } {}
     
     // Return the view matrix based on the current camera location
@@ -34,5 +34,13 @@ public:
     // A callback for mouse input to camera
     void processMouseMovement(float xoffset, float yoffset);
     // A callback for mouse scrolling input. Simply subtracts the input from zoom.
-    void processMouseScroll(float scroll_length) { zoom -= scroll_length; }
+    void processMouseScroll(float scroll_length) { zoom *= (scroll_length+mouse_sensitivity)/scroll_length; }
+
+    // getters and setters
+    float getZoom() { return zoom; }
+    void setZoom(float in_zoom) { zoom = in_zoom; }
+    float getMovementSpeed() { return movement_speed; }
+    void setMovementSpeed(float in_speed) { movement_speed = in_speed; }
+    float getMouseSensitivity() { return mouse_sensitivity; }
+    void setMouseSensitivity(float in_sensitvity) { mouse_sensitivity = in_sensitvity; }
 };
