@@ -20,9 +20,12 @@
 #include <memory>
 #include <random>
 
-const float fps{20.0f};
+float fps{20.0f};
 const float cell_size{ 20.0f };
+// a bool to keep track of whether or not to update the GOL grid.
+bool update_grid{ true };
 
+// Make camera object with movement speed of cell_size.
 Camera camera{ {0.0, 0.0, 0.0}, cell_size};
 
 GLFWwindow *init_glfw_window() {
@@ -56,6 +59,7 @@ void processInput(GLFWwindow* window) {
     if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
         glfwSetWindowShouldClose(window, true);
 
+    // Camera movement checks
     if (glfwGetKey(window, GLFW_KEY_W)) {
         camera.processKeyboard(CameraMovement::UPWARD, 1);
     }
@@ -67,6 +71,21 @@ void processInput(GLFWwindow* window) {
     }
     if (glfwGetKey(window, GLFW_KEY_A)) {
         camera.processKeyboard(CameraMovement::LEFT, 1);
+    }
+    // Check for pause
+    if (glfwGetKey(window, GLFW_KEY_SPACE)) {
+        update_grid = !update_grid;
+    }
+    // Speed controls
+    if (glfwGetKey(window, GLFW_KEY_EQUAL)) {
+        if (fps < 300) {
+            fps += 5;
+        }
+    }
+    if (glfwGetKey(window, GLFW_KEY_MINUS)) {
+        if (fps > 5) {
+            fps -= 5;
+        }
     }
 }
 
@@ -85,7 +104,7 @@ void run_loop(GLFWwindow* window, CellRenderer &renderer) {
         glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
 
-        grid_renderer.renderGrid(renderer);
+        grid_renderer.renderGrid(renderer, update_grid);
 
         float zoom = camera.getZoom();
         glm::mat4 projection = glm::ortho(0.0f, static_cast<float>(mWidth) / zoom, static_cast<float>(mHeight) / zoom, 0.0f, -1.0f, 1.0f);
@@ -121,13 +140,6 @@ int main(int argc, char * argv[]) {
     // renderer object
     CellRenderer renderer{ main_shader };
 
-
-    //Grid testGrid{ {{1,2},{1,3},{1,4}} };
-    //while (true) {
-    //    testGrid.printState();
-    //    std::this_thread::sleep_for(std::chrono::milliseconds(2000));
-    //    testGrid.update();
-    //}
     // Rendering Loop
     run_loop(mWindow, renderer);
 

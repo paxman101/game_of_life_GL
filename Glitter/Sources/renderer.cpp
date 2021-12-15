@@ -49,9 +49,11 @@ void CellRenderer::DrawCell(const glm::vec2 &pos, const glm::vec2 &size, const g
 }
 
 
-void GridRenderer::renderGrid(CellRenderer& renderer) {
+void GridRenderer::renderGrid(CellRenderer& renderer, bool update_on_render) {
     for (const Coord& coord : grid_bog.alive_cells) {
         renderer.DrawCell(coordToVec(coord)*glm::vec2(20.0,20.0), {20.0f, 20.0f}, {1.0f, 1.0f, 1.0f});
     }
-    grid_bog.update();
+    if (update_on_render) {
+        grid_bog.update();
+    }
 }

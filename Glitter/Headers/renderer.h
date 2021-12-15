@@ -35,5 +35,5 @@ private:
 public:
     GridRenderer(const CoordVec& in_vecs) : grid_bog{ in_vecs } {};
     
-    void renderGrid(CellRenderer& renderer);
+    void renderGrid(CellRenderer& renderer, bool update_on_render = true);
 };
