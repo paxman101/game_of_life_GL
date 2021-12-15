@@ -136,12 +136,13 @@ void Grid::killCell(const Coord& in_coord) {
     getCell(in_coord).state = CellState::DEAD;
     alive_cells.erase(in_coord);
 
-    //for (int dir = NORTHWEST; dir <= WEST; dir++) {
-    //    Coord current_coord = getAdjacentCoord(in_coord, static_cast<RelativeDir>(dir));
-    //    if (getState(current_coord) == CellState::DEAD) {
-    //        alive_candidates.push_back(current_coord);
-    //    }
-    //}
+    for (int dir = NORTHWEST; dir <= WEST; dir++) {
+        Coord current_coord = getAdjacentCoord(in_coord, static_cast<RelativeDir>(dir));
+        if (getState(current_coord) == CellState::DEAD
+            && getAdjacentAliveCount(current_coord) == 0) {
+            alive_candidates.erase(current_coord);
+        }
+    }
 }
 
 void Grid::update() {
