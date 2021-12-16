@@ -104,6 +104,8 @@ void scroll_callback(GLFWwindow *window, double xoffset, double yoffset) {
 void cursor_callback(GLFWwindow* window, double xoffset, double yoffset) {
     glm::mat4 view = camera.getViewMatrix();
     glm::vec4 yep{ xoffset/zoom, yoffset/zoom, 0.0f, 0.0f };
+    yep.x -= view[3][0];
+    yep.y -= view[3][1];
     mouse_last_x = yep.x;
     mouse_last_y = yep.y;
 }
