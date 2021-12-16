@@ -2,6 +2,7 @@
 
 #include <string>
 #include <glm/glm.hpp>
+#include <iostream>
 
 char* readShader(const std::string& filename); 
 
