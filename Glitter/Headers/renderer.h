@@ -12,11 +12,12 @@
 // yoinked/inspired from https://learnopengl.com/In-Practice/2D-Game/Rendering-Sprites
 class CellRenderer {
 private:
-    std::shared_ptr<Shader> shader;
+    std::shared_ptr<Shader> shader = nullptr;
     GLuint quadVAO{};
 
     void initRenderData();
 public:
+    CellRenderer() = default;
     // Take a shader reference and make a shared_ptr from it
     CellRenderer(std::shared_ptr<Shader> in_shader) : shader{in_shader} { initRenderData(); }
 

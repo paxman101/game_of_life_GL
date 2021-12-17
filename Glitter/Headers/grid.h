@@ -23,8 +23,8 @@ class Grid {
     using CoordSet = std::set<Coord>;
     friend GridRenderer;
 private:
-    const size_t width = 1000; 
-    const size_t height = 1000;
+    size_t width = 1000; 
+    size_t height = 1000;
     CoordSet alive_cells{};
     // dead cells around alive cells that may possibly be made alive
     CoordSet alive_candidates{};
@@ -61,6 +61,10 @@ public:
     CellState getState(const Coord &in_coord) const { 
         return getCell(in_coord).state;
     }
+    const CoordSet &getAliveCandidates() const { 
+        return alive_candidates; 
+    }
+
     void addAlive(const Coord &in_coord);
     void killCell(const Coord& in_coord);
     void update();
