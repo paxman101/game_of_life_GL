@@ -1,0 +1,20 @@
+//   A name for the smallest known {spacefiller}.  The name represents
+   the fact that the growth rate is the fastest possible.  (This has not
+   quite been proved, however.  There remains the possibility, albeit
+   not very likely, that a periodic {agar} could have an average
+   {density} greater than 1/2, and a spacefiller stretching such an agar
+   at the same speed as the known spacefillers would have a faster
+   average growth rate.)
+
+:mazing: (p4)  In terms of its minimum {population} of 12 this ties with
+   {mold} as the smallest p4 {oscillator}.  Found by Dave Buckingham in
+   December 1973.  For some constructions using mazings, see {popover}
+   and {sixty-nine}.
+
+	...**..
+	.*.*...
+	*.....*
+	.*...**
+	.......
+	...*.*.
+	....*..

@@ -1,0 +1,72 @@
+//   = {aircraft carrier}
+
+:casing:  That part of the {stator} of an {oscillator} which is not
+   adjacent to the {rotor}.  Compare {bushing}.
+
+:catacryst:  A 58-cell {quadratic growth} pattern found by Nick Gotts in
+   April 2000.  This was formerly the smallest such pattern known, but
+   has since been superseded by the related {metacatacryst}.  See
+   {switch-engine ping-pong} for the lowest-population
+   {superlinear growth} pattern as of July 2018, along with a list of
+   the record-holders.
+     The catacryst consists of three {ark}s plus a glider-producing
+   {switch engine}.  It produces a block-laying switch engine every
+   47616 generations.  Each block-laying switch engine has only a finite
+   life, but the length of this life increases linearly with each new
+   switch engine, so that the pattern overall grows quadratically, as an
+   unusual type of MMS {breeder}.
+
+:Catagolue:  An online database of objects in Conway's Game of Life and
+   similar cellular automata, set up by Adam P. Goucher in 2015 at
+   {http://catagolue.appspot.com}. It gathers data from a distributed
+   search of random initial configurations and records the eventual
+   decay products.  Within a year of operation it had completed a
+   {census} of the {ash} objects from over two trillion asymmetric 16x16
+   {soup}s.  As of June 2018, well over two hundred trillion ash objects
+   have been counted, from over a trillion asymmetric soups.
+     It is often possible to use Catagolue search results find
+   equivalent {glider synthesis} recipes for selected parts of
+   long-running active reactions.  These random {soup} searches have
+   made it possible to find efficient construction methods for thousands
+   of increasingly rare {still life}s and {oscillator}s, and the
+   occasional {puffer} or {spaceship}.  In many of these cases a
+   {glider synthesis} was previously very difficult or unknown.
+
+:catalyst:  An object that participates in a reaction but emerges from
+   it unharmed.  All {eater}s are catalysts.  Some small {still life}s
+   can act as catalysts in some situations, such as the {block}, {ship},
+   and {tub}.  The still lifes and oscillators that form a {conduit} are
+   examples of catalysts.
+     A relatively rare form of catalysis occurs in a
+   {transparent debris effect}, where the catalyst in question is
+   completely destroyed and then rebuilt.  The term is also sometimes
+   used for a modification of an active reaction in a {rake} by passing
+   {spaceship}s.
+
+:catch and throw:  A {technology} used (e.g., in the {Caterpillar}) to
+   adjust the timing of a glider by turning it into a stationary object
+   using one interaction, and then later restoring it using a second
+   interaction.  The interactions are caused by passing objects which
+   are not otherwise affected.  The direction of the glider is not
+   usually changed.
+     Here is an example where a glider is turned into a {boat} by the
+   first {LWSS}, and is then restored by the remaining {spaceship}s:
+
+	..................................**.............**.......****.
+	................................*....*..........**.****...*...*
+	...............................*.................******...*....
+	...............................*.....*............****.....*..*
+	.*.............................******..........................
+	..*............................................................
+	***............................................................
+	...............................................................
+	...............................................................
+	...............................................................
+	...............................................................
+	...............................................................
+	...****........................................................
+	...*...*.......................................................
+	...*...........................**..............................
+	....*..*......................**.***...........................
+	...............................*****...........................
+	................................***............................

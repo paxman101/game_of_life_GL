@@ -1,0 +1,28 @@
+//   Any oscillator with a relatively small
+   {bounding box} whose period is a very large prime.  (If the
+   bounding-box restriction is removed, then eight gliders travelling in
+   a four-{Snark} loop would provide a trivial example for any chosen
+   prime.)  The first such oscillator was built by Gabriel Nivasch in
+   2003.  The current record holder is an oscillator constructed by Adam
+   P. Goucher with a period that is a Mersenne prime with 13,395 digits
+   (2^44497-1).
+     The next higher Mersenne-prime oscillator, period 2^86243-1, could
+   be constructed with {quadri-Snark}s and {semi-Snark}s.  It would
+   actually be significantly smaller than the current record holder.  As
+   of June 2018 the construction of this pattern has not yet been
+   completed.
+
+:large S:  = {big S}
+
+:Lidka: (stabilizes at time 29053)  A {methuselah} found by Andrzej
+   Okrasinski in July 2005.
+
+	..........***..
+	..........*....
+	..........*...*
+	...........*..*
+	............***
+	...............
+	.*.............
+	*.*............
+	.*.............

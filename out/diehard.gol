@@ -1,0 +1,9 @@
+//   Any pattern that vanishes, but only after a long time.  The
+   following example vanishes in 130 generations, which is probably the
+   limit for patterns of 7 or fewer cells.  Note that there is no limit
+   for higher numbers of cells.  E.g., for 8 cells we could have a
+   glider heading towards an arbitrarily distant blinker.
+
+	......*.
+	**......
+	.*...***

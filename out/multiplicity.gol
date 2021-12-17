@@ -1,0 +1,14 @@
+//   In a {reflectorless rotating oscillator}, the maximum
+   number n of independent patterns that can orbit a single point, in a
+   way that reduces the period of the combined oscillator by a factor of
+   n.
+
+:multi-state Life:  = {colourised Life}
+
+:multum in parvo: (stabilizes at time 3933)  A {methuselah} found by
+   Charles Corderman, but not as long-lasting as his {acorn}.
+
+	...***
+	..*..*
+	.*....
+	*.....

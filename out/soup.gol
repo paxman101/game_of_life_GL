@@ -1,0 +1,38 @@
+//   A random initial pattern, either contained within a small area,
+   or alternatively filling the whole Life universe.
+     Finite soups probably have behaviors very different than infinite
+   soups, but this is obviously unknown.  Infinite soups may remain
+   chaotic indefinitely since any reaction, no matter how rare, is bound
+   to happen somewhere.
+     Soups can have an average density, with results varying based on
+   that.  See {sparse Life} for a discussion of what can happen at a low
+   density.
+     Finite soups for sizes such as 16x16 (asymmetric) have been
+   examined by the billions by scripts such as {apgsearch} to find
+   interesting results.  Many new {oscillator}s and {synthesis}
+   {recipe}s have been discovered, as well as previously known rare
+   patterns such as {stabilized switch engine}s.  In addition, soups are
+   used to generate statistical {census} data, and to decide whether
+   specific objects can be considered {natural}.
+     Soups can be fully random, or they can be forced to be {symmetric}.
+   The results for these two types of soups can differ since symmetric
+   soups tend to create large symmetrical objects at a much higher rate.
+   Shown below is an unusual mirror-symmetric soup that produces a
+   {pufferfish} and nothing else.
+
+	****..**.***.*...*.***.**..****
+	.*.*.**.*.............*.**.*.*.
+	..***..*.*.*.......*.*.*..***..
+	*.**.***.*..*.....*..*.***.**.*
+	.****.*...**.*****.**...*.****.
+	.....**...**.*.*.*.**...**.....
+	..***...**...*...*...**...***..
+	*..*..*.**...**.**...**.*..*..*
+	**.*..*...*.........*...*..*.**
+	*.*.*...****..***..****...*.*.*
+	*.***.**..**...*...**..**.***.*
+	..*.....**...*...*...**.....*..
+	*****.*.***..*...*..***.*.*****
+	.*....*....*..***..*....*....*.
+	.**.*...***************...*.**.
+	****.***......*.*......***.****

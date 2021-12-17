@@ -1,0 +1,14 @@
+//   = {tagalong}
+
+:tumbler: (p14)  The smallest known p14 {oscillator}.  Found by George
+   Collins in 1970.  The oscillator generates {domino} {spark}s, but
+   they are fragile and no use has been found for them to date.  In each
+   domino, one cell is "held" (remains alive) for two generations, the
+   other for three.  By contrast, useful domino sparks are usually alive
+   for only one tick per oscillator {period}.
+
+	.*.....*.
+	*.*...*.*
+	*..*.*..*
+	..*...*..
+	..**.**..

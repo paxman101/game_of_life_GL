@@ -1,0 +1,19 @@
+//  (c/5 orthogonally, p30)  The symmetric {PPS}.  The original PPS
+   found by David Bell in May 1998.  Compare {APPS}.
+
+:sqrtgun:  Any glider-emitting pattern which emits its nth glider at a
+   time asymptotically proportional to n^2.  The first examples were
+   constructed by Dean Hickerson around 1991.  See also
+   {quadratic filter}, {exponential filter}, {recursive filter}.
+
+:squaredance:  The p2 {agar} formed by tiling the plane with the
+   following pattern.  Found by Don Woods in 1971.
+
+	**......
+	....**..
+	..*....*
+	..*....*
+	....**..
+	**......
+	...*..*.
+	...*..*.

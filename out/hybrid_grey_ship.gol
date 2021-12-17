@@ -1,0 +1,11 @@
+//   A {grey ship} containing more than one type of
+   region of density 1/2, usually a combination of a
+   {with-the-grain grey ship} and an {against-the-grain grey ship}.
+
+:I-heptomino:  Name given by Conway to the following {heptomino}.  After
+   one generation this is the same as the {H-heptomino}.
+
+	**..
+	.*..
+	.**.
+	..**

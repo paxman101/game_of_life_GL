@@ -1,0 +1,29 @@
+//   A distributed search effort set
+   up by Nathaniel Johnston in 2009, using a Python script running in
+   {Golly}.  Results included a collection of the longest-lived 20x20
+   soups, as well as a {census} of over 174 billion {ash} objects.  It
+   has since been superseded by {Catagolue}.
+
+:The Recursive Universe:  A popular science book by William Poundstone
+   (1985) dealing with the nature of the universe, illuminated by
+   parallels with the game of Life.  This book brought to a wider
+   audience many of the results that first appeared in {LifeLine}.  It
+   also outlines the proof of the existence of a {universal constructor}
+   in Life first given in {Winning Ways}.
+
+:thumb:  A {spark}-like protrusion which flicks out in a manner
+   resembling a thumb being flicked.  Below on the left is a p9 thumb
+   sparker found by Dean Hickerson in October 1998.  On the right is a
+   p4 example found by David Eppstein in June 2000.
+
+	.......*..............*.....
+	...**...*.........**...*....
+	...*.....*.**.....*.....*...
+	**.*.*......*......***.*.**.
+	**.*.**.****............**.*
+	...*.*...........******....*
+	...*.*.***.......*....*****.
+	....*.*...*.........*.......
+	......*..**........*.****...
+	......**...........*.*..*...
+	....................*.......

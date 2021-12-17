@@ -1,0 +1,78 @@
+//   = {demultiplexer}
+
+:density:  The density of a pattern is the limit of the proportion of
+   live cells in a (2n+1)x(2n+1) square centred on a particular cell as
+   n tends to infinity, when this limit exists.  (Note that it does not
+   make any difference what cell is chosen as the centre cell.  Also
+   note that if the pattern is finite then the density is zero.)  There
+   are other definitions of density, but this one will do here.
+     In 1994 Noam Elkies proved that the maximum density of a stable
+   pattern is 1/2, which had been the conjectured value.  See the paper
+   listed in the bibliography.  Marcus Moore provided a simpler proof in
+   1995, and in fact proves that a {still life} with an m x n
+   {bounding box} has at most (mn+m+n)/2 cells.
+     But what is the maximum average density of an oscillating pattern?
+   The answer is conjectured to be 1/2 again, but this remains unproved.
+   The best upper bound so far obtained is 8/13 (Hartmut Holzwart,
+   September 1992).
+     The maximum possible density for a {phase} of an oscillating
+   pattern is also unknown.  An example with a density of 3/4 is known
+   (see {agar}), but densities arbitrarily close to 1 may perhaps be
+   possible.
+
+:dependent conduit:  A {Herschel conduit} in which the input {Herschel}
+   interacts with catalysts in the first few ticks.  The standard
+   interaction actually starts at T=-3, before the Herschel is
+   completely formed.  Compare {independent conduit}.  The Herschel is
+   prevented from emitting its {first natural glider}.  This is useful
+   in cases where the previous conduit cannot survive a first natural
+   glider emitted from its output Herschel.
+     This term is somewhat confusing, since it is actually the previous
+   conduit that depends on the dependent conduit to suppress the
+   problematic glider.  Dependent conduits such as the {F166} and
+   {Lx200} do not actually depend on anything.  They can be freely
+   connected to any other conduits that fit, as long as the output
+   Herschel evolves from its standard great-grandparent.  As of this
+   writing, the {Fx158} is the only known case where a conduit's output
+   Herschel has an alternate great-grandparent, which is incompatible
+   with dependent conduits' initial transparent block.
+
+:destructive read:  The most common type of test reaction in
+   {memory cell} circuitry.  Information is stored in a memory cell by
+   placing objects in known positions, or by changing the state of a
+   stable or periodic {toggle circuit}.  A destructive-read test
+   consists of sending one or more {signal}s to the memory cell.  A
+   distinct output signal is produced for each possible state of the
+   memory cell, which is reset to a known "zero" or "rest" state.  See
+   for example {boat-bit}, {keeper}, and {demultiplexer}.
+     To permanently store information in a destructive-read memory cell,
+   the output signal(s) must be used, in part, to send appropriate
+   signals back to the memory cell to restore its state to its previous
+   value.  With output looped back to input, this larger composite
+   circuit then effectively becomes a {non-destructive read} memory
+   cell.
+
+:destructor arm:  A dedicated {construction arm} in the {Gemini}
+   spaceship, used only for removing previously active {circuit}ry once
+   it is no longer needed.  More generally, any circuitry in a
+   self-constructing pattern dedicated exclusively to cleanup.
+
+:D-heptomino:  = {Herschel}
+
+:diamond:  = {tub}
+
+:diamond ring: (p3)  Found by Dave Buckingham in 1972.
+
+	......*......
+	.....*.*.....
+	....*.*.*....
+	....*...*....
+	..**..*..**..
+	.*....*....*.
+	*.*.**.**.*.*
+	.*....*....*.
+	..**..*..**..
+	....*...*....
+	....*.*.*....
+	.....*.*.....
+	......*......

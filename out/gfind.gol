@@ -1,0 +1,17 @@
+//   A program by David Eppstein which uses {de Bruijn graph}s to
+   search for new {spaceship}s.  It was with gfind that Eppstein found
+   the {weekender}, and Paul Tooke later used it to find the {dragon}.
+   It is available at {http://www.ics.uci.edu/~eppstein/ca/gfind.c} (C
+   source code only).
+     Compare {lifesrc}.
+
+:ghost Herschel:  A dying {spark} made by removing one cell from the
+   {Herschel} heptomino.  This particular spark has the advantage that,
+   when placed in a conduit to mark the location of an input or output
+   Herschel, it disappears cleanly without damaging adjacent catalysts,
+   even in {dependent conduit}s with a block only two cells away.
+
+	*..
+	*..
+	***
+	..*

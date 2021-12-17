@@ -1,0 +1,19 @@
+//   = {NW31}
+
+:oblique:  Neither diagonal nor orthogonal.  See also {knightship}.
+
+:obo spark:  A {spark} of the form O.O (so called after its {rle}
+   encoding).
+
+:octagon II: (p5)  The first known p5 {oscillator}, discovered in 1971
+   independently by Sol Goodman and Arthur Taber.  The name is due to
+   the latter.
+
+	...**...
+	..*..*..
+	.*....*.
+	*......*
+	*......*
+	.*....*.
+	..*..*..
+	...**...

@@ -1,0 +1,10 @@
+//   A {stable} {constellation} where the individual
+   {still life}s share dead cells, so the neighborhoods of those dead
+   cells are changed, but all cells that used to remain dead from
+   under-population still do so.  Under Life rules, this occurs when
+   objects are diagonally adjacent (e.g., two {block}s sharing a single
+   diagonal neighbor) or when single protruding cells in two objects
+   such as {tub}s share multiple neighbors.  The term is due to Mark
+   Niemiec.
+
+	

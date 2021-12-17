@@ -1,0 +1,20 @@
+//   = {sliding block memory}
+
+:Schick engine: (c/2 orthogonally, p12)  This {spaceship}, found by Paul
+   Schick in 1972, produces a large {spark} (the 15 live cells at the
+   rear in the {phase} shown below) which can be {perturb}ed by other
+   c/2 spaceships to form a variety of {puffer}s.  See {blinker ship}
+   for an example perturbation of the spark.  The diagram below shows
+   the smallest form of the Schick engine, using two {LWSS}.  It is also
+   possible to use two {MWSS}es or two {HWSS}es, or even an LWSS and an
+   HWSS.
+
+	****..............
+	*...*.........*...
+	*...........**....
+	.*..*..**.....***.
+	......***......***
+	.*..*..**.....***.
+	*...........**....
+	*...*.........*...
+	****..............

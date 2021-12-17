@@ -1,0 +1,44 @@
+//   Any pattern whose {population} grows at a quadratic rate,
+   although it is usual to exclude {spacefiller}s.  It is easy to see
+   that this is the fastest possible growth rate.
+     The term is also sometimes used to mean specifically the breeder
+   created by Bill Gosper's group at MIT, which was the first known
+   pattern exhibiting {superlinear growth}.
+     There are four common types of breeder, known as MMM, MMS, MSM and
+   SMM (where M=moving and S=stationary).  Typically an MMM breeder is a
+   {rake} {puffer}, an MMS breeder is a puffer producing puffers which
+   produce stationary objects ({still life}s and/or {oscillator}s), an
+   MSM breeder is a {gun} puffer and an SMM breeder is a rake gun. There
+   are, however, less obvious variants of these types.  Other less
+   common breeder categories (SSS, hybrid MSS/MSM, etc.) can be created
+   with some difficulty, based on {universal constructor} technology;
+   see {Pianola breeder}.
+     The original breeder was of type MSM (a p64 puffer puffing p30
+   glider guns).  The known breeder with the smallest initial population
+   is {switch-engine ping-pong}.
+
+:bridge:  A term used in naming certain {still life}s (and the {stator}
+   part of certain {oscillator}s).  It indicates that the object
+   consists of two smaller objects joined edge to edge, as in
+   {snake bridge snake}.
+
+:broken lines:  A pattern constructed by Dean Hickerson in May 2005
+   which produces complex broken lines of gliders and blocks.
+
+:broth:  = {soup}
+
+:BRx46B:  A {Spartan} {elementary conduit} discovered by Michael Simkin
+   on 25 April 2016, one of the relatively few known conduits that can
+   move a {B-heptomino} input to a B-heptomino output without an
+   intervening {Herschel} stage.
+
+	...........**
+	..**.......**
+	..**.........
+	.............
+	.............
+	*..........*.
+	.*........*.*
+	.**.......*.*
+	**.........*.
+	*............

@@ -1,0 +1,23 @@
+//   A pattern which can be used as the main component of a
+   {puffer}.  The pattern may itself be a puffer (e.g. the classic
+   {puffer train}), it may be a spaceship (e.g. the {Schick engine}), or
+   it may even be unstable (e.g. the {switch engine}).
+
+:pufferfish: (c/2, p12)  A puffer discovered by Richard Schank in
+   November 2014, from a symmetric soup search using an early version of
+   {apgsearch}.  It consists of a pair of {B-heptomino}es stabilised by
+   a backend that leaves only pairs of blocks behind.  It is simple
+   enough to be easily synthesized with gliders.
+
+	...*.......*...
+	..***.....***..
+	.**..*...*..**.
+	...***...***...
+	...............
+	....*.....*....
+	..*..*...*..*..
+	*.....*.*.....*
+	**....*.*....**
+	......*.*......
+	...*.*...*.*...
+	....*.....*....

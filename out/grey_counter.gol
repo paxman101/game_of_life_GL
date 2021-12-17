@@ -1,0 +1,15 @@
+//   = {Gray counter}  (This form is erroneous, as Gray is
+   surname, not a colour.)
+
+:grey ship:  A {spaceship} that contains a region with an average
+   density of 1/2, and which is {extensible} in such a way that the
+   region of average density 1/2 can be made larger than any given
+   square region.
+     See also {with-the-grain grey ship}, {against-the-grain grey ship}
+   and {hybrid grey ship}.
+
+:grin:  The following common {parent} of the {block}.  This name relates
+   to the infamous {Cheshire cat}.  See also {pre-block}.
+
+	*..*
+	.**.

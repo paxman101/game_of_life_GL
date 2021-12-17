@@ -1,0 +1,33 @@
+//   The maximum {population} divided by the initial
+   population for an unstable pattern.  For example, the {R-pentomino}
+   has an M.I.P. value of 63.8, since its maximum population is 319.
+   The term is no longer in use.
+
+:MIT oscillator:  = {cuphook}
+
+:MMM breeder:  See {breeder}.
+
+:MMS breeder:  See {breeder}.
+
+:mod:  The smallest number of generations it takes for an {oscillator}
+   or {spaceship} to reappear in its original form, possibly subject to
+   some rotation or reflection.  The mod may be equal to the {period},
+   but it may also be a quarter of the period (for oscillators that
+   rotate 90 degrees every quarter period) or half the period (for other
+   oscillators which rotate 180 degrees every half period, and also for
+   {flipper}s).
+
+:mold: (p4)  Found by Achim Flammenkamp in 1988, but not widely known
+   until Dean Hickerson rediscovered it (and named it) in August 1989.
+   Compare with {jam}.  In terms of its minimum {population} of 12 it
+   ties with {mazing} as the smallest p4 {oscillator}.  But in terms of
+   its 6x6 {bounding box} it wins outright.  In fact, of all oscillators
+   that fit in a 6x7 box it is the only one with {period} greater than
+   2.
+
+	...**.
+	..*..*
+	*..*.*
+	....*.
+	*.**..
+	.*....

@@ -1,0 +1,51 @@
+//   A pattern is said to be stable if it is a {parent} of itself.
+   Stable objects are oscillators with period 1 (p1), and are generally
+   called {still life}s.
+
+:stable pseudo-Heisenburp:  A multi-stage {converter} constructed by
+   Dave Greene in January 2007, using a complex recipe found by Noam
+   Elkies to insert a signal into a {2c/3 wire}.  The wire's high
+   transmission speed allows a {signal} from a {highway robber} to catch
+   up to a {salvo} of {glider}s.  Ultimately the mechanism restores the
+   key glider, which was destroyed by the highway robber in the first
+   stage of the converter, to its exact original position in the salvo.
+     Much smaller stable pseudo-Heisenburp devices have since been
+   designed that use simple 0-degree glider {seed} {constellation}s
+   instead of a 2c/3 wire.
+     These patterns are labeled "pseudo-Heisenburp", because a true
+   {Heisenburp device} does not even temporarily damage or affect a
+   passing glider, yet can still produce an output {signal} in response.
+   However, it is impossible to construct a {stable} device that can
+   accomplish this for gliders.  True stable Heisenburp devices are
+   possible with many other types of {spaceship}s, but not with gliders
+   which have no usable side {spark}s to initiate an output signal.
+
+:staged recovery:  A type of signal-processing {circuit} where the
+   initial reaction between {catalyst}s an incoming signal results in an
+   imperfect recovery.  A catalyst is damaged, destroyed completely as
+   in a {bait} reaction, or one or more objects are left behind that
+   must be cleaned up before the circuit can be reused.  In any of these
+   three cases, output signals from the circuit must be used to complete
+   the cleanup.  In theory the cleanup process might itself be {dirty},
+   requiring additional cleanup stages.  In rare cases this might
+   theoretically allow the construction of special-purpose circuits with
+   a lower {recovery time} than would otherwise be possible, but in
+   practice this kind of situation does not commonly arise.
+     An example is the record-breaking (at the time) 487-tick reflector
+   constructed by Adam P. Goucher on 12 April 2009.  487 ticks was a
+   slight improvement over the repeat time of the {Silver reflector}.
+   The reflector featured a standard {Callahan G-to-H}, with cleanup by
+   an internal {dirty} glider reflector found by Dieter Leithner many
+   years before.  This in turn was cleaned up by the usual ungainly
+   Herschel plumbing attached to the G-to-H's output.  The dirty glider
+   reflector is not actually fully recovered before a second p487 signal
+   enters the full reflector.  However, it has been repaired by the time
+   the internal reflector is actually needed again, so the cycle can be
+   successfully repeated at p487 instead of p497.
+
+:stairstep hexomino: (stabilizes at time 63)  The following
+   {predecessor} of the {blockade}.
+
+	..**
+	.**.
+	**..

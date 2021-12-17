@@ -1,0 +1,16 @@
+//   = {biting off more than they can chew}
+
+:eater-bound Z-hexomino:  = {pentoad}
+
+:eater eating eater:  = {two eaters}
+
+:eater plug: (p2)  Found by Robert Wainwright, February 1973.
+
+	.......*
+	.....***
+	....*...
+	.....*..
+	..*..*..
+	.*.**...
+	.*......
+	**......

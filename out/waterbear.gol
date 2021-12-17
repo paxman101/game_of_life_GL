@@ -1,0 +1,45 @@
+//  ((23,5)c/79 obliquely, p158) A {self-supporting} oblique
+   {macro-spaceship} constructed by Brett Berger on December 28, 2014.
+   It is currently the fastest oblique macro-spaceship in Conway's Game
+   of Life by several orders of magnitude, and is also the smallest
+   known oblique macro-spaceship in terms of bounding box, superseding
+   the {Parallel HBK}.  It is no longer the smallest or fastest oblique
+   spaceship due to the discovery in 2018 of the {elementary}
+   {knightship} {Sir Robin}.
+     Previous oblique spaceships, the {Gemini} and the
+   {half-baked knightship}s, are stationary throughout almost all of
+   their life cycles, as they construct the necessary mechanisms to
+   support a sudden short move.  The waterbear constructs support for
+   {reburnable fuse} reactions involving {(23,5)c/79 Herschel climber}s
+   that are in constant motion.
+
+:wave:  A wick-like structure attached at both ends to moving
+   spaceship-like patterns, in such a way that the entire pattern is
+   mobile.  Especially if the wave gets longer over time, the supporting
+   patterns are {wavestretcher}s.
+     Also, the gliders or spaceships emitted by a rake may be referred
+   to as a wave, again because the line as a whole appears to move in a
+   different direction from the individual components, due to the rake's
+   movement.  Compare with {stream}.
+     In general a wave can be interpreted as moving at a variety of
+   different velocities, depending on which specific subcomponents are
+   chosen as the starting and ending points for calculating speed and
+   direction.  See {antstretcher}, {wavestretcher} for a practical
+   example of identical wave ends being connected to spaceships with
+   different velocities.
+
+:wavefront: (p4)  Found by Dave Buckingham, 1976 or earlier.
+
+	........**...
+	........*....
+	.........*...
+	........**...
+	.....**...**.
+	....*..***..*
+	....*.....**.
+	.....*...*...
+	**.*.*...*...
+	*.**.*.**....
+	....*.*......
+	....*.*......
+	.....*.......

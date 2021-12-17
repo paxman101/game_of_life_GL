@@ -1,0 +1,14 @@
+//   A {still life} that can be broken down into four {stable}
+   pieces but not into two or three.  This term may refer to the
+   following 34-bit pattern, found by Gabriel Nivasch in July 2001, or
+   any similar pattern with the same property.
+
+	........**.
+	...**.*..*.
+	...*.**.*..
+	........**.
+	...*.**...*
+	.***.**.**.
+	*.......*..
+	.***.**.*..
+	...*.*.*...

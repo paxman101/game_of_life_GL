@@ -1,0 +1,17 @@
+//   A small {tagalong} for an {HWSS} that was found by Hartmut
+   Holzwart in 1992.  The resulting {spaceship} (shown below) has a
+   {phase} with only 24 cells, making it in this respect the smallest
+   known spaceship other than the {standard spaceship}s and some trivial
+   two-spaceship {flotilla}s derived from them.  Note also that an HWSS
+   can support two sidecars at once.
+
+	.*......
+	*.....*.
+	*.....*.
+	*****.*.
+	........
+	....**..
+	..*....*
+	.*......
+	.*.....*
+	.******.

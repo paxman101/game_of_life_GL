@@ -1,0 +1,26 @@
+//   A representative generation of a periodic object such as an
+   {oscillator} or {spaceship}.  The number of phases is equal to the
+   {period} of the object.  The phases of an object usually repeat in
+   the same cyclic sequence forever, although some {perturbation}s can
+   cause a {phase change}.
+
+:phase change:  A {perturbation} of a periodic object that causes the
+   object to skip forward or backward by one or more {phase}s.  If the
+   perturbation is repeated indefinitely, this can effectively change
+   the {period} of the object.  An example of this, found by Dean
+   Hickerson in November 1998, is shown below.  In this example, the
+   period of the {oscillator} would be 7 if the {mold} were removed, but
+   the period is increased to 8 because of the repeated phase changes
+   caused by the mold's {spark}.
+
+	..........*....
+	.........*.**..
+	..**.........*.
+	..*......*..*.*
+	.......*...*..*
+	******.*....**.
+	*..............
+	.**.**...**....
+	..*.*....*.*...
+	..*.*......*...
+	...*.......**..

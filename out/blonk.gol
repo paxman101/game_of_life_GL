@@ -1,0 +1,15 @@
+//   A {block} or a {blinker}.  This term is mainly used in the
+   context of {sparse Life} and was coined by Rich Schroeppel in
+   September 1992.
+
+:blonker: (p6)  The following {oscillator}, found by Nicolay Beluchenko
+   in April 2004.
+
+	*..**....*..
+	**..*.**.*..
+	....*.*.....
+	.....**.....
+	.......*....
+	.......*...*
+	.........*.*
+	..........*.

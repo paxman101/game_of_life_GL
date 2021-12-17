@@ -1,0 +1,28 @@
+//   A 26-cell quadratic growth pattern found by Nick Gotts in March
+   2006, based on ideas found in {metacatacryst} and {Gotts dots}.  It
+   held the record for the smallest-population quadratic growth pattern
+   for eight years, until it was surpassed by
+   {25-cell quadratic growth}.  See {switch-engine ping-pong} for the
+   lowest-population {superlinear growth} pattern as of July 2018, along
+   with a list of the record-holders.
+
+:wedge grow:  = {wedge}.
+
+:weekender: (2c/7 orthogonally, p7)  Found by David Eppstein in January
+   2000.  In April 2000 Stephen Silver found a tagalong for a pair of
+   weekenders.  At present, n weekenders pulling n-1 tagalongs
+   constitute the only known {spaceship}s of this speed or period,
+   except for variants of the {weekender distaff} that suppress its
+   output gliders.
+
+	.*............*.
+	.*............*.
+	*.*..........*.*
+	.*............*.
+	.*............*.
+	..*...****...*..
+	......****......
+	..****....****..
+	................
+	....*......*....
+	.....**..**.....

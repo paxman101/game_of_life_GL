@@ -1,0 +1,25 @@
+//   A term borrowed from chemistry to describe asymmetrical
+   patterns with two distinct mirror-image orientations.  One common use
+   is in relation to {Herschel transmitter}s, where the spacing between
+   the two gliders in the {tandem glider} output can limit the
+   {receiver} to a single chirality.
+
+:cigar:  = {mango}
+
+:circuit:  Any combination of {conduit}s or {converter}s that moves or
+   processes an active {signal}.  This includes components with multiple
+   states such as {period multiplier}s or {switch}es, which can be used
+   to build {gun}s, logic gates, {universal constructor}s, and other
+   computation or construction circuitry.
+
+:cis-beacon on anvil: (p2)
+
+	...**..
+	....*..
+	.*.....
+	.**....
+	.......
+	.****..
+	*....*.
+	.***.*.
+	...*.**

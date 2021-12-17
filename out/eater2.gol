@@ -1,0 +1,13 @@
+//  (p1)  This {eater} was found by Dave Buckingham in the 1970s.
+   Mostly it works like the ordinary {eater1} but with two slight
+   differences that make it useful despite its size: it takes longer to
+   recover from each bite, and it can eat objects appearing at two
+   different positions.
+
+	**.*...
+	**.***.
+	......*
+	**.***.
+	.*.*...
+	.*.*...
+	..*....

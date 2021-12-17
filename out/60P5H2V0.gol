@@ -1,0 +1,15 @@
+//  (2c/5 orthogonally, p5)  A 60-cell {spaceship} discovered by
+   Tim Coe in May 1996.  It was the first non-c/2 orthogonal spaceship
+   to be successfully constructed via {glider synthesis}.
+
+	.....*.......*.....
+	...**.**...**.**...
+	......**...**......
+	........*.*........
+	.*....*.*.*.*....*.
+	***.....*.*.....***
+	*.....*.*.*.*.....*
+	..*..*..*.*..*..*..
+	..**...**.**...**..
+	*.......*.*.......*
+	*......**.**......*

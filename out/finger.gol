@@ -1,0 +1,46 @@
+//   A protruding cell in an {oscillator} or {dying spark}, with
+   the ability to modify a nearby active reaction.  Like a {thumb}, a
+   finger cell appears at the edge of a reaction envelope and is the
+   only live cell in its row or column.  The finger spark remains alive
+   for two ticks before dying, whereas a thumb cell dies after one tick.
+   Because the key cell is kept alive for an extra tick, an alternate
+   technical term is "held (orthogonal) bit spark".  A "held diagonal
+   bit spark" is not possible in B3/S23 for obvious reasons.
+
+:fire:  An encoded signal used in combination with {push} and {pull}
+   {elbow operation}s in a simple {construction arm}.  When a FIRE
+   signal is sent, the construction-arm elbow produces an output glider,
+   usually at 90 degrees from the construction arm.  This terminology is
+   generally used when there is only a single recipe for such a glider
+   output, or only one recipe for each glider colour (e.g., FIRE WHITE,
+   FIRE BLACK).
+
+:fireship: (c/10 orthogonally, p10)  A variant of the {copperhead} with
+   a trailing component that emits several large {spark}s, discovered by
+   Simon Ekstrom on 20 March 2016.  The interaction between the
+   copperhead and the additional component is minimal enough that the
+   extension technically fits the definition of a {tagalong}.  However,
+   the extension slightly modifies two of the {phase}s of the spaceship,
+   starting two ticks after the phase shown below, so it's also valid to
+   classify the fireship as a distinct spaceship.
+
+	....**....
+	...****...
+	..........
+	..******..
+	...****...
+	..........
+	..**..**..
+	**.*..*.**
+	...*..*...
+	..........
+	..........
+	....**....
+	....**....
+	..........
+	.*.*..*.*.
+	*..*..*..*
+	*........*
+	*........*
+	**......**
+	..******..

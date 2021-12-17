@@ -1,0 +1,7 @@
+//   This is the unique nonomino (a
+   {polyomino} having 9 cells) whose {evolution} results in a
+   {switch engine}, and the smallest polyomino to do so.
+
+	***...
+	..*.*.
+	..****

@@ -1,0 +1,21 @@
+//   A {grey ship} in which the region of
+   density 1/2 consists of lines of ON cells lying perpendicular to the
+   direction in which the spaceship moves.  See also
+   {with-the-grain grey ship}.
+
+:agar:  Any pattern covering the whole plane that is periodic in both
+   space and time.  The simplest (nonempty) agar is the {stable} one
+   extended by the known {spacefiller}s.  For some more examples see
+   {chicken wire}, {houndstooth agar}, {onion rings}, {squaredance} and
+   {Venetian blinds}.  Tiling the plane with the pattern O......O
+   produces another interesting example: a p6 agar which has a phase of
+   {density} 3/4, which is the highest yet obtained for any phase of an
+   oscillating pattern.  See {lone dot agar} for an agar composed of
+   isolated cells.
+
+:aircraft carrier: (p1)  This is the smallest {still life} that has more
+   than one {island}.
+
+	**..
+	*..*
+	..**

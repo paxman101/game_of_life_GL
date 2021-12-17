@@ -1,0 +1,30 @@
+//   A Life enthusiast.  Term coined by Robert Wainwright.
+
+:lifesrc:  David Bell's Life {search program} for finding new
+   {spaceship}s and {oscillator}s.  This is a C implementation of an
+   algorithm developed by Dean Hickerson in 6502 assembler.
+     Although lifesrc itself is a command-line program, Jason Summers
+   has made a GUI version called {WinLifeSearch} for Microsoft Windows.
+   A Java version, {JavaLifeSearch}, was written in November 2012 by
+   Karel Suhajda.
+     The lifesrc algorithm is only useful for very small periods, as the
+   amount of computing power required rises rapidly with increasing
+   period.  For most purposes, period 7 is the practical limit with
+   current hardware.
+     Lifesrc is available from {http://tip.net.au/~dbell/} (source code
+   only).  Compare {gfind}.
+
+:LifeViewer:  A scriptable Javascript Life pattern viewer written by
+   Chris Rowett, used primarily on the conwaylife.com discussion forums.
+
+:light bulb: (p2)  Found in 1971.
+
+	.**.*..
+	.*.**..
+	.......
+	..***..
+	.*...*.
+	.*...*.
+	..*.*..
+	*.*.*.*
+	**...**

@@ -1,0 +1,14 @@
+//   = {loop}
+
+:long hook:  = {long bookend}
+
+:long house:  = {dock}
+
+:long integral: (p1)
+
+	..**
+	.*.*
+	.*..
+	..*.
+	*.*.
+	**..

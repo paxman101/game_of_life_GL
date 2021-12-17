@@ -1,0 +1,16 @@
+//   Any of the eight cells adjacent to a given cell.  A cell is
+   therefore not considered to be a neighbour of itself, although the
+   neighbourhood used in Life does in fact include this cell (see
+   {cellular automaton}).
+
+:new five: (p3)  Found by Dean Hickerson, January 1990.
+
+	..**.....
+	.*..*....
+	.*.*..*..
+	**.*.**..
+	*........
+	.***.****
+	.....*..*
+	*.**.....
+	**.**....

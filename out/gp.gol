@@ -1,0 +1,42 @@
+//   = {glider pair}
+
+:GPSE:  = {glider-producing switch engine}
+
+:grammar:  A set of rules for connecting {component}s together to make
+   an object such as a {spaceship}, {oscillator} or {still life}.  For
+   example, in August 1989 Dean Hickerson found a grammar for
+   constructing an infinite number of short wide c/3 period 3
+   spaceships, using 33 different components and a table showing the
+   ways that they can be joined together.
+
+:grandfather:  = {grandparent}
+
+:grandfatherless:  A traditional name for a pattern with one or more
+   {parent}s but no grandparent.  This was a hypothetical designation
+   until May 2016.  See {grandparent} for details.
+
+:grandparent:  A pattern is said to be a grandparent of the pattern it
+   gives rise to after two generations.  For over thirty years, a
+   well-known open problem was the question of whether any pattern
+   existed that had a parent but no grandparent.  In 1972, {LifeLine}
+   Volume 6 mentioned John Conway's offer of a $50 prize for a solution
+   to the problem, but it remained open until May 2016 when a user with
+   the conwaylife.com forum handle 'mtve' posted an example.
+     Other patterns have since been found that have a grandparent but no
+   great-grandparent, or a great-grandparent but no
+   great-great-grandparent.  Further examples in this series almost
+   certainly exist, but as of July 2018 none have yet been found.
+
+:Gray counter: (p4)  Found in 1971.  If you look at this in the right
+   way you will see that it cycles through the Gray codes from 0 to 3.
+   Compare with {R2D2}.
+
+	......*......
+	.....*.*.....
+	....*.*.*....
+	.*..*...*..*.
+	*.*.*...*.*.*
+	.*..*...*..*.
+	....*.*.*....
+	.....*.*.....
+	......*......

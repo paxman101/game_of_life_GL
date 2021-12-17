@@ -1,0 +1,10 @@
+//   = {predecessor}
+
+:predecessor:  Any pattern that evolves into a given pattern after one
+   or more generations.
+
+:pre-pre-block:  A common predecessor to the {pre-block} (and thus the
+   {block}):
+
+	*.*
+	.**

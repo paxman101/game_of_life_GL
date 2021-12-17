@@ -1,0 +1,11 @@
+//   = {LW emulator}
+
+:LWSS-glider bounce:  The following reaction in which a {LWSS} and a
+   {glider} collide to form a glider heading back between the two input
+   paths:
+
+	.****........
+	*...*........
+	....*.....***
+	*..*......*..
+	...........*.

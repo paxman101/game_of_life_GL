@@ -1,0 +1,16 @@
+//   The following pattern, found by Gabriel Nivasch in July
+   2001.  It is unique among 32-bit {still life}s in that it can be
+   broken down into three {stable} pieces but not into two.  The term
+   may also refer to any larger {stable} pattern with the same property.
+   See also {quad pseudo}.
+
+	......**
+	..*.*..*
+	.*.**.*.
+	.*....**
+	**.**...
+	...**.**
+	**....*.
+	.*.**.*.
+	*..*.*..
+	**......

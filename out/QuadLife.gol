@@ -1,0 +1,15 @@
+//   A form of {colourised Life} in which there are four types of
+   ON cell.  A newly-born cell takes the type of the majority of its
+   three {parent cells}, or the remaining type if its parent cells are
+   all of different types.  In areas where there are only two types of
+   ON cell QuadLife reduces to {Immigration}.
+
+:quadpole: (p2)  The {barberpole} of length 4.
+
+	**.....
+	*.*....
+	.......
+	..*.*..
+	.......
+	....*.*
+	.....**

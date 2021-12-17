@@ -1,0 +1,12 @@
+//   = {cauldron}
+
+:crystal:  A regular growth that is sometimes formed when a stream of
+   {glider}s, or other {spaceship}s, is fired into some junk.
+     The most common example is initiated by the following collision of
+   a glider with a {block}.  With a glider stream of even {period} at
+   least 82, this gives a crystal which forms a pair of {beehive}s for
+   every 11 gliders which hit it.
+
+	.*......
+	..*...**
+	***...**

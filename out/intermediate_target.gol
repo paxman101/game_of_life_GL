@@ -1,0 +1,76 @@
+//   A temporary product of a partial {slow salvo},
+   {elbow operation}, or {glider synthesis}.  An intermediate target is
+   a useful step toward a desired outcome, but will not appear in the
+   final construction.
+
+:intermittent stream:  A {stream} of spaceships which is based on a
+   periodic stream, but which can contain holes where some of the
+   spaceships are not present. There is a base period for the
+   intermittent stream such that if a spaceship arrives at a specific
+   location, then it always does so at a generation which is a multiple
+   of the base period.  For example, the output from a period 30 glider
+   gun where every third glider is deleted is an intermittent stream.  A
+   {pseudo-random glider generator} can produce a complicated
+   intermittent stream with no obvious pattern.
+     Intermittent streams can be used to transmit {signal}s, where holes
+   in the stream can also convey information.  For example, the stream
+   can be processed by an {inverter} having the same period.
+
+:intermitting glider gun:  Despite the name, an intermitting glider gun
+   (IMG) is more often an {oscillator} than a {gun}.  There are two
+   basic types.  A type 1 IMG consists of two guns firing at one another
+   in such a way that each gun is temporarily disabled on being hit by a
+   glider from the other gun.  A type 2 IMG consists of a single gun
+   firing at a 180-degree glider {reflector} in such a way that
+   returning gliders temporarily disable the gun.
+     Both types of IMG can be used to make glider guns of periods that
+   are multiples of the base period.  This is done by firing another gun
+   across the two-way {intermittent stream} of gliders in the IMG in
+   such a way that gliders only occasionally escape.
+
+:inverter:  A device which can be used to invert the presence or absence
+   of spaceships in an {intermittent stream} of spaceships.  The device
+   must be a gun whose period matches the base period of the stream,
+   since if there are no input spaceships then the device must produce
+   spaceships as the result of the inversion.  Typically the spaceships
+   are gliders, and the inverter is made from a glider gun.  Inverters
+   provide a way to produce a NOT logic operation on a stream.
+     There are several ways to produce an inverter.  The simplest method
+   is to simply hit the output of a gun with the input stream to delete
+   its spaceships, producing an output stream that is always turned 90
+   degrees from the input stream.  An example is the northernmost p30
+   gun in the {glider duplicator} example pattern.  For one way to
+   produce an inverted output stream which is not turned, see
+   {inline inverter}.
+
+:inverting reflector:  See {inverter}.
+
+:island:  The individual {polyplet}s of which a {stable} pattern
+   consists are sometimes called islands.  So, for example, a {boat} has
+   only one island, while an {aircraft carrier} has two, a {honey farm}
+   has four and the standard form of the {eater3} has five.
+
+:Iwona: (stabilizes at time 28786)  The following {methuselah} found by
+   Andrzej Okrasinski in August 2004.
+
+	..............***...
+	....................
+	....................
+	....................
+	....................
+	....................
+	..*.................
+	...**...............
+	...*..............*.
+	..................*.
+	..................*.
+	...................*
+	..................**
+	.......**...........
+	........*...........
+	....................
+	....................
+	....................
+	....................
+	**..................
+	.*..................

@@ -1,0 +1,21 @@
+//   A path made out of {conduit}s, often ending where it begins so
+   that the active {signal} object is cycled forever, forming an
+   {oscillator} or a {gun}.
+     This term has also been used to refer to the {lane} on which a
+   {glider} or {spaceship} travels.  The concept is very similar, but a
+   reference to a "track" now usually implies a non-trivial supporting
+   conduit.
+
+:tractor beam:  A stream of {spaceship}s that can draw an object towards
+   the source of the stream.  The example below shows a tractor beam
+   pulling a {loaf}; this was used by Dean Hickerson to construct a
+   {sawtooth}.
+
+	.....................*..*......................
+	.....****...........*..............****........
+	.....*...*..........*...*..........*...*.......
+	.....*........**....****...........*........**.
+	.**...*..*...****...........**......*..*...****
+	*..*........**.**..........**.**..........**.**
+	*.*..........**.............****...........**..
+	.*...........................**................

@@ -1,0 +1,11 @@
+//   Run-length encoded.  Run-length encoding is a simple (but not
+   very efficient) method of file compression.  In Life the term refers
+   to a specific ASCII encoding used for patterns in Conway's Life and
+   other similar cellular automata.  This encoding was introduced by
+   Dave Buckingham and is now the usual means of exchanging relatively
+   small patterns by email or in online forum discussions.
+     As an example of the rle format, here is a representation of the
+   {Gosper glider gun}.  The "run lengths" are the numbers, b's are dead
+   cells, o's are live cells, and dollar signs signal new lines:
+
+	

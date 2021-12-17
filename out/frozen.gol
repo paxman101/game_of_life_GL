@@ -1,0 +1,16 @@
+//   = {freeze-dried}.
+
+:full diagonal:  Diagonal distance measurement, abbreviated "fd", often
+   appropriate when a {construction arm} {elbow} or similar
+   diagonally-adjustable mechanism is present.
+
+:fumarole: (p5)  Found by Dean Hickerson in September 1989.  In terms of
+   its 7x8 bounding box this is the smallest p5 oscillator.
+
+	...**...
+	.*....*.
+	.*....*.
+	.*....*.
+	..*..*..
+	*.*..*.*
+	**....**

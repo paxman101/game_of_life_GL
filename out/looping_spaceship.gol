@@ -1,0 +1,34 @@
+//   = {reflectorless rotating oscillator}
+
+:lossless elbow:  A stationary {elbow} in a {construction arm} {toolkit}
+   that allows a {recipe} to turn a corner with no exponential increase
+   in construction cost.  Compare {slow elbow}.  It is theoretically
+   possible to construct lossless elbows for early construction arms
+   such as the one in the {10hd Demonoid}, but these would currently
+   have to be very large.
+     The lossless elbow that has been used the most in practice is the
+   {Snark}, which can be constructed directly on a {single-channel}
+   {construction lane} using a {Snarkmaker} {recipe}.  Controlled
+   demolition of a Snark is also possible, to remove a temporary elbow
+   that is no longer needed, and leave a {hand} target in its place if
+   necessary for further construction.
+     A {Silver reflector} was used as a lossless elbow in the first
+   {spiral growth} pattern, attached to a separate
+   {universal constructor} component.
+
+:low-density Life:  = {sparse Life}
+
+:lumps of muck:  The common evolutionary sequence that ends in the
+   {blockade}.  The name is sometimes used of the blockade itself, and
+   can in general be used of any stage of the evolution of the
+   {stairstep hexomino}.
+
+:LW emulator: (p4)  The smallest (and least useful) {emulator}, found by
+   Robert Wainwright in June 1980.
+
+	..**.*..*.**..
+	..*........*..
+	...**....**...
+	***..****..***
+	*..*......*..*
+	.**........**.

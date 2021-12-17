@@ -1,0 +1,23 @@
+//   Any {factory} {circuit} that produces a {block} in
+   response to an input signal.  For a useful high-{clearance} example
+   see {keeper}.
+
+:Blockic:  Adjective for {constellation}s consisting entirely of
+   {block}s.  It's possible to arrange blocks in a way that can be
+   {trigger}ed by a single glider to produce any {glider constructible}
+   pattern.  A simple example of a Blockic pattern is shown under
+   {fuse}.  See also {seed}.
+
+:block keeper:  See {keeper}.
+
+:block-laying switch engine:  See {stabilized switch engine}.
+
+:block on big table:  = {block and dock}
+
+:block on table: (p1)
+
+	..**
+	..**
+	....
+	****
+	*..*

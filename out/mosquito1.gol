@@ -1,0 +1,92 @@
+//   A {breeder} constructed by Nick Gotts in September 1998.
+   The original version had an initial population of 103, which was then
+   the smallest for any known pattern with superlinear growth (beating
+   the record previously held by {Jaws}).  This was reduced to 97 by
+   Stephen Silver the following month, but was then almost immediately
+   superseded by {mosquito2}.
+     Mosquito1 consists of the classic {puffer train} plus four {LWSS}
+   and four {MWSS} (mostly in {predecessor} form, to keep the population
+   down).  Once it gets going it produces a new block-laying
+   {switch engine} (plus a lot of junk) every 280 generations.  It is
+   therefore an MMS breeder, albeit a messy one.
+
+:mosquito2:  A {breeder} constructed by Nick Gotts in October 1998. Its
+   initial population of 85 was for a couple of hours the smallest for
+   any known pattern with superlinear growth, but was then beaten by
+   {mosquito3}.
+     Mosquito2 is very like {mosquito1}, but uses two fewer {MWSS} and
+   one more {LWSS}.
+
+:mosquito3:  A {breeder} constructed by Nick Gotts in October 1998. Its
+   initial population of 75 was at the time the smallest for any known
+   pattern with superlinear growth, but was beaten a few days later by
+   {mosquito4}.
+     Mosquito3 has one less {LWSS} than {mosquito2}.  It is somewhat
+   different from the earlier mosquitoes in that the {switch engine}s it
+   makes are glider-producing rather than block-laying.
+
+:mosquito4:  A slightly improved version of {mosquito3} which Stephen
+   Silver produced in October 1998 making use of another discovery of
+   Nick Gotts (September 1997): an 8-cell pattern that evolves into a
+   {LWSS} plus some junk.  Mosquito4 is a {breeder} with an initial
+   population of 73, at the time the smallest for any known pattern with
+   superlinear growth, but superseded a few days later by {mosquito5}.
+
+:mosquito5:  A slightly improved version of {mosquito4} which Nick Gotts
+   produced in October 1998.  The improvement is of a similar nature to
+   the improvement of mosquito4 over mosquito3.  Mosquito5 is a
+   {breeder} with an initial population of 71.  This was the smallest
+   population for any known pattern with superlinear growth until it was
+   superseded by {teeth}.  See {switch-engine ping-pong} for the
+   smallest such pattern as of July 2018, along with a list of the
+   record-holders.
+
+:mould:  = {mold}
+
+:moving sawtooth:  A {sawtooth} such that no cell is ON for more than a
+   finite number generations.  David Bell constructed the first pattern
+   of this type, with a c/2 front end and a c/3 back end.  The front end
+   is a {blinker puffer}.  The back end ignites the {blinker fuse}.
+     The smallest currently known moving sawtooth was constructed in
+   April 2011 by a conwaylife.com forum user with the handle
+   'cloudy197'.  The c/2 front end is a {bi-block puffer}.  The 2c/5
+   back end ignites the {bi-block fuse}.
+
+:MSM breeder:  See {breeder}.
+
+:multiple roteightors: (p8)  An {extensible} oscillator family
+   consisting of one or more {roteightor} rotors, discovered by Dean
+   Hickerson in 1990.
+
+	....................*...........
+	........**........***...........
+	.........*.......*..............
+	.........*.*.....**.............
+	..........**.............*......
+	.......................***......
+	....**........***.....*.........
+	.....*.......*..*......*........
+	.....*.*........*..*...*......*.
+	......**..*....*..*.........***.
+	.........*........*..*.....*....
+	**.......*..*.....***......**...
+	.*.......***....................
+	.*.*............................
+	..**....................***.....
+	...............***.....*..*.....
+	......***.....*..*........*.....
+	.....*..*........*..*....*..**..
+	........*..*....*..*........*.*.
+	...*...*..*........*..*.......*.
+	...*......*..*.....***........**
+	....*.....***...................
+	.***....................**......
+	.*......................*.*.....
+	........**......***.......*.....
+	.........*.....*..*.......**....
+	......***.........*.............
+	......*......*...*..**..........
+	.............*......*.*.........
+	..............*.......*.........
+	...........***........**........
+	...........*....................

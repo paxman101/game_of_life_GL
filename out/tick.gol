@@ -1,0 +1,19 @@
+//   = {generation}
+
+:tic tac toe:  = {octagon II}
+
+:tie:  A term used in naming certain {still life}s (and the {stator}
+   part of certain {oscillator}s).  It indicates that the object
+   consists of two smaller objects joined point to point, as in
+   {ship tie boat}.
+
+:time bomb:  The following pattern by Doug Petrie, which is really just
+   a glider-producing {switch engine} in disguise.  See
+   {infinite growth} for some better examples of a similar nature.
+
+	.*...........**
+	*.*....*......*
+	.......*....*..
+	..*..*...*..*..
+	..**......*....
+	...*...........

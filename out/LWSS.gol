@@ -1,0 +1,9 @@
+//  (c/2 orthogonally, p4)  A lightweight spaceship, the smallest
+   known orthogonally moving {spaceship}, and the second most common
+   (after the {glider}).  Found by Conway when one formed from a random
+   soup in 1970.  See also {MWSS} and {HWSS}.
+
+	.*..*
+	*....
+	*...*
+	****.

@@ -1,0 +1,24 @@
+//   A {grey ship} in which the region of density
+   1/2 consists of lines of ON cells lying parallel to the direction in
+   which the spaceship moves.  See also {against-the-grain grey ship}.
+
+:WLS:  =  {WinLifeSearch}
+
+:worker bee: (p9)  Found by Dave Buckingham in 1972.  Unlike the similar
+   {snacker} this produces no {spark}s, and so is not very important.
+   Like the snacker, the worker bee is {extensible}.  It is, in fact, a
+   finite version of the infinite oscillator which consists of six ON
+   cells and two OFF cells alternating along a line.  Note that Dean
+   Hickerson's new snacker ends also work here.
+
+	**............**
+	.*............*.
+	.*.*........*.*.
+	..**........**..
+	................
+	.....******.....
+	................
+	..**........**..
+	.*.*........*.*.
+	.*............*.
+	**............**

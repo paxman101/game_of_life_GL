@@ -1,0 +1,15 @@
+//   = {boat-tie}
+
+:boat-ship-tie:  = {ship tie boat}
+
+:boatstretcher:  See {tubstretcher}.
+
+:boat-tie: (p1)  A 10-cell {still life} consisting of two {boat}s placed
+   tip-to-tip.  The name is a pun on "bow tie".
+
+	.*....
+	*.*...
+	.**...
+	...**.
+	...*.*
+	....*.

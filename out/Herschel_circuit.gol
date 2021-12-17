@@ -1,0 +1,59 @@
+//   A series of {Herschel conduit}s or other components,
+   connected by placing them so that the output {Herschel}s from early
+   conduits become the input Herschels for later conduits.  Often the
+   initial component is a {converter} accepting some other signal type
+   as input - usually a glider, in which case a {syringe} is most
+   commonly used.  The {Silver reflector} is a well-known early
+   {Spartan} Herschel circuit from before the syringe was discovered,
+   where the initial converter is a {Callahan G-to-H}.
+     Sometimes a direct connection between two conduits is not possible
+   due to unwanted gliders that destroy required {catalyst}s, or wanted
+   gliders that are not able to escape.  In this case, small "spacer"
+   conduits such as {F116}, {F117}, {Fx77}, {R64}, {L112}, or {L156} can
+   be inserted between the other conduits to solve the problem.
+     Some converter or {factory} conduits do not produce a Herschel as
+   output, instead generating other useful results such as gliders,
+   {boat}s or {MWSS}es.  See {Herschel-to-glider}, {demultiplexer}, and
+   {H-to-MWSS} respectively for examples of these.  For those conduits
+   which do produce an unwanted Herschel, an {eater} such as {SW-2} can
+   be added to delete it.
+     If the first and last conduits of a chain connect to each other in
+   a loop then there is no need for a syringe to generate the first
+   Herschel, or an eater to consume the last one.  The circuit becomes a
+   self-supporting {Herschel loop}.  A loop is also formed by a
+   {syringe} connected to a Herschel-to-glider converter, with the
+   glider reflected back to the syringe's input with glider reflectors
+   of the appropriate colour, usually {Snark}s.  In either case, if the
+   loop has a surplus {glider} output, it becomes a {gun}; if no output
+   is available it is an {emu}.
+
+:Herschel climber:  Any {reburnable fuse} reaction involving
+   {Herschel}s.  May refer specifically to the
+   {(23,5)c/79 Herschel climber} used in the {waterbear}, or one of
+   several similar reactions with various velocities.  See also
+   {Herschel-pair climber}.
+
+:Herschel component:  = {Herschel conduit}
+
+:Herschel conduit:  A {conduit} that moves a {Herschel} from one place
+   to another.  See also {Herschel loop}.
+     Well over a hundred simple stable Herschel conduits are currently
+   known.  As of June 2018 the number is approximately 150, depending on
+   the precise definition of "simple" - e.g., fitting inside a 100x100
+   bounding box, and producing output in no more than 300 {tick}s.  In
+   general a Herschel conduit can be called "simple" if its active
+   reaction does not return to a  Herschel stage except at its output.
+   Compare {elementary conduit}, {composite conduit}.  A description of
+   common usage in complex circuitry, using {syringe}s and {Snark}s to
+   make compact connections, can be found in {Herschel circuit}.
+     The original {universal} set consisted of sixteen stable Herschel
+   conduits, discovered between 1995 and 1998 by Dave Buckingham (DJB)
+   and Paul Callahan (PBC).  These are shown in the following table.  In
+   this table, the number in "name/steps" is the number of {tick}s
+   needed to produce an output Herschel from the input Herschel.  "m"
+   tells how the Herschel is moved (R = turned right, L = turned left, B
+   = turned back, F = unturned, f = flipped), and "dx" and "dy" give the
+   displacement of the centre cell of the Herschel (assumed to start in
+   the orientation shown above).
+
+	

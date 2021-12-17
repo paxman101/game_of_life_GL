@@ -1,0 +1,22 @@
+//   Any {oscillator} or {spaceship}.
+
+:repeat time:  The minimum number of generations that is possible
+   between the arrival of one object and the arrival of the next.  This
+   term is used for things such as {reflector}s or {conduit}s where the
+   {signal} objects ({glider}s or {Herschel}s, for example) will
+   interact fatally with each other if they are too close together, or
+   one will interact fatally with a disturbance caused by the other.
+   For example, the repeat time of Dave Buckingham's 59-step B-heptomino
+   to Herschel conduit (shown under {conduit}) is 58.
+
+:rephaser:  The following reaction that shifts the phase and path of a
+   pair of gliders.  There is another form of this reaction,
+   {glider-block cycle}, that reflects the gliders 180 degrees.
+
+	..*..*..
+	*.*..*.*
+	.**..**.
+	........
+	........
+	...**...
+	...**...

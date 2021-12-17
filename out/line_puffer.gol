@@ -1,0 +1,41 @@
+//   A {puffer} which produces its output by means of an
+   orthogonal line of cells at right angles to the direction of travel.
+   The archetypal line puffer was found by Alan Hensel in March 1994,
+   based on a {spaceship} found earlier that month by Hartmut Holzwart.
+   The following month Holzwart found a way to make {extensible} c/2
+   line puffers, and Hensel found a much smaller stabilization the
+   following day.  But in October 1995 Tim Coe discovered that for large
+   widths these were often unstable, although typically lasting millions
+   of generations.  In May 1996, however, Coe found a way to fix the
+   instability.  The resulting puffers appear to be completely stable
+   and to exhibit an exponential increase in period as a function of
+   width, although neither of these things has been proved.
+     Line puffers have enabled the construction of various difficult
+   periods for c/2 spaceships and puffers, including occasionally
+   periods which are not multiples of 4 and which would therefore be
+   impossible to attain with the usual type of construction based on
+   {standard spaceship}s.  (See {frothing puffer} for another method of
+   constructing such periods.)  In particular, the first c/2 {rake} with
+   period not divisible by 4 was achieved in January 2000 when David
+   Bell constructed a p42 {backrake} by means of line puffers.
+     See also {hivenudger} and {puff suppressor}.
+
+:line ship:  A {spaceship} in which the front end is a {linestretcher},
+   the line being eaten by the back end.
+
+:linestretcher:  A {wickstretcher} that stretches a single diagonal line
+   of cells.  The first example was constructed by Jason Summers in
+   March 1999; this was c/12 and used {switch engine} based puffers
+   found earlier by Dean Hickerson.  The first c/4 example was found by
+   Hartmut Holzwart in November 2004.
+
+:loading dock: (p3)  Found by Dave Buckingham, September 1972.
+
+	....*....
+	..***....
+	.*...**..
+	*.**...*.
+	.*...**.*
+	..**...*.
+	....***..
+	....*....

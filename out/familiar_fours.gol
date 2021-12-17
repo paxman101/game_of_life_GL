@@ -1,0 +1,23 @@
+//   Common patterns of four identical objects.  The five
+   commonest are {traffic light} (4 blinkers), {honey farm} (4
+   beehives), {blockade} (4 blocks), {fleet} (4 ships, although really 2
+   ship-ties) and {bakery} (4 loaves, although really 2 bi-loaves).
+   Also sometimes included is {four skewed blocks}.
+
+:fanout:  A mechanism that emits two or more objects of some type for
+   each one that it receives.  Typically the objects are {glider}s or
+   {Herschel}s; {glider duplicator}s are a special case.
+
+:Fast Forward Force Field:  The following reaction found by Dieter
+   Leithner in May 1994.  In the absence of the incoming LWSS the
+   gliders would simply annihilate one another, but as shown they allow
+   the LWSS to advance 11 spaces in the course of the next 6
+   generations.
+
+	.......*......*..
+	........*......**
+	..**..***.....**.
+	**.**............
+	****.........*...
+	.**.........**...
+	............*.*..

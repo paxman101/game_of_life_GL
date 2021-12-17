@@ -1,0 +1,8 @@
+//   The following pattern discovered by Charles Corderman
+   in 1971, which is a {glide symmetric} unstable {puffer} which moves
+   diagonally at a speed of c/12 (8 cells every 96 generations).
+
+	.*.*..
+	*.....
+	.*..*.
+	...***

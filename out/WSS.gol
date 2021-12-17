@@ -1,0 +1,21 @@
+//   Any of the standard orthogonal {spaceship}s - {LWSS}, {MWSS}, or
+   {HWSS}.  At one point the term {fish} was more common for this group
+   of spaceships.
+
+:x66: (c/2 orthogonally, p4)  Found by Hartmut Holzwart, July 1992. Half
+   of this can be escorted by an HWSS.  The name refers to the fact that
+   every cell (live or dead) has at most 6 live neighbours (in contrast
+   to {spaceship}s based on {LWSS}, {MWSS} or {HWSS}). In fact this
+   spaceship was found by a search with this restriction.
+
+	..*......
+	**.......
+	*..***..*
+	*....***.
+	.***..**.
+	.........
+	.***..**.
+	*....***.
+	*..***..*
+	**.......
+	..*......

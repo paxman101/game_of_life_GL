@@ -1,0 +1,57 @@
+//   Growth faster than any rate proportional to T,
+   where T is the number of ticks that a pattern has been run.  This
+   term usually applies to a pattern's population growth, rather than
+   diametric growth or bounding-box growth.  For example, {breeder}s'
+   and {spacefiller}s' population asymptotically grows faster than any
+   linear-growth pattern.  It may also be used to describe the rate of
+   increase in the number of subpatterns present in a pattern, such as
+   when describing a {replicator}'s rate of reproduction.  Due to limits
+   enforced by the {speed of light}, no pattern's population can grow at
+   an asymptotic rate faster than {quadratic growth}.  See
+   {switch-engine ping-pong} for the lowest-population superlinear
+   growth pattern as of July 2018, along with a list of the
+   record-holders.
+
+:superstring:  An infinite orthogonal row of cells stabilized on one
+   side so that it moves at the {speed of light}, often leaving debris
+   behind.  The first examples were found in 1971 by Edward Fitzgerald
+   and Robert Wainwright.  Superstrings were studied extensively by
+   Peter Rott during 1992-1994, and he found examples with many
+   different periods.  (But no odd periods.  In August 1998 Stephen
+   Silver proved that odd-period superstrings are impossible.)
+     Sometimes a finite section of a superstring can be made to run
+   between two tracks ("waveguides").  This gives a {fuse} which can be
+   made as wide as desired.  The first example was found by Tony
+   Smithurst and uses {tub}s.  (This is shown below.  The superstring
+   itself is p4 with a repeating section of width 9 producing one
+   blinker per period and was one of those discovered in 1971.  With the
+   track in place, however, the period is 8.  This track can also be
+   used with a number of other superstrings.)  Shortly after seeing this
+   example, in March 1997 Peter Rott found another superstring track
+   consisting of {boat}s.  At present these are the only two waveguides
+   known.  Both are destroyed by the superstring as it moves along.  It
+   would be interesting to find one that remains intact.
+     See {titanic toroidal traveler} for another example of a
+   superstring.
+
+	.**..........................................................
+	*..*...*...*...*...*...*...*...*...*...*...*...*...*...*...*.
+	....*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*
+	*..*...*...*...*...*...*...*...*...*...*...*...*...*...*...*.
+	.***.........................................................
+	..**.........................................................
+	..**.........................................................
+	...*.........................................................
+	...*.........................................................
+	...*.........................................................
+	...*.........................................................
+	...*.........................................................
+	...*.........................................................
+	...*.........................................................
+	..**.........................................................
+	..**.........................................................
+	.***.........................................................
+	*..*...*...*...*...*...*...*...*...*...*...*...*...*...*...*.
+	....*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*
+	*..*...*...*...*...*...*...*...*...*...*...*...*...*...*...*.
+	.**..........................................................

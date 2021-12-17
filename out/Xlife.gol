@@ -1,0 +1,10 @@
+//   A popular freeware Life program that runs under the X Window
+   System.  The main Life code was written by Jon Bennett, and the X
+   code by Chuck Silvers.
+
+:X-pentomino:  Conway's name for the following {pentomino}, a
+   {traffic light} {predecessor}.
+
+	.*.
+	***
+	.*.

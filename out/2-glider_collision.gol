@@ -1,0 +1,47 @@
+//   Two gliders can react with each other in many
+   different ways, either at right angles, or else head-on.  A large
+   number of the reactions cleanly destroy both gliders leaving nothing.
+   Many of the remaining reactions cleanly create some common objects,
+   and so are used as the first steps in {glider synthesis} or as part
+   of constructing interesting objects using {rake}s.  Only a small
+   number of collisions can be considered {dirty} due to creating
+   multiple objects or a mess.
+     Here is a list of the possible results along with how many
+   different ways they can occur (ignoring reflections and rotations).
+   -------------------------------
+   result     right-angle  head-on
+   -------------------------------
+   nothing             11       17
+   {beehive}            1        0
+   {B-heptomino}        1        2
+   {bi-block}           1        0
+   {blinker}            2        1
+   {block}              3        3
+   {boat}               0        1
+   {eater1}             1        0
+   {glider}             1        1
+   {honey farm}         3        2
+   {interchange}        1        0
+   {loaf}               0        1
+   {lumps of muck}      1        0
+   {octomino}           0        1
+   {pi-heptomino}       2        1
+   {pond}               1        1
+   {teardrop}           1        0
+   {traffic light}      2        1
+   {four skewed blocks} 0        1
+   {dirty}              6        0
+   -------------------------------
+   The messiest of the two-glider collisions in the "dirty" category is
+   {2-glider mess}.
+
+:2-glider mess:  A constellation made up of eight {blinker}s, four
+   {block}s, a {beehive} and a {ship}, plus four emitted {glider}s,
+   created by the following {2-glider collision}.
+
+	..*.........
+	*.*.........
+	.**.........
+	...........*
+	.........**.
+	..........**

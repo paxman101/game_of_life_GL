@@ -1,0 +1,29 @@
+//   A line of identical objects (usually {spaceship}s), each of
+   which is moving in a direction parallel to the line, generally on the
+   same {lane}.  In many uses the stream is periodic.  For example, the
+   {new gun} produces a period 46 {glider} stream.  The stream produced
+   by a {pseudo-random glider generator} can have a very high period.
+   Compare with {wave}.  See also {single-channel} for a common use of
+   non-periodic {glider} streams.
+
+:stretcher:  Any pattern that grows by stretching a {wick} or {agar}.
+   See {wickstretcher} and {spacefiller}.
+
+:strict still life:  A {still life} that is either a single connected
+   {polyplet}, or is arranged such that a {stable} smaller pattern
+   cannot be formed by removing one or more of its {island}s. For
+   example, {beehive with tail} is a strict still life because it is
+   connected, and {table on table} is a strict still life because
+   neither of the {table}s are stable by themselves.  See also
+   {triple pseudo}, {quad pseudo}.
+     Still lifes have been enumerated by Conway (4-7 bits), Robert
+   Wainwright (8-10 bits), Dave Buckingham (11-13 bits), Peter Raynham
+   (14 bits), Mark Niemiec (15-24 bits), and Simon Ekstrom and Nathaniel
+   Johnston (25-32 bits).  The resulting figures are shown below; see
+   also {https://oeis.org/A019473}.  The most recent search by Nathaniel
+   Johnston has also confirmed that the {triple pseudo} pattern found by
+   Gabriel Nivasch is the only such still life with 32 bits or less.  It
+   is therefore included in the pseudo still life count and not in the
+   table below.
+
+	

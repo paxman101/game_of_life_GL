@@ -1,0 +1,12 @@
+//  (31c/240 orthogonally, p240)  The smallest known {31c/240}
+   spaceship, constructed by Chris Cain in September 2014 as a
+   refinement of the {shield bug}.
+
+:century: (stabilizes at time 103)  This is a common pattern which
+   evolves into three {block}s and a {blinker}.  In June 1996 Dave
+   Buckingham built a neat {p246 gun} using a century as the engine.
+   See also {bookend} and {diuresis}.
+
+	..**
+	***.
+	.*..

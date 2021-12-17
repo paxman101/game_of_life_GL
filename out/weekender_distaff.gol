@@ -1,0 +1,26 @@
+//  (2c/7, p16982)  The first orthogonal 2c/7 rake,
+   constructed by Ivan Fomichev on May 22nd, 2014.  It uses the weak
+   {spark}s from {weekender}s to perturb an LWSS into an active reaction
+   in a variable-period loop, which produces a series of {slow salvo}
+   gliders that finally rebuilds the LWSS.
+
+:weld:  To join two or more {still life}s or {oscillator}s together.
+   This is often done in order to fit the objects into a smaller space
+   than would otherwise be possible.  The simplest useful example is
+   probably the {integral sign}, which can be considered as a pair of
+   welded {eater1}s.
+
+:Wheels, Life, and other Mathematical Amusements:  One of Martin
+   Gardner's books (1983) that collects together material from his
+   column in Scientific American.  The last three chapters of this book
+   contain all the Life stuff.
+
+:why not: (p2)  Found by Dave Buckingham, July 1977.
+
+	...*...
+	...*.*.
+	.*.....
+	*.*****
+	.*.....
+	...*.*.
+	...*...

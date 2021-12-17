@@ -1,0 +1,20 @@
+//   A type of {Herschel transceiver} where the {receiver}
+   can be used in either of two mirror-image orientations.  See also
+   {chirality}.
+
+:anteater:  A pattern that consumes {ants}.  Matthias Merzenich
+   discovered a c/5 anteater on 15 April 2011.  See {wavestretcher} for
+   details.
+
+:antlers:  = {moose antlers}
+
+:ants: (p5 wick)  The standard form is shown below.  It is also possible
+   for any ant to be displaced by one or two cells relative to either or
+   both of its neighbouring ants.  Dean Hickerson found {fencepost}s for
+   both ends of this wick in October 1992 and February 1993.  See
+   {electric fence}, and also {wickstretcher}.
+
+	**...**...**...**...**...**...**...**...**..
+	..**...**...**...**...**...**...**...**...**
+	..**...**...**...**...**...**...**...**...**
+	**...**...**...**...**...**...**...**...**..

@@ -1,0 +1,26 @@
+//   = {technician}
+
+:technology:  The collective set of known reactions exploiting one
+   subset of the Life universe.  Examples of these subsets include
+   {glider synthesis}, period 30 glider {stream}s, c/3 {spaceship}s,
+   {sparker}s, {Herschel conduit}s, and {slow salvo}s.  As new reactions
+   and objects are found, over time any particular technology becomes
+   more versatile and complete.  Many Life experts like to concentrate
+   on particular technologies.
+
+:tee:  A head-on collision between three {glider}s, producing a
+   perpendicular output glider that can be used to construct closely
+   spaced glider {salvo}s, or to {inject} a glider into an existing
+   {stream}.  There are several workable {recipe}s.  One of the more
+   useful is the following, because the {tandem glider} can be generated
+   by a small {Herschel} {converter}, {SW1T43}:
+
+	...............*.
+	..............*..
+	..............***
+	.........*.......
+	.........*.*.....
+	.........**......
+	.**..............
+	*.*..............
+	..*..............

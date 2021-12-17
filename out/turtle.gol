@@ -1,0 +1,18 @@
+//  (c/3 orthogonally, p3)  A {spaceship} found by Dean Hickerson
+   in August 1989 that produces a {domino} {spark} at the back.
+   Hickerson used this spark to convert an approaching {HWSS} into a
+   {loaf}, as part of the first {sawtooth}.  (Also see {tractor beam}).
+   The shape of the back end of the turtle is distinctive.  Very similar
+   but wider back ends have been found in other c/3 ships to produce
+   period 9 and 15 {spaceship}s.
+
+	.***.......*
+	.**..*.**.**
+	...***....*.
+	.*..*.*...*.
+	*....*....*.
+	*....*....*.
+	.*..*.*...*.
+	...***....*.
+	.**..*.**.**
+	.***.......*

@@ -1,0 +1,22 @@
+//   = {billiard table configuration}
+
+:B track:  A {track} for {B-heptomino}es.  A B-heptomino becomes a
+   {Herschel} plus a {block} in twenty generations, so this term was
+   nearly synonymous with {Herschel track} until the discovery of
+   {elementary conduit}s that convert a B directly to another B, or to
+   some other non-Herschel signal output.  See for example {BRx46B}.
+
+:BTS:  A 19-cell {still life} made up of a {bookend}, a {table}, and a
+   {snake}.  Starting in 2015, with the help of Mike Playle's {Bellman}
+   search program, Tanner Jacobi discovered a surprising number of ways
+   to use this object as a {catalyst} for {signal} {circuit}ry.  One
+   example can be seen in the {CC semi-cenark} entry.
+
+	..**...
+	*..*...
+	***....
+	.......
+	**.*.**
+	.*.**.*
+	.*.....
+	**.....

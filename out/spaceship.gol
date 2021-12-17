@@ -1,0 +1,26 @@
+//   Any finite pattern that reappears (without additions or
+   losses) after a number of generations and displaced by a non-zero
+   amount.  By far the most {natural} spaceships are the {glider},
+   {LWSS}, {MWSS} and {HWSS}, followed by the {Coe ship} which has also
+   evolved multiple times from random asymmetric {soup} starting
+   conditions.  See also the entries on individual spaceship speeds:
+   {c/2 spaceship}, {c/3 spaceship}, {c/4 spaceship}, {c/5 spaceship},
+   {c/6 spaceship}, {c/7 spaceship}, {c/10 spaceship}, {c/12 spaceship},
+   {2c/5 spaceship},  {2c/7 spaceship}, {3c/7 spaceship},
+   {(2,1)c/6 spaceship}, and {17c/45 spaceship}.
+     It is known that there exist spaceships travelling in all rational
+   directions and at arbitrarily slow speeds (see
+   {universal constructor}).  Before 1989, however, the only known
+   examples travelled at c/4 diagonally (gliders) or c/2 orthogonally
+   (everything else).
+     In 1989 Dean Hickerson started to use automated searches to look
+   for new {elementary} spaceships, and had considerable success.  Other
+   people have continued these searches using tools such as {lifesrc}
+   and {gfind}, and as a result we now have a great variety of
+   elementary spaceships travelling at sixteen different velocities.
+   The following table details the discovery of elementary spaceships
+   with new velocities as of July 2018.
+
+   -------------------------------------------------------------------
+
+	

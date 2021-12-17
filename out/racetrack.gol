@@ -1,0 +1,46 @@
+//   A pattern in which a {signal} makes its way in a loop
+   through an "obstacle course" of reactions in order to demonstrate
+   various ways that the signal can be reflected, temporarily stored,
+   and converted.  The more different reactions that are used the better
+   the racetrack.  David Goodenough built racetracks for p30 and p46
+   {technology} in 1995.  Racetracks are also known for
+   {Herschel conduit} {technology}, and simple ones are useful for
+   building {oscillator}s and {glider gun}s.
+
+:rake:  Any {puffer} whose debris consists of {spaceship}s.  A rake is
+   said to be forwards, backwards or sideways according to the direction
+   of the spaceships relative to the direction of the rake.  Originally
+   the term "rake" was applied only to forwards c/2 glider puffers (see
+   {space rake}).  Many people prefer not to use the term in the case
+   where the puffed spaceships travel parallel or anti-parallel to the
+   puffer, as in this case they do not rake out any significant region
+   of the Life plane (and, in contrast to true rakes, these puffers
+   cannot travel in a stream, and so could never be produced by a
+   {gun}).
+     Although the first rakes (circa 1971) were c/2, rakes of other
+   velocities have since been built.  Dean Hickerson's construction of
+   {Cordership}s in 1991 made it easy for c/12 diagonal rakes to be
+   built, although no one actually did this until 1998, by which time
+   David Bell had constructed c/3 and c/5 rakes (May 1996 and September
+   1997, respectively).  Jason Summers constructed a 2c/5 rake in June
+   2000 (building on work by Paul Tooke and David Bell) and a c/4
+   orthogonal rake in October 2000 (based largely on reactions found by
+   David Bell).
+     The smallest possible period for a rake is probably 7, as this
+   could be achieved by a 3c/7 orthogonal backwards glider puffer.  The
+   smallest period attained to date is 8 (Jason Summers' {backrake},
+   March 2001).
+
+:$rats: (p6)  Found by Dave Buckingham, 1972.
+
+	.....**.....
+	......*.....
+	....*.......
+	**.*.****...
+	**.*.....*.*
+	...*..***.**
+	...*....*...
+	....***.*...
+	.......*....
+	......*.....
+	......**....

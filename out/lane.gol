@@ -1,0 +1,22 @@
+//   A path traveled by a glider, or less commonly a spaceship such
+   as a loafer.  The lane is centered on the line of symmetry (if any)
+   of the spaceship in question.  If a lane is clear, then the spaceship
+   can travel along it without colliding or interfering with any other
+   objects.
+     Diagonal lanes are often numbered consecutively, in half-diagonals
+   ({hd}).  Occasionally diagonal lane measurements are given in
+   quarter-diagonals ({qd}), in part because diagonally symmetric
+   spaceships have a line of symmetry 1qd away from the lines available
+   for gliders.  It's also convenient that moving a glider forward by
+   100qd (for example) has the same effect as evolving the same glider
+   for 100 ticks.
+
+:Laputa: (p2)  Found by Rich Schroeppel, September 1992.
+
+	...**.**....
+	...**.*...**
+	........*..*
+	.******.***.
+	*..*.*......
+	**...*.**...
+	....**.**...

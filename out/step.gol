@@ -1,0 +1,17 @@
+//   Another term for a {generation} or {tick}.  This term is
+   particularly used in describing {conduit}s.  For example, a 64-step
+   conduit is one through which the active object takes 64 generations
+   to pass.
+
+:stillater: (p3)  Found by Robert Wainwright, September 1985. This is
+   one of only three essentially different p3 {oscillator}s with only
+   three cells in the {rotor}.  The others are {1-2-3} and {cuphook}.
+
+	...*....
+	..*.*.**
+	..*.**.*
+	**......
+	.*.*.**.
+	.*.*..*.
+	..*..*..
+	...**...

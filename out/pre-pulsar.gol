@@ -1,0 +1,8 @@
+//   A common {predecessor} of the {pulsar}, such as that shown
+   below.  This duplicates itself in 15 generations.  (It fails,
+   however, to be a true {replicator} because of the way the two copies
+   then interact.)
+
+	***...***
+	*.*...*.*
+	***...***

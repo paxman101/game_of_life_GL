@@ -1,0 +1,167 @@
+//   Conway's preferred term for a {Garden of Eden}.  According to
+   some definitions, an orphan consists of just the minimum living and
+   dead cells needed to ensure that no parent is possible, whereas a GoE
+   is an entire infinite Life plane that contains an orphan.
+
+:Orthogonoid: (256c/3476016, p3476016)  A {self-constructing}
+   {spaceship} analogous to the {Demonoid}s, with a slow orthogonal
+   direction of travel.  The first example was completed by Dave Greene
+   on 29 June 2017, with a top speed of 16c/217251 (this is just
+   256c/3476016 in lowest terms).
+     The construction recipe is a stream of MWSSes, with the recovery
+   time limited to 90 ticks by the {Lx200} {dependent conduit} that
+   follows the initial {syringe} converter.  The design is
+   {hashlife}-friendly, meaning that the spaceship can be trivially
+   adjusted so that spatial and temporal offsets are exact powers of
+   two; period 4194304 and period 8388608 versions have been
+   constructed, with speeds of c/16384 and c/32768 respectively.
+     The MWSSes are converted to {Herschel}s, which produce a standard
+   {single-channel} glider stream that runs the Orthogonoid's single
+   construction arm.  After the child circuitry is complete, a
+   previously constructed {Snark} in the parent is removed from the
+   construction arm lane, converting it to a "destruction arm" that
+   shoots down the previous constructor/reflector in the series.
+
+:oscillator:  Any pattern that is a {predecessor} of itself.  The term
+   is usually restricted to non-{stable} finite patterns; period 1
+   oscillators are {stable} and are usually just called {still life}s.
+   The {blinker} is the smallest non-stable oscillator, having period 2.
+   There are oscillators of almost all higher periods (see
+   {omniperiodic}).  In general {cellular automaton} theory the term
+   "oscillator" usually covers {spaceship}s as well, but this usage is
+   not normal in Life.
+     Oscillators consisting of separate objects which do not react in
+   any phase are usually ignored.  For example, a separated {blinker}
+   and {pulsar} makes a period 6 oscillator, but is considered
+   {trivial}.
+     An oscillator can be divided into a {rotor} and a {stator}, and the
+   stator can be further subdivided into {bushing} and {casing}.  Some
+   oscillators have no casing cells, and a few 100%-{volatility}
+   oscillators also have no bushing cells.
+     An oscillator can be constructed from any {gun} as long as {eater}s
+   can be added to consume its output.  If it is a {true} {gun} then the
+   period of the oscillator will be the same as the gun - unless the
+   eating mechanism multiplies the period, as in the case of gliders
+   caught by a {boat-bit}.
+     With the discovery of {reflector}s, {relay}s provide an easy way to
+   create oscillators of all large periods.  For example, eight gliders
+   travelling in a loop created by four {Snark}s can create any period
+   above 42, with a population never exceeding 356 live cells.
+     For the very lowest periods, whole families of {extensible}
+   oscillators are known.  Examples of this are {barberpole}, {cross},
+   {pentoad}, {p6 shuttle}, {snacker}, and {multiple roteightors}.  Any
+   of the {shuttle}s are oscillators by definition, for example the
+   {queen bee shuttle}.  Many of these are also extensible.  Other
+   oscillators such as {figure-8} and {tumbler} have unique mechanisms
+   that are not part of an extended family.
+     Some oscillators are useful because of the {perturbation}s they can
+   cause to other objects.  This is especially true if they provide a
+   {spark} on their boundary.  Some oscillators are explicitly found by
+   {search program}s in order to produce these sparks, such as
+   {pipsquirter}s.
+     Some higher period oscillators have been found while running random
+   {soup}s.  This is especially true if the soup is run on a cylindrical
+   or torus {universe}.  Sometimes the found objects can be moved to the
+   normal universe and supported there by added {catalyst}s.
+   {Achim's p144} is an example.
+
+:Osqrtlogt: (p1 circuitry)  A pattern constructed by Adam P. Goucher in
+   2010, which uses an unbounded triangular region as memory for a
+   binary counter.  Empty space is read as a zero, and a boat as a one,
+   as shown in the example pattern in {memory cell}.  The pattern's
+   diametric growth rate is O(sqrt(log(t))), which is the slowest
+   possible for any Life pattern, or indeed any 2D Euclidean cellular
+   automaton.  The population returns infinitely often to its initial
+   minimum value (during carry operations from 11111...1 to 100000...0,
+   so it can be considered to be an unusual form of {sawtooth}.
+
+:OTCA metapixel: (p46 circuitry)  A 2048 x 2048 period 35328 {metacell}
+   constructed by Brice Due in 2006.  It contains a large "pixel" area
+   that contains a large population of {LWSS}es when the metacell state
+   is ON, but is empty when it is OFF.  This allows the state of the
+   metacell to be visible at high zoom levels, unlike previous
+   {unit cell}s where the state was signaled by the presence or absence
+   of a single glider in a specific location.
+
+:out of the blue:  See {natural Heisenburp}.  Other similar mechanisms,
+   particularly the method of {LWSS} creation used in the pixel part of
+   the {OTCA metapixel}, may also be referred to as "out of the blue"
+   reactions.
+
+:overclocking:  A term used when a {circuit} can accept a signal at a
+   specific period which it cannot accept at a higher period.  A
+   {syringe} is a simple example.
+     Some {staged recovery} circuits also permit overclocking, and can
+   function successfully at a rate faster than their {recovery time}.  A
+   {Silver reflector} has a recovery time of 497 ticks, but can be
+   overclocked to reflect a period 250 glider stream, or any nearby
+   period above 248, simply by removing a beehive after the first glider
+   enters the reflector.  However, a continuous stream of gliders is
+   then required to maintain the circuit, with timing within a tightly
+   bounded range.
+
+:overcrowding:  = {overpopulation}
+
+:over-exposure:  = {underpopulation}
+
+:overpopulation:  Death of a cell caused by it having more than three
+   {neighbour}s.  See also {underpopulation}.
+
+:over-unity reaction:  An important concept in {gun} and
+   {macro-spaceship} construction.  To be a good candidate for building
+   one of these types of patterns with a new period or speed, a
+   stationary reaction (for a gun) or a moving reaction (for a
+   macro-spaceship) must be able to produce some number of output
+   {signal}s, strictly greater than the number of input signals required
+   to maintain the reaction.  The extra signal becomes a gun's output
+   {stream}, or may be used in a variety of ways to construct the
+   supporting {track} for a macro-spaceship.  By implication,
+   "over-unity" refers to the ratio of output signals to input signals.
+     If all signal outputs must be used up to sustain a stationary
+   reaction, a high-period {oscillator} may still be possible.  See
+   {emu} for example.
+
+:overweight spaceship:  = {OWSS}
+
+:OWSS:  A would-be {spaceship} similar to {LWSS}, {MWSS} and {HWSS} but
+   longer.  On its own an OWSS is unstable, but it can be escorted by
+   true spaceships to form a {flotilla}.
+
+:Ox:  A 1976 novel by Piers Anthony which involves Life.
+
+:p:  = {period}
+
+:p1:  Period 1, i.e., {stable}.  In the context of logic {circuit}ry,
+   this tends to mean that a mechanism is constructed from
+   {Herschel conduit}s that contain only {still life}s as {catalyst}s.
+   In the context of {slow glider construction}, a P1 {slow salvo} is
+   one in which there are no constraints on the {parity} of gliders in
+   the salvo, because the {intermediate target}s are all stable
+   constellations.  (The usual alternative is a "P2 slow salvo", where
+   the relative timing between adjacent gliders can be increased
+   arbitrarily, but only by multiples of two ticks.)
+
+:p104 gun:  A {glider gun} with period 104, found by Noam Elkies on 21
+   March 1996.  It is based on an {R-pentomino} {shuttle} reaction.
+
+	.**........**..........................
+	.**.........*.......*..................
+	.**.........*.**...*.*............**...
+	.*...........*......*.............***..
+	*.*......**......*................**.*.
+	*.**.....**....*....................*.*
+	................*..................*..*
+	....................................**.
+	.**....................................
+	.**....................................
+	...............**......................
+	................**..................**.
+	................*...................**.
+	.**......***........................**.
+	*..*.......*........................*..
+	*.*.........................**.....*.*.
+	.*.**.......................**.....*.**
+	..***.............*....................
+	...**............*.*...................
+	..................*.................**.
+	....................................**.

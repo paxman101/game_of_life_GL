@@ -1,0 +1,25 @@
+//   A 39786x143 {quadratic growth} pattern found
+   by Michael Simkin in October 2014, two days after
+   {25-cell quadratic growth} and a week before
+   {switch-engine ping-pong}.
+
+:25-cell quadratic growth:  A 25-cell quadratic growth pattern found by
+   Michael Simkin in October 2014, with a bounding box of 21372x172. It
+   was the smallest-population quadratic growth pattern for two days,
+   until the discovery of {24-cell quadratic growth}. It superseded
+   {wedge}, which had held the record for eight years.  See
+   {switch-engine ping-pong} for the lowest-population
+   {superlinear growth} pattern as of July 2018, along with a list of
+   the record-holders.
+
+:25P3H1V0.1: (c/3 orthogonally, p3)  A {spaceship} discovered by Dean
+   Hickerson in August 1989.  It was the first c/3 spaceship to be
+   discovered. In terms of its 25 cells, it is tied with {25P3H1V0.2} as
+   the smallest c/3 spaceship.  Unlike 25P3H1V0.2, it has a population
+   of 25 in all of its phases, as well as a smaller bounding box.
+
+	.......**.*.....
+	....**.*.**.***.
+	.****..**......*
+	*....*...*...**.
+	.**.............

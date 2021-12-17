@@ -1,0 +1,26 @@
+//   A term used for a {glider constructible} {seed} that can
+   activated in some way to produce a complex object.  For example, a
+   "freeze-dried salvo" is a constellation of constructible objects
+   which, when {trigger}ed by a single glider, produces a unidirectional
+   glider {salvo}, and nothing else.  Freeze-dried salvos can be useful
+   in {slow salvo} constructions, especially when an active circuit has
+   to destroy or reconstruct itself in a limited amount of time.
+   Gradual modification by a {construction arm} may be too slow, or the
+   circuit doing the construction may itself be the object that must be
+   modified.
+     The concept may be applied to other types of objects.  For example,
+   one possible way to build a gun for a {waterbear} would be to program
+   a construction arm to build a freeze-dried waterbear seed, and then
+   trigger it when the construction is complete.
+
+:French kiss: (p3)  Found by Robert Wainwright, July 1971.
+
+	*.........
+	***.......
+	...*......
+	..*..**...
+	..*....*..
+	...**..*..
+	......*...
+	.......***
+	.........*

@@ -1,0 +1,22 @@
+//   = {Herschel transmitter}.
+
+:transparent:  In signal circuitry, a term used for a {catalyst} that is
+   completely destroyed by the passing signal, then rebuilt.  Often
+   (though not always) the active reaction passes directly through the
+   area occupied by the transparent catalyst, then rebuilds the catalyst
+   behind itself, as in the {transparent block reaction}.  See also
+   {transparent lane}.
+
+:transparent block reaction:  A certain reaction between a block and a
+   {Herschel} {predecessor} in which the block reappears in its original
+   place some time later, the reaction having effectively passed through
+   it.  This reaction was found by Dave Buckingham in 1988.  It has been
+   used in some {Herschel conduit}s, and in the {gunstar}s.  Because the
+   reaction involves a Herschel predecessor rather than an actual
+   Herschel, the following diagram shows instead a {B-heptomino} (which
+   by itself would evolve into a block and a Herschel).
+
+	*.............
+	**..........**
+	.**.........**
+	**............

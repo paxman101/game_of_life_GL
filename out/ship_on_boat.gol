@@ -1,0 +1,12 @@
+//   = {ship tie boat}
+
+:ship on ship:  = {ship-tie}
+
+:ship-tie: (p1)  The name is by analogy with {boat-tie}.
+
+	**....
+	*.*...
+	.**...
+	...**.
+	...*.*
+	....**

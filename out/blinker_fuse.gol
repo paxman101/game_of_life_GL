@@ -1,0 +1,14 @@
+//   A {clean} {fuse} made from a row of blinkers separated
+   by one cell gaps.  The blinker row {wick} is usually created by a
+   {blinker puffer}.  The fuse can {burn} in at least three different
+   ways at a speed of {2c/3} depending on the method used to ignite the
+   end of the row of blinkers. This variant has found the most use.  The
+   burning advances 12 cells every 18 generations.
+
+	....................................................*.
+	.............................................**.*..*.*
+	............................................*.*.****.*
+	***.***.***.***.***.***.***.***.***.***.***.*.........
+	............................................*.*.****.*
+	.............................................**.*..*.*
+	....................................................*.

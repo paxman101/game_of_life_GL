@@ -1,0 +1,24 @@
+//   A term used for {turner}s and {splitter}s, specifying that
+   the reaction in question is not repeatable as it would be in a
+   {reflector} or {fanout} device.  Instead, the {constellation} is used
+   up, usually in a {clean} reaction, but the much more common {dirty}
+   turners and splitters are also very useful in some situations.
+
+:onion rings:  For each integer n>1 onion rings of order n is a {stable}
+   {agar} of {density} 1/2 obtained by tiling the plane with a certain
+   4n x 4n pattern.  The tile for order 3 onion rings is shown below.
+   The reader should be able to deduce the form of tiles of other
+   orders.
+
+	......******
+	.****.*....*
+	.*..*.*.**.*
+	.*..*.*.**.*
+	.****.*....*
+	......******
+	******......
+	*....*.****.
+	*.**.*.*..*.
+	*.**.*.*..*.
+	*....*.****.
+	******......

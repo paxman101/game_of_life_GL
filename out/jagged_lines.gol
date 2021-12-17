@@ -1,0 +1,17 @@
+//   A pattern constructed by Dean Hickerson in May 2005 that
+   uses {puffer}s to produce a line of {bi-block}s that weaves back and
+   forth in a complicated way.
+
+:jam: (p3)  Found by Achim Flammenkamp in 1988, but not widely known
+   about until its independent discovery (and naming) by Dean Hickerson
+   in September 1989.  Compare with {mold}.  In fact this is really very
+   like {caterer}.  In terms of its 7x7 {bounding box} it ties with
+   {trice tongs} as the smallest p3 {oscillator}.
+
+	...**.
+	..*..*
+	*..*.*
+	*...*.
+	*.....
+	...*..
+	.**...

@@ -1,0 +1,14 @@
+//   The following glider/block collision, which moves a block
+   (2,1) toward the glider source.  Performing this reaction twice using
+   a {salvo} of two gliders can move a block diagonally back by three
+   cells, which can be of use for a {sliding block memory}.
+
+	**.
+	**.
+	...
+	...
+	...
+	...
+	***
+	*..
+	.*.

@@ -1,0 +1,29 @@
+//   A {pseudo-random number generator} in
+   which the bits are represented by the presence or absence of
+   {glider}s.  The first pseudo-random glider generator was built by
+   Bill Gosper.  David Bell built the first moving one in 1997, using
+   c/3 {rake}s.
+
+:pseudo-random number generator:  A pseudo-random number generator
+   (PRNG) is an algorithm that produces a sequence of bits that looks
+   random (but cannot really be random, being algorithmically
+   determined).
+     In Life, the term refers to a PRNG implemented as a Life pattern,
+   with the bits represented by the presence or absence of objects such
+   as {glider}s or {block}s.  Such a PRNG usually contains gliders or
+   other {spaceship}s in a loop with a feedback mechanism that causes
+   later spaceships to interfere with the generation of earlier
+   spaceships.  The {period} can be very high, as a loop of n spaceships
+   has 2^n possible states.
+
+:pseudo still life:  A {stable} pattern whose live cells are either
+   immediately adjacent to each other, or are connected into a single
+   group by adjacent dead cells where birth is suppressed by
+   overpopulation.
+     The definition of {strict still life} rules out such stable
+   patterns as the {bi-block}.  In such patterns there are dead cells
+   which have more than 3 neighbours in total, but fewer than 3 in any
+   component still life.  These patterns are called pseudo still lifes,
+   and have been enumerated up to 32 bits, as shown in the table below.
+
+	

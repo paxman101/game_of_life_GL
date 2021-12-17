@@ -1,0 +1,34 @@
+//   A {single-channel} {stream} of {glider}s that, when aimed
+   to collide with an {elbow} {block} in a specific location, will
+   perform a {slow glider construction} of a {Snark}, directly on the
+   same {lane} as the incoming gliders.  This allows a
+   {construction arm} to add one or more {lossless elbow}s, so that it
+   can bend around multiple corners without an exponential increase in
+   construction cost.
+     The Snarkmaker recipe used in the first single-channel {Demonoid},
+   {Orthogonoid}, and {spiral growth} patterns contains 2,254 gliders.
+   This could be considerably reduced with a customized
+   {search program}.
+
+:SNG:  = {second natural glider}.
+
+:SODGame:  = {Seeds of Destruction Game}
+
+:sombrero:  One half of {sombreros} or {siesta}.
+
+:sombreros: (p6)  Found by Dave Buckingham in 1972.  If the two halves
+   are moved three spaces closer to one another then the period drops to
+   4, and the result is just a less compact form of {Achim's p4}.
+   Compare also {siesta}.
+
+	...**........**...
+	...*.*......*.*...
+	.....*......*.....
+	...*.**....**.*...
+	.***..........***.
+	*...*.*....*.*...*
+	.***..........***.
+	...*.**....**.*...
+	.....*......*.....
+	...*.*......*.*...
+	...**........**...

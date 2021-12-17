@@ -1,0 +1,42 @@
+//   A method of generating {slow salvo}s across a wide range of
+   lanes without using a {construction arm} with a movable {elbow}.
+   Instead, streams of gliders on two fixed opposing {lane}s collide
+   with each other to produce clean 90-degree output gliders.  Slowing
+   down one of the streams by 8N ticks will move the output lanes of the
+   gliders toward the source of that stream by N {full diagonal}s.  This
+   construction method was used to create the supporting slow salvos in
+   the {half-baked knightship}s, and also in the {Parallel HBK gun}.
+
+:ash:  The {stable} or oscillating objects left behind when a chaotic
+   reaction stabilizes, or "burns out". Experiments show that for random
+   {soup}s with moderate initial densities (say 0.25 to 0.5) the
+   resulting ash has a density of about 0.0287.  (This is, of course,
+   based on what happens in finite fields. In infinite fields the
+   situation may conceivably be different in the long run because of the
+   effect of certain initially very rare objects such as {replicator}s.)
+
+:asynchronous:  Indicates that precise relative timing is not needed for
+   two or more input {signal}s entering a {circuit}, or two or more sets
+   of {glider}s participating in a {glider synthesis}.  In some cases
+   the signals or sets of gliders can arrive in any order at all - i.e.,
+   they have non-overlapping effects.
+     However, in some cases such as {slow salvo} constructions, there is
+   a required order for some of the incoming signals.  These signals can
+   still be referred to as "asynchronous" because the number of ticks
+   between them is infinitely adjustable:  arbitrarily long delays can
+   be added with no change to the final result.  Compare {synchronized}.
+
+:aVerage: (p5)  Found by Dave Buckingham, 1973.  The average number of
+   live {rotor} cells is five (V), which is also the period.
+
+	...**........
+	....***......
+	..*....*.....
+	.*.****.*....
+	.*.*....*..*.
+	**.***..*.*.*
+	.*.*....*..*.
+	.*.****.*....
+	..*....*.....
+	....***......
+	...**........

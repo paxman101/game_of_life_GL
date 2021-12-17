@@ -1,0 +1,39 @@
+//   = {switch engine channel}
+
+:switch-engine ping-pong:  A very large (210515x183739)
+   {quadratic growth} pattern found by Michael Simkin in October 2014.
+   Currently this is the smallest starting population (23 cells) known
+   to result in a quadratic population growth rate.  Previous
+   record-holders include {Jaws}, {mosquito1}, {mosquito2}, {mosquito3},
+   {mosquito4}, {mosquito5}, {teeth}, {catacryst}, {metacatacryst},
+   {Gotts dots}, {wedge}, {26-cell quadratic growth},
+   {25-cell quadratic growth}, and {24-cell quadratic growth}.
+
+:symmetric:  Any object which can be rotated and/or flipped over an axis
+   and still maintain the same shape.  Many common small objects such as
+   the {block}, {beehive}, {pond}, {loaf}, {clock}, and {blinker} are
+   symmetric.  Some larger symmetric objects are {Kok's galaxy},
+   {Achim's p16}, {cross}, {Eureka}, and the {pulsar}.
+     Large symmetric objects can easily be created by placing multiple
+   copies of any finite object together in a symmetrical way.  Unless
+   the individual objects interact significantly, this is considered
+   trivial and is not considered further here (e.g., two {LWSS}s
+   travelling together a hundred cells apart).
+     There are two kinds of symmetry.  Odd symmetry occurs when an
+   object's line of reflection passes through the center of a line of
+   cells.  Objects with odd symmetry have an odd number of columns or
+   rows, and can have a {gutter}.  Even symmetry occurs when the line of
+   reflection follows the boundary between two lines of cells.  Objects
+   with even symmetry have an even number of columns or rows.
+     Because the Life universe and its rules are symmetric, all
+   symmetric objects must remain symmetric throughout their {evolution}.
+   Most non-symmetric objects keep their non-symmetry as they evolve,
+   but some can become symmetric, especially if they result in a single
+   object.  Here is a slightly more complicated example where two
+   gliders interact to form a {blockade}:
+
+	..*.........
+	*.*.........
+	.**........*
+	.........**.
+	..........**

@@ -1,0 +1,28 @@
+//   A reaction which travels indefinitely as a {wave} through the
+   components of a {wick} or an {agar}.  A burning wick is known as a
+   {fuse}.
+     If the object being burned has a spatial periodicity, then the
+   active area of the burning usually remains bounded and so eventually
+   develops a periodicity too.  It is unknown whether this will always
+   occur.
+     The speed of burning can range from arbitrarily slow up to the
+   {speed of light}.  The results of burning can be clean (leaving no
+   debris), or leaving debris usually much different from the original
+   object.  In rare cases, a {reburnable fuse} produces an exact copy of
+   the original object, allowing the creation of objects such as the
+   {telegraph}.
+     In many useful cases burning can be initiated by impacting an
+   object with {glider}s or other {spaceship}s.  An object might be able
+   to burn in more than one way, depending on how the burn is initiated.
+
+:bushing:  That part of the {stator} of an {oscillator} which is
+   adjacent to the {rotor}.  Compare {casing}.
+
+:butterfly:  The following pattern, or the formation of two beehives
+   that it evolves into after 33 generations.  (Compare {teardrop},
+   where the beehives are five cells closer together.)
+
+	*...
+	**..
+	*.*.
+	.***

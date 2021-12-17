@@ -1,0 +1,50 @@
+//  ((5120,1024)c/33699586 obliquely, p33699586)  The first
+   {self-constructing} spaceship, and also the first {oblique}
+   spaceship.  It was made public by Andrew Wade on 18 May 2010.  It was
+   the thirteenth explicitly constructed spaceship velocity in Life, and
+   made possible an infinite family of related velocities.  The Gemini
+   spaceship derives its name from the Latin "gemini", meaning twins,
+   describing its two identical halves, each of which contains three
+   Chapman-Greene {construction arm}s. A tape of gliders continually
+   relays between the two halves, instructing each to delete its parent
+   and construct a daughter configuration.
+
+:Gemini puffer:  See {Pianola breeder}.
+
+:Geminoid:  A type of self-constructing circuitry that borrows key ideas
+   from Andrew Wade's {Gemini} spaceship, but with several
+   simplifications.  The main feature common to the Gemini spaceship is
+   the construction recipe encoding method.  Information is stored
+   directly, and much more efficiently, in the timings of moving
+   gliders, rather than in a static tape with 1s and 0s encoded by the
+   presence of small stationary objects.
+     Unlike the original Gemini, Geminoids have {ambidextrous}
+   construction arms, initially using glider pairs on two lanes
+   separated by 9{hd}, 10hd, or 0hd. The design was the basis for the
+   {linear propagator} and the {Demonoid}s.  A more recent development
+   is a Geminoid toolkit using a {single-channel} construction arm,
+   which allows for the possibility of multiple elbows with no loss of
+   efficiency, or the construction of temporary lossless elbows.
+   Compare {slow elbow}.
+     Other new developments that could be considered part of the
+   extended "Geminoid" toolkit include {freeze-dried} construction
+   salvos and seeds, used when objects must be built within a short time
+   window, and self-destruct circuits, which are used as an alternative
+   to a {destructor arm} to clean up temporary objects in a similarly
+   short window.
+
+:generation:  The fundamental unit of time.  The starting pattern is
+   generation 0.
+
+:germ: (p3)  Found by Dave Buckingham, September 1972.
+
+	....**....
+	.....*....
+	...*......
+	..*.****..
+	..*....*..
+	.**.*.....
+	..*.*.****
+	*.*.*....*
+	**...***..
+	.......**.

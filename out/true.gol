@@ -1,0 +1,13 @@
+//   Opposite of {pseudo}.  A {gun} emitting a period n stream of
+   {spaceship}s (or {rake}s) is said to be a true period n gun if its
+   mechanism oscillates with period n.  The same distinction between
+   true and pseudo also exists for {puffer}s.  An easy way to check that
+   a gun is true period n is to stop the output with an {eater}, and
+   check that the result is a period-n {oscillator}.
+     True period n guns are known to exist for all periods greater than
+   61 (see {My Experience with B-heptominos in Oscillators}), but only a
+   few smaller periods have been achieved, namely 20, 22, 24, 30, 36,
+   40, 44, 45, 46, 48, 50, and 54 through 61.  See also {Quetzal} for
+   the 54-61 range.
+
+	

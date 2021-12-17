@@ -1,0 +1,33 @@
+//   A pattern that rotates itself 90 or
+   180 degrees after some number of {generation}s, with the additional
+   constraint that multiple non-interacting copies of the pattern can be
+   combined into a new oscillator with a period equal to the appropriate
+   fraction of the component oscillators' period. The second constraint
+   disqualifies small time-symmetric {oscillator}s such as the {blinker}
+   and {monogram}.
+     A working RRO might look something like a {pi orbital} or
+   {p256 gun} loop containing one or more {pi}s or {Herschel}s in the
+   same loop, but without any external stabilisation mechanism.  Such
+   patterns can be proven to exist (see {universal constructor}), but as
+   of June 2018 none have been explicitly constructed in Life.  There is
+   no upper limit on {multiplicity} for a constructor-based RRO.
+
+:regulator:  An object which converts input {glider}s aligned to some
+   period to output gliders aligned to a different period.  The most
+   interesting case is a {universal regulator}, of which several have
+   been constructed by Paul Chapman and others.
+
+:relay:  Any {oscillator} in which {spaceship}s (typically {glider}s)
+   travel in a loop.  The simplest example is the p60 one shown below
+   using two {pentadecathlon}s.  Pulling the pentadecathlons further
+   apart allows any period of the form 60+120n to be achieved.  This is
+   the simplest proof of the existence of oscillators of arbitrarily
+   large period.
+
+	...........................*....*..
+	................**.......**.****.**
+	.................**........*....*..
+	................*..................
+	..*....*...........................
+	**.****.**.........................
+	..*....*...........................

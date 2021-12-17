@@ -1,0 +1,23 @@
+//   = {eater5}
+
+:two-arm:  The type of {universal constructor} exemplified by the
+   original {Gemini} spaceship, where two independently programmed
+   {construction arm}s sent gliders in pairs on 90-degree paths to
+   collide with each other at the construction site.  Construction
+   recipes for two-arm constructors are much more efficient in general,
+   but they require many more {circuit}s and multiple independent data
+   streams, which both tend to increase the complexity of
+   {self-constructing} circuitry.  Compare {single-arm}.
+
+:two-bit spark:  = {duoplet}.
+
+:two eaters: (p3)  Found by Bill Gosper, September 1971.
+
+	**.......
+	.*.......
+	.*.*.....
+	..**.....
+	.....**..
+	.....*.*.
+	.......*.
+	.......**

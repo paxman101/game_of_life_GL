@@ -1,0 +1,17 @@
+//   An alternative name for a {boat-bit}.  Not a very sensible
+   name, because various other things can be used instead of a snake.  A
+   snake, or alternatively an {aircraft carrier}, is the smallest object
+   that can consume a glider {stream} by effectively acting as an
+   {eater} for every two incoming gliders.  The one-cell reduction from
+   the smallest real eater, the seven-cell {eater1}, has been important
+   when trying to construct recent {sawtooth}s where the {population}
+   must be minimized.
+
+:snake bridge snake: (p1)
+
+	....**
+	....*.
+	.....*
+	....**
+	**.*..
+	*.**..

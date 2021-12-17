@@ -1,0 +1,37 @@
+//   A device by Dieter Leithner (October 1996) for transporting
+   a {LWSS} faster than the {speed of light}.  The key reaction is the
+   {Fast Forward Force Field}.
+
+:stator:  The cells of an {oscillator} that are always on.  Compare
+   {rotor}.  (The stator is sometimes taken to include also some of
+   those cells which are always off.)  The stator is divided into the
+   {bushing} and the {casing}.
+     By analogy, the cells of an {eater} that remain on even when the
+   eater is eating are considered to constitute the stator of the eater.
+   This is not always well-defined, because an eater can have more than
+   one eating action.
+
+:statorless:  A statorless {oscillator} is one in which no cell is
+   permanently on - that is, the {stator} is empty,  or in other words
+   the oscillator has the maximum possible volatility.  See the
+   {volatility} entry for examples of this type of oscillator at
+   different periods.  Statorless oscillators can be constructed for any
+   sufficiently large period, using {universal constructor} technology.
+
+:statorless p5: (p5)  Found by Josh Ball, June 2016.  The first and only
+   known {statorless} {period} 5 {oscillator}.
+
+	*.............*
+	.**.........**.
+	*....**.**....*
+	**.*.......*.**
+	.*.*..*.*..*.*.
+	..*.*.....*.*..
+	..***.....***..
+	..***.....***..
+	..*.*.....*.*..
+	.*.*..*.*..*.*.
+	**.*.......*.**
+	*....**.**....*
+	.**.........**.
+	*.............*

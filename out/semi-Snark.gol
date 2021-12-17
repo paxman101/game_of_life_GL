@@ -1,0 +1,26 @@
+//   Any small {stable} {signal} {conduit} that produces one
+   output glider for every two input gliders, with a 90 degree
+   reflection.  These can act as period-doublers for any glider stream
+   whose period is at least equal to their repeat time, and so adding
+   one of these to a single glider {gun} often results in a pattern much
+   smaller than the older {technology} of crossing the output of two
+   guns.
+     The available semi-Snarks differ in their complexity, size, repeat
+   time, and the colour of their output gliders.  The {CC semi-Snark}
+   was the first one found, and the term "semi-Snark" is often used
+   specifically for this object.  The "CC" prefix stands for
+   {colour-changing}, by contrast with the more recently discovered
+   {colour-preserving} {CP semi-Snark}.
+     There are also CC and CP variants of a semi-Snark based on a
+   two-{glider} to {century} {converter} discovered by Tanner Jacobi in
+   November 2017.  These {semi-cenark}s are the fastest semi-Snarks
+   known as of July 2018, with a {repeat time} as low as 50 ticks, or a
+   periodic input rate as low as 36 ticks.
+
+:sesquihat: (p1)  Halfway between a {hat} and a {twinhat}.
+
+	....*..
+	**.*.*.
+	.*.*.*.
+	.*.*.**
+	..*....

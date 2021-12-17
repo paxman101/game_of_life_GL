@@ -1,0 +1,27 @@
+//   A label used for the small periodic {colour-changing}
+   {glider} {reflector}s discovered mainly by Noam Elkies in the late
+   1990s.  See  {p5 bouncer}, {p6 bouncer}, {p7 bouncer}, {p8 bouncer},
+   or {p15 bouncer}.
+
+:bounding box:  The smallest rectangular array of cells that contains
+   the whole of a given pattern.  For {oscillator}s and {gun}s this
+   usually is meant to include all {phase}s of the pattern, but in the
+   case of guns, the outgoing stream(s) are excluded.  The bounding box
+   is one of the standard ways to measure the size of an object; the
+   other standard metric is the {population}.
+
+:bow tie:  = {boat-tie}
+
+:brain: (c/3 orthogonally, p3)  Found by David Bell, May 1992.
+
+	.***.........***.
+	*.*.**.....**.*.*
+	*.*.*.......*.*.*
+	.*.**.**.**.**.*.
+	.....*.*.*.*.....
+	...*.*.*.*.*.*...
+	..**.*.*.*.*.**..
+	..***..*.*..***..
+	..**..*...*..**..
+	.*....**.**....*.
+	.*.............*.

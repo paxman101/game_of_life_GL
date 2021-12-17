@@ -1,0 +1,17 @@
+//   = {pipsquirter}
+
+:pipsquirter:  An {oscillator} that produces a {domino} {spark} that is
+   orientated parallel to the direction from which it is produced (in
+   contrast to domino sparkers like the {pentadecathlon} and {HWSS},
+   which produce domino sparks perpendicular to the direction of
+   production).  See {p6 pipsquirter}, {p7 pipsquirter}.
+
+:pi ship:  A {growing spaceship} in which the back part consists of a
+   {pi-heptomino} travelling at a speed of 3c/10.  The first example was
+   constructed by David Bell.  All known pi ships are too large to show
+   here, but the following diagram shows how the pi fuse works.
+
+	............*............
+	...........*.*...........
+	**........**.**........**
+	**.....................**

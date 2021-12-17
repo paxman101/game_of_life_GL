@@ -1,0 +1,25 @@
+//   A series of articles posted by David Bell
+   to the newsgroup comp.theory.cell-automata during the period
+   August-October 1992 that described many of the new {spaceship}s found
+   by himself, Dean Hickerson and Hartmut Holzwart.  Bell produced an
+   addendum covering more recent developments in 1996.
+
+:spaghetti monster:  The first {3c/7 spaceship}, found by Tim Coe in
+   June 2016.  The spaceship travels orthogonally, has a minimum of 702
+   live cells and fits in a 27x137 bounding box.
+
+:spark:  A pattern that dies.  The term is typically used to describe a
+   collection of cells periodically thrown off by an {oscillator} or
+   {spaceship}, but other dying patterns, particularly those consisting
+   or only one or two cells (such as produced by certain glider
+   collisions, for example), are also described as sparks.  For examples
+   of small sparks see {unix} and {HWSS}.  Examples of much larger
+   sparks are seen in {Schick engine} and {twin bees shuttle spark}.
+
+:spark coil: (p2)  Found in 1971.
+
+	**....**
+	*.*..*.*
+	..*..*..
+	*.*..*.*
+	**....**

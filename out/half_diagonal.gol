@@ -1,0 +1,29 @@
+//   A natural measurement of distance between parallel
+   glider lanes, or between {elbow} locations in a {universal}
+   {construction arm} {elbow operation} library.  If two gliders are in
+   the same phase and exactly lined up vertically or horizontally, N
+   cells away from each other, then the two glider {lane}s are
+   considered to be N half diagonals (hd) apart.  Gliders that are an
+   integer number of {full diagonal}s apart must be the same colour,
+   whereas integer {half diagonal}s allow for both glider colours.  See
+   {colour of a glider}, {linear propagator}.
+
+:half fleet:  = {ship-tie}
+
+:Halfmax:  A pattern that acts as a spacefiller in half of the Life
+   plane, found by Jason Summers in May 2005. It expands in three
+   directions at c/2, producing a triangular region that grows to fill
+   half the plane.
+
+:hammer:  To hammer a {LWSS}, {MWSS} or {HWSS} is to smash things into
+   the rear end of it in order to transform it into a different type of
+   {spaceship}.  A hammer is the object used to do the hammering. In the
+   following example by Dieter Leithner an LWSS is hammered by two more
+   LWSS to make it into an MWSS.
+
+	*..*................
+	....*...**..........
+	*...*..***.....****.
+	.****..**.*....*...*
+	........***....*....
+	.........*......*..*

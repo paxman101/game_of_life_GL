@@ -1,0 +1,28 @@
+//   A {gun} that fires a {salvo} of multiple {spaceship}s, almost
+   always {glider}s, on parallel {lane}s.  Two to four shotguns are
+   often combined to turn a {glider synthesis} into a gun or {factory}
+   for that synthesis.
+
+:shoulder:  The fixed upper end of a {construction arm}, generally
+   consisting of one or more glider {gun}s or {edge shooter}s aimed at
+   an {elbow} object.
+
+:shuttle:  Any {oscillator} which consists of an active region moving
+   back and forth between stabilizing objects.  The most well-known
+   examples are the {queen bee shuttle} (which has often been called
+   simply "the shuttle") and the {twin bees shuttle}.  See also
+   {p54 shuttle}, {p130 shuttle} and {Eureka}.  Another example is the
+   p72 {R-pentomino} shuttle that forms part of the pattern given under
+   {factory}.
+
+:siamese:  A term used in naming certain {still life}s (and the {stator}
+   part of certain {oscillator}s).  It indicates that the object
+   consists of two smaller objects sharing two or more cells.  See
+   {snake siamese snake} and {loaf siamese barge} for examples.
+
+:side:  Half a {sidewalk}.  In itself this is unstable and requires an
+   {induction coil}.
+
+	**...
+	*.***
+	....*

@@ -1,0 +1,52 @@
+//   A type of {universal constructor} using just one
+   construction arm and {slow salvo} techniques to construct, usually,
+   {Spartan} or near-Spartan circuitry.  Compare {two-arm}.
+
+:single-channel:  A type of {universal constructor} discovered and
+   developed by Simon Ekstrom and others starting in December 2015.  The
+   initial {elbow operation} toolkit was near-minimal, with just one
+   {push}, one {pull}, and one output glider of each colour (see
+   {colour of a glider}).  Later searches produced a much larger and
+   more efficient library.
+     Single-channel {recipe}s consist of a {stream} of {glider}s on a
+   single {lane} and aimed at a {construction elbow}, usually separated
+   from each other by at least 90 {tick}s.  In spite of these strict
+   limitations, single-channel recipes can be made to do surprising
+   things.  For example, it is possible to build a {Snark} directly on
+   the {construction lane} of an active construction arm, starting from
+   a single {elbow} {block}.  This can allow the arm to reach
+   efficiently around complex obstructions by bending itself through
+   multiple {lossless elbow}s.  Known recipes can also remove an elbow
+   when it is no longer needed, by controlled demolition of the Snark.
+     As of June 2018, almost all single-channel recipes are made up of
+   {singleton}s and {synchronized} pairs of gliders, but no synchronized
+   triplets or larger groups.  This is not an inherent limitation of
+   single-channel construction, but rather a limitation in the
+   {search program} used to find currently known single-channel
+   {toolkit}s.
+     A useful byproduct of this limitation is that single-channel
+   recipes can be trivially adjusted to allow them to safely cross
+   perpendicular data streams, including other single-channel recipes
+   (or earlier parts of the same recipe).  To avoid collisions with a
+   crossing stream, each singleton glider or glider pair can safely be
+   delayed by any even number of ticks, or technically by any multiple
+   of the period of the current {intermediate target}.  The final result
+   of the construction will not be affected.
+
+:single-channel Demonoid:  See {Demonoid}.
+
+:single-lane:  = {single-channel}.
+
+:singleton:  In {single-channel} {recipe}s, a glider that is not
+   {synchronized} with a neighboring glider in its {stream}.  Compare
+   {glider pair}.
+
+:singular flip flop: (p2)  Found by Robert Wainwright, July 1972.
+
+	..*...
+	..*.*.
+	*....*
+	******
+	......
+	..**..
+	..**..

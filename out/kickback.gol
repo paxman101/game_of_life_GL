@@ -1,0 +1,13 @@
+//   = {kickback reaction} or {180-degree kickback}.
+
+:kickback reaction:  The following collision of two {glider}s whose
+   product is a single glider travelling in the opposite direction to
+   one of the original gliders.  This is important in the proof of the
+   existence of a {universal constructor}, and in Bill Gosper's
+   {total aperiodic}, as well as a number of other constructions.
+
+	.....*..
+	......**
+	.**..**.
+	*.*.....
+	..*.....

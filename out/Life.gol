@@ -1,0 +1,28 @@
+//   A 2-dimensional 2-state {cellular automaton} discovered by John
+   Conway in 1970.  The states are referred to as ON and OFF (or live
+   and dead).  The transition rule is as follows: a cell that is ON will
+   remain ON in the next generation if and only if exactly 2 or 3 of the
+   8 adjacent cells are also ON, and a cell that is OFF will turn ON if
+   and only if exactly 3 of the 8 adjacent cells are ON.  (This is more
+   succinctly stated as: "If 2 of your 8 nearest neighbours are ON,
+   don't change.  If 3 are ON, turn ON.  Otherwise, turn OFF.")
+
+:Life32:  A freeware Life program by Johan Bontes for Microsoft Windows
+   95/98/ME/NT/2000/XP: {https://github.com/JBontes/Life32/}.
+
+:LifeHistory:  A multistate CA rule supported by {Golly}, equivalent to
+   two-state B3/S23 Life but with several additional states intended for
+   annotation purposes.  A "history" state records whether an off cell
+   has ever turned on in the past, and other states allow on and off
+   cells to be permanently or temporarily marked, without affecting the
+   {evolution} of the pattern.
+
+:LifeLab:  A shareware Life program by Andrew Trevorrow for the
+   Macintosh (MacOS 8.6 or later): {http://www.trevorrow.com/lifelab/}.
+
+:LifeLine:  A newsletter edited by Robert Wainwright from 1971 to 1973.
+   During this period it was the main forum for discussions about Life.
+   The newsletter was nominally quarterly, but the actual dates of its
+   eleven issues were as follows:
+
+	

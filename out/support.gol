@@ -1,0 +1,18 @@
+//   Those parts of an object which are only present in order to
+   keep the rest of the object (such an {engine} or an edge {spark})
+   working correctly.  These can be components of the object, or else
+   accompanying objects used to {perturb} the object.  In many cases
+   there is a wide variation of support possible for an engine.  The
+   {arm}s in many {puffer}s are an example of support.
+
+:surprise: (p3)  Found by Dave Buckingham, November 1972.
+
+	...*....**
+	...***..*.
+	.**...*.*.
+	*..**.*.**
+	.*......*.
+	**.*.**..*
+	.*.*...**.
+	.*..***...
+	**....*...

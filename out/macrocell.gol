@@ -1,0 +1,16 @@
+//   A format used by {Golly} and its {hashlife} algorithm,
+   capable of storing repetitive patterns very efficiently, even if they
+   contain a large number of cells.  For example, a filled square 2^167
+   cells on a side can be stored in less than three kilobytes in
+   macrocell format, or about 800 bytes in compressed macrocell format.
+   The square's total population is over a googol, 10^100; the number of
+   atoms in the observable universe is only about 10^80.
+     This high level of compression is obtained by defining a tree
+   structure composed of increasingly large cell "tiles" with
+   power-of-two dimensions.  Tile definitions of any size are re-used
+   whenever they appear multiple times in a large pattern (at the same
+   power-of-two offset).  For example, the following is a macrocell
+   encoding of a complex {pseudo still life} arrangement of {ship}s,
+   with a total population over 2500 cells:
+
+	

@@ -1,0 +1,33 @@
+//   Depending on context, this term may refer to a {signal elbow}
+   or a {construction elbow}.  See also {elbow ladder}.
+
+:elbow ladder:  Scot Ellison's name for the type of pattern he created
+   in which one or more {glider}s shuttle back and forth (using the
+   {kickback reaction}) deleting the output gliders from a pair of
+   {slide gun}s.
+
+:elbow operation:  A recipe, usually a {salvo} of {glider}s travelling
+   on one or more {construction lane}s, that collides with an {elbow}
+   {constellation} and performs one of the standard transformations on
+   it:  {push}, {pull}, or {fire} for simple construction arms, along
+   with possible construct, duplicate-elbow, or delete-elbow ops for
+   more complicated systems.  See {construction elbow}.
+
+:electric fence: (p5)  A stabilization of {ants}.  Dean Hickerson,
+   February 1993.
+
+	..........*..................................................
+	.........*.*........................**.......................
+	..*....***.*.....*...................*...*..*......*.....**..
+	.*.*..*....**...*.*..................*.***..***...*.*....*...
+	.*.*..*.**.......*....................*...**...*.*..*......*.
+	**.**.*.*.*****.....*..................**...*..*.*.**.**..**.
+	.*.*..*...*..*..*.......**...**...**....**.**..*.*..*.*.*....
+	.*..**....**......***.**...**...**...***.....****.***.*...**.
+	..*..***..*..*.****...**...**...**...***.**..*....*.*....*..*
+	...**...*.*..*.....**...**...**...**......*............*...**
+	.....**.*.**.*.**..*......................*........**.*......
+	.....*.**.*..*.**....*.................**.*.*................
+	...........**.......**..................*..**................
+	......................................*.*....................
+	......................................**.....................

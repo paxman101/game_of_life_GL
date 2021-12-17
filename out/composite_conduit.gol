@@ -1,0 +1,22 @@
+//   A signal-processing {conduit} that can be
+   subdivided into two or more {elementary conduit}s.
+
+:compression:  = {repeat time}, {recovery time}.
+
+:computational universality:  See {universal computer}.
+
+:conduit:  Any arrangement of {still life}s and/or {oscillator}s that
+   moves an active object to another location, perhaps also transforming
+   it into a different active object at the same time, but without
+   leaving any permanent debris (except perhaps gliders, or other
+   spaceships) and without any of the still lifes or oscillators being
+   permanently damaged.  Probably the most important conduit is the
+   following remarkable one (Dave Buckingham, July 1996) in which a
+   {B-heptomino} is transformed into a {Herschel} in 59 generations.
+
+	.........**.*
+	*.**......***
+	**.*.......*.
+	.............
+	.........**..
+	.........**..

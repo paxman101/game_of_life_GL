@@ -1,0 +1,8 @@
+//   The greatest speed at which any effect can propagate;
+   in {Life}, a speed of one cell per {generation}.  Usually denoted c.
+
+:S-pentomino:  Conway's name for the following {pentomino}, which
+   rapidly dies.
+
+	..**
+	***.

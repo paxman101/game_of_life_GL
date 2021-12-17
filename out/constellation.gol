@@ -1,0 +1,90 @@
+//   A general term for a group of two or more separate
+   objects, usually small still lifes and low-period oscillators.
+   Compare {pseudo still life}.
+
+:construction arm:  An adjustable mechanism in a {universal constructor}
+   that allows new objects to be constructed in any chosen location that
+   the arm can reach.  A construction arm generally consists of a
+   {shoulder} containing fixed guns or edge shooters, a movable
+   {construction elbow} that slides forward and backward along the
+   {construction lane}(s), and in the case of {single-arm} universal
+   constructors, a {hand} target object at the construction site that
+   can be progressively modified by a {slow salvo} to produce each
+   desired object.
+
+:construction elbow:  One of the components of a {construction arm} in a
+   {universal constructor}.  The elbow usually consists of a single
+   {Spartan} still life or small constellation.  It accepts
+   {elbow operation} recipes, in the form of {salvo}s coming from the
+   construction arm's {shoulder}.
+     These recipes may do one of several things:  1) {pull} the elbow
+   closer to the shoulder, 2) {push} the elbow farther from the
+   shoulder, 3) emit a glider on a particular output {lane} (while also
+   optionally pushing or pulling the elbow); 4) create a "{hand}" target
+   block or other useful object as a target for output gliders, to one
+   side of the {construction lane}; 5)  duplicate the elbow, or 6)
+   destroy the elbow.
+     Elbows that receive and emit orthogonally-travelling {spaceship}s
+   instead of gliders are technically possible, but no working examples
+   are currently known.  The discussion below assumes that gliders are
+   used to communicate between the shoulder, elbow, and hand locations.
+     If a mechanism can be programmed to generate recipes for at least
+   the first three options listed above, it is generally capable of
+   functioning as a {universal constructor}.  The main requirement is
+   that push and pull {elbow operation}s should be available that are
+   either minimal (1{fd}) or the distances should be relatively prime.
+     Depending on the {elbow operation} library, there may be only one
+   type of elbow, or there may be two or more elbow objects, with
+   recipes that convert between them.  The {9hd} library had just one
+   elbow type, a block.  The original 10{hd} library had two elbows,
+   blocks in mirror-symmetric locations; this was expanded to a larger
+   list for the {10hd Demonoid}.  The {0hd Demonoid} also has a
+   multi-elbow recipe library.  A {slow elbow} toolkit may make use of
+   an even larger number of glider output recipes, because the {target}
+   elbow object in that case is not restricted to a single diagonal
+   line.
+     If only one colour, parity, or phase of glider can be emitted, then
+   the mechanism will be limited to producing {monochromatic salvo}s or
+   {monoparity salvo}s.  These are less efficient at most construction
+   tasks, but are still generally accepted to enable
+   {universal toolkit}s.  See also {half-baked knightship}.
+
+:construction envelope:  The region affected by an active reaction, such
+   as a {glider synthesis} of an object.  The envelope corresponds to
+   the state-2 blue cells in {LifeHistory}.  See also {edgy}.
+
+:construction lane:  Part of a {construction arm} between the {shoulder}
+   and the {elbow} - in particular, one of the fixed {lane}s that
+   {elbow operation} signals travel on.  All known
+   {universal constructor}s have used arms with two or more construction
+   lanes, except for the ones in the {0hd Demonoid} and in recent
+   {single-channel} construction recipes.
+
+:construction recipe:  One or more streams of {glider}s or other signals
+   fed into a {universal constructor} to create a target object.
+   Compare {glider recipe}.
+
+:construction universality:  See {universal constructor}.
+
+:converter:  A {conduit} in which the input object is not of the same
+   type as the output object.  This term tends to be preferred when
+   either the input object or the output object is a {spaceship}.
+     The following diagram shows a p8 {pi-heptomino}-to-{HWSS}
+   converter.  This was originally found by Dave Buckingham in a larger
+   form (using a {figure-8} instead of the {boat}).  The improvement
+   shown here is by Bill Gosper (August 1996).  Dieter Leithner has
+   since found (much larger) {oscillator}s of periods 44, 46 and 60 that
+   can be used instead of the {Kok's galaxy}.
+
+	.*.*..*........
+	.***.*.**......
+	*......*.....*.
+	.*.....**...*.*
+	.............**
+	**.....*.......
+	.*......*......
+	**.*.***.......
+	..*..*.*.......
+	............***
+	............*.*
+	............*.*

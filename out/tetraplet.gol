@@ -1,0 +1,8 @@
+//   Any 4-cell {polyplet}.
+
+:tetromino:  Any 4-cell {polyomino}.  There are five such objects, shown
+   below.  The first is the {block}, the second is the {T-tetromino} and
+   the remaining three rapidly evolve into {beehive}s.
+
+	**......***......****......***......**.
+	**.......*...................*.......**

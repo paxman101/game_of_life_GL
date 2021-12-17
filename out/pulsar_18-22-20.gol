@@ -1,0 +1,24 @@
+//   = {two pulsar quadrants}
+
+:pulsar CP 48-56-72:  = {pulsar}  (The numbers refer to the populations
+   of the three {phase}s.)
+
+:Pulsar Pixel Display: (p30 circuitry)  A large-scale raster line
+   display device constructed by Mark Walsh in August 2010, where
+   {pulsar}s form the individual pixels in an otherwise empty grid.  The
+   published sample pattern displays and erases eight 7x5-pixel
+   characters on each of two lines of text.
+
+:pulsar quadrant: (p3)  This consists of a quarter of the outer part of
+   a {pulsar} stabilized by a {cis fuse with two tails}.  This is
+   reminiscent of {mold} and {jam}.  Found by Dave Buckingham in July
+   1973.  See also {two pulsar quadrants}.
+
+	.....*..
+	...***..
+	..*...**
+	*..*..*.
+	*...*.*.
+	*....*..
+	........
+	..***...

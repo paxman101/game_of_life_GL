@@ -1,0 +1,14 @@
+//   = {century-to-glider converter}
+
+:cuphook: (p3)  Found by Rich Schroeppel, October 1970.  This is one of
+   only three essentially different p3 {oscillator}s with only three
+   cells in the {rotor}.  The others are {1-2-3} and {stillater}.
+
+	....**...
+	**.*.*...
+	**.*.....
+	...*.....
+	...*..*..
+	....**.*.
+	.......*.
+	.......**

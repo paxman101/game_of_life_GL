@@ -1,0 +1,37 @@
+//   The result of evolving a pattern until its final behaviour is
+   known.  This answers such questions such as whether or not the
+   pattern remains finite, what its growth rate is, what {period} the
+   final state may settle into, and what its final {census} is.  All
+   small Life objects seem to eventually settle down into a mix of
+   oscillators, simple spaceships, and occasionally small puffers.  See
+   {methuselah}, {soup}, {ash}.
+     Most sufficiently large random patterns are expected to grow
+   forever due to the production of {switch engine}s at their boundary.
+   Engineered Life objects - and therefore also sufficiently large and
+   unlikely random patterns - can have more interesting behaviour, such
+   as {breeder}s, {sawtooth}s, and prime calculators.  Some objects have
+   even been constructed or designed having an {unknown fate}.
+
+:father:  = {parent}
+
+:fd:  Abbreviation for {full diagonal}s.
+
+:featherweight spaceship:  = {glider}
+
+:fencepost:  Any pattern that stabilizes one end of a {wick}.
+
+:Fermat prime calculator:  A pattern constructed by Jason Summers in
+   January 2000 that exhibits {infinite growth} if and only if there are
+   no Fermat primes greater than 65537.  The question of whether or not
+   it really does exhibit infinite growth is therefore equivalent to a
+   well-known and long-standing unsolved mathematical problem. It will,
+   however, still be growing at generation 10^2585827975. The pattern is
+   based on Dean Hickerson's {primer} and {caber tosser} patterns and a
+   p8 {beehive} {puffer} by Hartmut Holzwart.
+
+:F-heptomino:  Name given by Conway to the following {heptomino}.
+
+	**..
+	.*..
+	.*..
+	.***

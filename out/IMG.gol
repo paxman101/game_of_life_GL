@@ -1,0 +1,69 @@
+//   = {intermitting glider gun}
+
+:Immigration:  A form of {colourised Life} in which there are two types
+   of ON cell, a newly-born cell taking the type of the majority of its
+   three {parent cells} and surviving cells remaining of the same type
+   as in the previous generation.
+
+:independent conduit:  A {Herschel conduit} in which the input Herschel
+   produces its {first natural glider}.  Compare {dependent conduit}.
+
+:induction coil:  Any object used to stabilize an edge (or edges)
+   without touching.  The tubs used in the {Gray counter} are examples,
+   as are the blocks and snakes used in the {Hertz oscillator} and the
+   heptomino at the bottom of the {mathematician}.
+
+:inductor:  Any {oscillator} with a row of dead cells down the middle
+   and whose two halves are mirror images of one another, both halves
+   being required for the oscillator to work.  The classic examples are
+   the {pulsar} and the {tumbler}.  If still lifes are considered as p1
+   oscillators then there are numerous simple examples that include this
+   kind of central {gutter}, such as {table on table}, {dead spark coil}
+   and {cis-mirrored R-bee}. Some spaceships, such as the {brain}, the
+   {snail} and the {spider}, use the same principle.
+
+:infinite glider hotel:  A pattern by David Bell, named after Hilbert's
+   "infinite hotel" scenario in which a hotel with an infinite number of
+   rooms has room for more guests even if it is already full, simply by
+   shuffling the old guests around.
+     In this pattern, two pairs of {Cordership}s moving at c/12 are
+   pulling apart such that there is an ever-lengthening {glider} track
+   between them.  Every 128 generations another glider is {inject}ed
+   into the glider track (see {LWSS-glider bounce}), joining the gliders
+   already circulating there. The number of gliders in the track
+   therefore increases without limit.
+     The tricky part of this construction is that even though all the
+   previously injected gliders are repeatedly flying through the
+   injection point, that point is guaranteed to be empty when it is time
+   for the next glider to be injected.
+
+:infinite growth:  Growth of a finite pattern such that the {population}
+   tends to infinity, or at least is unbounded. Sometimes the term is
+   used for growth of something other than population (for example,
+   length), but here we will only consider infinite population growth.
+   The first known pattern with infinite growth in this sense was the
+   {Gosper glider gun}, created in a response to a $50 prize challenge
+   by John Conway.  Martin Gardner's October 1970 article described the
+   challenge as "Conway conjectures that no pattern can grow without
+   limit", but Conway later explained that he had always expected that
+   this would be disproved.  The original purpose in investigating CA
+   rules including B3/S23 was to show that a very simple two-state rule
+   could support a {universal computer} and/or {universal constructor}.
+   If all finite patterns could be proven to be bounded, neither of
+   these would be possible.
+     An interesting question is: What is the minimum population of a
+   pattern that exhibits infinite growth?  In 1971 Charles Corderman
+   found that a {switch engine} could be stabilized by a {pre-block} in
+   a number of different ways, giving 11-cell patterns with infinite
+   growth.  This record stood for more than quarter of a century until
+   Paul Callahan found, in November 1997, two 10-cell patterns with
+   infinite growth.  The following month he found the one shown below,
+   which is much neater, being a single {cluster}. This produces a
+   stabilized switch engine of the block-laying type.
+
+	......*.
+	....*.**
+	....*.*.
+	....*...
+	..*.....
+	*.*.....

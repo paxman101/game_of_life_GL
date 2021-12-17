@@ -1,0 +1,9 @@
+//  (c/2 orthogonally, p4)  A middleweight spaceship, the third most
+   common {spaceship}.  Found by Conway in 1970 by modifying a {LWSS}.
+   See also {HWSS}.
+
+	...*..
+	.*...*
+	*.....
+	*....*
+	*****.

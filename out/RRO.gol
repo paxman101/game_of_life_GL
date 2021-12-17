@@ -1,0 +1,29 @@
+//   = {reflectorless rotating oscillator}
+
+:rule 22:  Wolfram's rule 22 is the 2-state 1-D {cellular automaton} in
+   which a cell is ON in the next generation if and only if exactly one
+   of its three neighbours is ON in the current generation (a cell being
+   counted as a neighbour of itself).  This is the behaviour of Life on
+   a cylinder of width 1.
+
+:ruler:  A pattern constructed by Dean Hickerson in April 2005 that
+   produces a stream of {LWSS} with gaps in it, such that the number of
+   LWSS between successive gaps follows the "ruler function" (sequence
+   A001511 in The On-Line Encyclopedia of Integer Sequences).
+
+:rumbling river:  Any {oscillator} in which the {rotor} is connected and
+   contained in a strip of width 2.  The following p3 example is by Dean
+   Hickerson, November 1994.
+
+	..............**......**......**...*.**..........
+	....*........*..*....*..*....*..*..**.*..........
+	*..*.*....*...**..*...**..*...*.*.....*.**.......
+	****.*..******..******..******..******.*.*.......
+	.....*.*.....*.*.....*.*.....*.*.....*.*......**.
+	..**.*.*.*.*...*.*.*...*.*.*...*.*.*...*.*.....*.
+	.*.....*.*...*.*.*...*.*.*...*.*.*...*.*.*.*.**..
+	.**......*.*.....*.*.....*.*.....*.*.....*.*.....
+	.......*.*.******..******..******..******..*.****
+	.......**.*.....*.*...*..**...*..**...*....*.*..*
+	..........*.**..*..*....*..*....*..*........*....
+	..........**.*...**......**......**..............

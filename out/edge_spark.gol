@@ -1,0 +1,18 @@
+//   A {spark} at the side of a {spaceship} that can be used to
+   {perturb} things as the spaceship passes by.
+
+:edge sparker:  A {spaceship} that produces one or more {edge spark}s.
+
+:edgy:  In {slow salvo} terminology, an edgy glider construction recipe
+   is one that places its final product at or very near the edge of its
+   {construction envelope}.  Similarly, an edgy {factory} will place its
+   output object in an accessible location near the edge of its
+   {reaction envelope}.
+
+:egg:  = {non-spark}.  This term is no longer in use.
+
+:E-heptomino:  Name given by Conway to the following {heptomino}.
+
+	.***
+	**..
+	.**.

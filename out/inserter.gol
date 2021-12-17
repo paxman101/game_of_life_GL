@@ -1,0 +1,14 @@
+//   A mechanism that can add another spaceship into a stream or
+   convoy of other spaceships without affecting the existing spaceships.
+   For examples see {Fx119 inserter}, {tee}, {GIG}, {clock insertion}
+   and {inject}.
+
+:integral:  = {integral sign}
+
+:integral sign: (p1)
+
+	...**
+	..*.*
+	..*..
+	*.*..
+	**...

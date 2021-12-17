@@ -1,0 +1,34 @@
+//   = {cell}
+
+:plet:  = {polyplet}
+
+:polyomino:  A finite collection of orthogonally connected cells.  The
+   mathematical study of polyominoes was initiated by Solomon Golomb in
+   1953.  Conway's early investigations of Life and other cellular
+   automata involved tracking the histories of small polyominoes, this
+   being a reasonable way to ascertain the typical behaviour of
+   different cellular automata when the patterns had to be evolved by
+   hand rather than by computer.  Polyominoes have no special
+   significance in Life, but their extensive study during the early
+   years lead to a number of important discoveries and has influenced
+   the terminology of Life.  (Note on spelling:  As with "dominoes" the
+   plural may also be spelt without an e.  In this lexicon I have
+   followed Golomb in using the longer form.)
+     It is possible for a polyomino to be an {oscillator}.  In fact
+   there are infinitely many examples of such polyominoes, namely the
+   {cross} and its larger analogues.  The only other known examples are
+   the {block}, the {blinker}, the {toad}, the {star} and (in two
+   different phases) the {pentadecathlon}.
+     A polyomino can also be a {spaceship}, as the {LWSS}, {MWSS} and
+   {HWSS} show.
+
+:polyplet:  A finite collection of orthogonally or diagonally connected
+   cells.  This king-wise connectivity is a more natural concept in Life
+   than the orthogonal connectivity of the {polyomino}.
+
+:pond: (p1)
+
+	.**.
+	*..*
+	*..*
+	.**.

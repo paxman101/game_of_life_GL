@@ -1,0 +1,8 @@
+//   The following {symmetric} reaction in which two
+   {LWSS}s collide head-on to form two {glider}s heading apart at 90
+   degrees from each other.  Compare {LWSS-LWSS deflection}.
+
+	*..*.......*..*
+	....*.....*....
+	*...*.....*...*
+	.****.....****.

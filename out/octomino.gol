@@ -1,0 +1,9 @@
+//   Any 8-cell {polyomino}.  There are 369 such objects.  The
+   word is particularly applied to the following octomino (or its
+   two-generation successor), which is fairly common but lacks a proper
+   name:
+
+	..**
+	..**
+	***.
+	.*..

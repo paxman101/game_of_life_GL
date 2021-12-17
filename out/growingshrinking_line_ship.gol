@@ -1,0 +1,91 @@
+//   A {line ship} in which the line
+   repeatedly grows and shrinks, resulting in a high-period {spaceship}.
+
+:growing spaceship:  An object that moves like a {spaceship}, except
+   that its front part moves faster than its back part and a {wick}
+   extends between the two.  Put another way, a growing spaceship is a
+   {puffer} whose output is burning {clean}ly at a slower rate than the
+   puffer is producing it.  Examples include {blinker ship}s,
+   {pi ship}s, and some {wavestretcher}s.
+
+:G-to-H:  A {converter} that takes a {glider} as an input {signal} and
+   produces a {Herschel} output, which can then be used by other
+   {conduit}s.  G-to-Hs are frequently used in {stable} logic circuitry.
+   Early examples include {Callahan G-to-H}, {Silver G-to-H}, and
+   {p8 G-to-H} for periodic circuits.  A more compact recent example is
+   the {syringe}.
+
+:gull:  = {elevener}
+
+:gun:  Any stationary pattern that emits {spaceship}s (or {rake}s)
+   forever.  For examples see {double-barrelled}, {edge shooter},
+   {factory}, {gliderless}, {Gosper glider gun}, {Simkin glider gun},
+   {new gun} and {true}.
+
+:gunstar:  Any of a series of glider {gun}s of period 144+72n (for all
+   non-negative integers n) constructed by Dave Buckingham in 1990 based
+   on his {transparent block reaction} and Robert Wainwright's p72
+   oscillator (shown under {factory}).
+
+:gutter:  A single straight line of cells along the axis of symmetry of
+   a mirror-{symmetric} pattern.  Most commonly this is an orthogonal
+   line, and the pattern is then odd-symmetric (as opposed to
+   even-symmetric, where the axis of symmetry follows the boundary
+   between two rows or columns of cells).
+     The birth rule for Conway's Life trivially implies that if there
+   are no live cells in the gutter of a symmetric pattern, new cells can
+   never be born there.  For examples, see {44P5H2V0}, {60P5H2V0},
+   {Achim's p4}, {brain}, {c/6 spaceship}, {centinal}, {p54 shuttle},
+   {pufferfish}, {snail}, {spider}, and {pulsar} (in two orientations).
+
+:half-baked knightship: ((6,3)c/2621440, p2621440)  A {self-supporting}
+   {macro-spaceship} with adjustable period but fixed direction, based
+   on the {half-bakery reaction}.  This was the first spaceship based on
+   this reaction, constructed in December 2014 by Adam P. Goucher. It
+   moves 6 cells horizontally and 3 cells vertically every 2621440+8N
+   ticks, depending on the relative spacing of the two halves.  It is
+   one of the slowest known {knightship}s, and the first one that was
+   not a {Geminoid}. Chris Cain optimized the design a few days later to
+   create the {Parallel HBK}.
+     The spaceship produces gliders from near-diagonal lines of
+   half-bakeries, which collide with each other at 180 degrees.  These
+   collisions produce {monochromatic salvo}s that gradually build and
+   trigger {seed}s, which in turn eventually construct small
+   {synchronized} {salvo}s of gliders.  These re-activate the lines of
+   half-bakeries, thus closing the cycle and moving the entire spaceship
+   obliquely by (6,3).
+
+:half bakery:  = {bi-loaf}.
+
+:half-bakery reaction:  The key reaction used in the
+   {half-baked knightship} and {Parallel HBK}, where a half-bakery is
+   moved by (6,3) when a glider collides with it, and the glider
+   continues on a new lane.  Ivan Fomichev noticed in May 2014 that
+   pairs of these reactions at the correct relative spacing can create
+   90-degree output gliders:
+
+	.............................*.
+	............................*..
+	............................***
+	...............................
+	...............................
+	...............................
+	...............................
+	...............................
+	...............................
+	...............................
+	....................**.........
+	...................*..*........
+	...................*.*.........
+	.................**.*..........
+	........*.......*..*...........
+	......**........*.*............
+	.......**........*.............
+	...............................
+	....**.........................
+	...*..*........................
+	...*.*.........................
+	.**.*..........................
+	*..*...........................
+	*.*............................
+	.*.............................

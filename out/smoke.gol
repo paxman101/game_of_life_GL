@@ -1,0 +1,29 @@
+//   Debris that is fairly long-lived but eventually dies
+   completely.  Basically, a large {spark}.  This term is used
+   especially when talking about the output from a {smoking ship}.  Some
+   {Herschel conduit}s such as {Fx119} also create large amounts of
+   smoke.
+
+:smoking ship:  A {spaceship} which produces {smoke}.  If the smoke
+   extends past the edge of the rest of the spaceship, then it can be
+   used to perturb other objects as the spaceship passes by.  Running
+   gliders into the smoke is often a good way to turn or duplicate them,
+   or convert them into other objects.  Sometimes the smoke from a
+   smoking ship may itself be perturbed by accompanying spaceships in
+   order to form a {puffer}.  A simple example of a smoking ship is the
+   {Schick engine}.
+
+:snacker: (p9)  Found by Mark Niemiec in 1972.  This is a
+   {pentadecathlon} with stabilizers which force it into a lower period.
+
+	**................**
+	.*................*.
+	.*.*............*.*.
+	..**............**..
+	.......*....*.......
+	.....**.****.**.....
+	.......*....*.......
+	..**............**..
+	.*.*............*.*.
+	.*................*.
+	**................**

@@ -1,0 +1,43 @@
+//   A finite pattern which repeatedly creates copies of
+   itself.  Such objects are known to exist (see
+   {universal constructor}), but no concrete example is known.  The
+   {linear propagator} may be considered to be the first example of a
+   replicator built in Life, but this is debatable as each of its copies
+   replicates itself only once, allowing no possibility of
+   {superlinear growth}.
+
+:reverse caber tosser:  A storage mechanism for data feeding a
+   {universal constructor} designed by Adam P. Goucher in 2018.  A very
+   large integer can be encoded in the position of a very faraway
+   object.  If the distance to that object is measured using {circuit}ry
+   designed to be as simple as possible, a complete decoder and
+   universal constructor can be created by colliding a small number of
+   gliders - no more than 329 according to a June 2018
+   {glider synthesis}, and exactly 43 according to a July 1 redesign by
+   Chris Cain using eight far-distant {GPSE}s and, amazingly, no
+   stationary circuitry except for a single {catalyst} {block}.  Some
+   intermediate designs with 50+ gliders need no stationary circuitry at
+   all.
+     With the correct placement of the faraway object, the complete
+   pattern is theoretically capable of building any glider-constructible
+   object.  This means that 43 is the maximum number of gliders required
+   to build any constructible object, no matter what size.  However, it
+   is not possible to determine in practice what the locations of these
+   43 gliders should be, even for a relatively simple construction.
+
+:reverse fuse:  A {fuse} that produces some initial debris, but then
+   burns {clean}ly.  The following is a simple example.
+
+	.............**
+	............*.*
+	...........*...
+	..........*....
+	.........*.....
+	........*......
+	.......*.......
+	......*........
+	.....*.........
+	....*..........
+	...*...........
+	..*............
+	**.............

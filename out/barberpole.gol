@@ -1,0 +1,34 @@
+//   Any p2 oscillator in the infinite sequence {bipole},
+   {tripole}, {quadpole}, {pentapole}, {hexapole}, {heptapole} ... (It
+   wasn't my idea to suddenly change from Latin to Greek.) This sequence
+   of oscillators was found by the MIT group in 1970. The term is also
+   used (usually in the form "barber pole") to describe other
+   {extensible} sections of oscillators or spaceships, especially those
+   (usually of period 2) in which all generations look alike except for
+   a translation and/or rotation/reflection.  Any barberpole can be
+   lengthened by the reaction shown in {barbershop}.  See also
+   {pseudo-barberpole}.
+
+:barberpole intersection:  = {quad}
+
+:barbershop:  An object created by Jason Summers in 1999 which builds an
+   infinite {barberpole}.  It uses {slide gun}s to repeatedly lengthen a
+   {barberpole} at a speed of c/124.  The key lengthening reaction from
+   Mark Niemiec is shown below:
+
+	..........*.*.......
+	...........**.......
+	.*.........*.....*..
+	..*..............*.*
+	***..............**.
+	....................
+	....................
+	....................
+	.................*..
+	................**..
+	................*.*.
+	........**..........
+	.......*.*..........
+	....................
+	.....*.*............
+	.....**.............

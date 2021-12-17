@@ -1,0 +1,11 @@
+//   The next degree of longness after {long}.  Some people
+   prefer "very long".
+
+:long long barge: (p1)
+
+	.*....
+	*.*...
+	.*.*..
+	..*.*.
+	...*.*
+	....*.

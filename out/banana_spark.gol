@@ -1,0 +1,10 @@
+//   A common three-bit {polyplet} spark used in
+   {glider synthesis} and {signal} {circuit}ry.  The {buckaroo} is an
+   {oscillator} that produces this spark.  It can be used to turn a
+   glider 90 degrees:
+
+	..*....
+	*.*....
+	.**....
+	....**.
+	......*

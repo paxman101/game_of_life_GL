@@ -1,0 +1,36 @@
+//   A {lane} or {signal} path used in construction circuitry.
+   Until the invention of {single-channel} {construction arm}s, signals
+   in a channel would usually be {synchronized} with one or more
+   coordinated signals on other paths, as in the {Gemini}, which used
+   twelve channels to run three construction arms simultaneously, or the
+   10hd {Demonoid} which needed only two channels.  See also {Geminoid}.
+
+:chaotic growth:  An object whose {fate} is unknown, except that it
+   appears to grow forever in an unpredictable manner.  In Life, no
+   pattern has yet been found that is chaotic.  This is in contrast to
+   many other Life-like rules, where even small objects can appear to
+   grow chaotically.
+     It is possible that chaotic growth may occur rarely or even
+   regularly for large enough random Life objects, but if so the minimum
+   size of such patterns must be larger than what can currently be
+   experimentally simulated (but see {novelty generator}).
+     In any case, it is not decidable whether a pattern that apparently
+   grows randomly forever is in fact displaying chaotic growth.
+   Continuing to evolve such a pattern might at any time result in it
+   suddenly cleaning itself up and becoming predictable.
+
+:chemist: (p5)
+
+	.......*.......
+	.......***.....
+	..........*....
+	.....***..*..**
+	....*.*.*.*.*.*
+	....*...*.*.*..
+	.**.*.....*.**.
+	..*.*.*...*....
+	*.*.*.*.*.*....
+	**..*..***.....
+	....*..........
+	.....***.......
+	.......*.......

@@ -1,0 +1,29 @@
+//   Any {polyomino} with exactly n cells.
+
+:non-destructive read:  A type of test reaction in {memory cell}
+   circuitry, where the information in the memory cell is unchanged and
+   can be read again to produce the same result.  One simple type of
+   non-destructive read reaction is a {signal} sent to a
+   {permanent switch}.  Memory cells with {destructive read} reactions
+   are generally simpler and more commonly used.
+
+:nonfiller:  = {space nonfiller}
+
+:non-monotonic:  A {spaceship} is said to be non-monotonic if its
+   leading edge falls back in some generations.  The first example
+   (shown below) was found by Hartmut Holzwart in August 1992.  This is
+   p4 and travels at c/4.  In April 1994, Holzwart found examples of p3
+   spaceships with this property, and this is clearly the smallest
+   possible period.  Another non-monotonic spaceship is the {weekender}.
+
+	..........**.*.......
+	......***.*.***......
+	..*.*..........*...**
+	**....**.....*...****
+	..*.**..*....***.*...
+	........*....*.......
+	..*.**..*....***.*...
+	**....**.....*...****
+	..*.*..........*...**
+	......***.*.***......
+	..........**.*.......

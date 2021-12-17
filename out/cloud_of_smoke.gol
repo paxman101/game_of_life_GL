@@ -1,0 +1,25 @@
+//   = {smoke}
+
+:cloverleaf:  This name was given by Robert Wainwright to his p2
+   oscillator {washing machine}.  But Achim Flammenkamp also gave this
+   name to {Achim's p4}.
+
+:cluster:  Any pattern in which each live cell is connected to every
+   other live cell by a path that does not pass through two consecutive
+   dead cells.  This sense is due to Nick Gotts, but the term has also
+   been used in other senses, often imprecise.
+
+:CNWH:  Conweh, creator of the Life universe.
+
+:Coe ship: (c/2 orthogonally, p16)  A {puffer engine} discovered by Tim
+   Coe in October 1995.
+
+	....******
+	..**.....*
+	**.*.....*
+	....*...*.
+	......*...
+	......**..
+	.....****.
+	.....**.**
+	.......**.

@@ -1,0 +1,17 @@
+//  (c/3 orthogonally, p3)  A {spaceship} discovered by David
+   Bell in early 1992, with a minimum of 25 cells - the lowest number of
+   cells known for any c/3 spaceship.  A note in
+   {Spaceships in Conway's Life} indicates that it was found with a
+   search that limited the number of live cells in each column, and
+   possibly also the maximum cross-section (4 cells in this case).  See
+   also {edge-repair spaceship} for a very similar c/3 spaceship with a
+   minimum population of 26.
+
+	..........*.....
+	........***.***.
+	.......**......*
+	..*...*..*...**.
+	.****...........
+	*...*...........
+	.*.*..*.........
+	.....*..........

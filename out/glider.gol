@@ -1,0 +1,11 @@
+//  (c/4 diagonally, p4)  The smallest, most common and first
+   discovered {spaceship}.  This was found by Richard Guy in 1970 while
+   Conway's group was attempting to track the {evolution} of the
+   {R-pentomino}.  The name is due in part to the fact that it is
+   {glide symmetric}.  (It is often stated that Conway discovered the
+   glider, but he himself has said it was Guy.  See also the cryptic
+   reference ("some guy") in {Winning Ways}.)
+
+	***
+	*..
+	.*.

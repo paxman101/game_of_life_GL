@@ -1,0 +1,16 @@
+//  (p15)  An {oscillator} discovered by Karel Suhajda on
+   December 11, 2002.  It consists of a period 15 rotor supported by the
+   domino spark of a pentadecathlon. It provides accessible sparks that
+   can be used to perturb reactions or thin signal {stream}s.
+
+	..*....*..
+	..******..
+	..*....*..
+	..........
+	..........
+	..........
+	..******..
+	.*......*.
+	*........*
+	.*......*.
+	..******..

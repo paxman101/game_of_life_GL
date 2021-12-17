@@ -1,0 +1,18 @@
+//   A {toad} {hassler} that works in the manner of the
+   following example.  Two {domino} {sparker}s, here {pentadecathlon}s,
+   apply their {spark}s to the toad in order to flip it over.  When the
+   sparks are applied again it is flipped back.  Either or both domino
+   sparkers can be moved down two spaces from the position shown and the
+   toad-flipper will still work, but because of symmetry there are
+   really only two different types.  Compare {toad-sucker}.
+
+	.*..............*.
+	.*..............*.
+	*.*............*.*
+	.*..............*.
+	.*......*.......*.
+	.*......**......*.
+	.*......**......*.
+	*.*......*.....*.*
+	.*..............*.
+	.*..............*.

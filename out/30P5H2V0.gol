@@ -1,0 +1,17 @@
+//  (2c/5 orthogonally, p5)  A spaceship discovered by Paul Tooke
+   on 7 December 2000.  With just 30 cells, it is currently the smallest
+   known 2c/5 spaceship.  A {glider synthesis} for 30P5H2V0 was found by
+   Martin Grant in January 2015, based on a predecessor by Tanner
+   Jacobi.
+
+	....*........
+	...***.......
+	..**.**......
+	.............
+	.*.*.*.*..*..
+	**...*...***.
+	**...*......*
+	..........*.*
+	........*.*..
+	.........*..*
+	............*

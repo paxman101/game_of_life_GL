@@ -1,0 +1,40 @@
+//   Dave Buckingham's term for a {Herschel loop} that does not emit
+   {glider}s (and so is "flightless").  All known Herschel loops of
+   periods 52, 57, 58, 59 and 61 are emus.  See also {Quetzal}.
+
+:emulator:  Any one of three p4 oscillators that produce {spark}s
+   similar to those produced by {LWSS}, {MWSS} and {HWSS}.  See
+   {LW emulator}, {MW emulator} and {HW emulator}.  Larger emulators are
+   also possible, but they require stabilizing objects to suppress their
+   {non-spark}s and so are of little use.  The emulators were discovered
+   by Robert Wainwright in June 1980.
+
+:engine:  The active portion of an object (usually a {puffer} or {gun})
+   which is considered to actually produce its output, and which
+   generally permits no variation in how it works.  The other parts of
+   the object are just there to support the engine.  For examples, see
+   {puffer train}, {Schick engine}, {blinker puffer}, {frothing puffer}
+   and {line puffer}.
+
+:engineless:  A {rake} or {puffer} which does not contain a specific
+   {engine} for its operation.  Instead it depends on perturbations of
+   gliders or other objects by passing spaceships.  The period of such
+   objects is often adjustable, and in some cases the speed as well.  An
+   early example was the creation of c/5 rakes in September 1997, using
+   gliders circulating among a convoy of c/5 spaceships.  More recently,
+   the passing spaceships themselves are also constructed, as in the
+   {Caterloopillar}.
+
+:en retard: (p3)  Found by Dave Buckingham, August 1972.
+
+	.....*.....
+	....*.*....
+	**.*.*.*.**
+	.*.*...*.*.
+	*..*.*.*..*
+	.**.....**.
+	...**.**...
+	...*.*.*...
+	....*.*....
+	..*.*.*.*..
+	..**...**..

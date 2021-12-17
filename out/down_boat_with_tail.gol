@@ -1,0 +1,26 @@
+//   = {cis-boat with tail}
+
+:dr:  Short identifier for Dean Hickerson's 'drifter' search program,
+   used at various times to find {wire}s, {eater}s, higher-period
+   {billiard table configuration}s, and related {signal}-carrying and
+   signal-processing mechanisms.  See also {drifter}.
+
+:dragon: (c/6 orthogonally, p6)  This {spaceship}, discovered by Paul
+   Tooke in April 2000, was the first known {c/6 spaceship}.  With 102
+   cells, it was the smallest known orthogonal c/6 spaceship until
+   Hartmut Holzwart discovered {56P6H1V0} in April 2009.
+
+	.............*..**......*..***
+	.....*...****.******....*..***
+	.*****....*....*....***.......
+	*......**.*......**.***..*.***
+	.*****.***........****...*.***
+	.....*..*..............*......
+	........**..........**.**.....
+	........**..........**.**.....
+	.....*..*..............*......
+	.*****.***........****...*.***
+	*......**.*......**.***..*.***
+	.*****....*....*....***.......
+	.....*...****.******....*..***
+	.............*..**......*..***

@@ -1,0 +1,21 @@
+//   An object whose {fate} is in some way unanswerable with
+   our current knowledge.  The simplest way that the fate of an object
+   can be unknown involves the question of whether or not it exhibits
+   infinite growth.  For example, the fate of the
+   {Fermat prime calculator} is currently unknown, but its behaviour is
+   otherwise predictable.
+     A different type of unknown fate is that of the
+   {Collatz 5N+1 simulator}, which may become stable, or an oscillator,
+   or have an indefinitely growing bounding box.  Its behavior is
+   otherwise predictable, and unlike the Fermat prime calculator the
+   population is known to be bounded.
+     Life objects having even worse behaviour (e.g. {chaotic growth})
+   are not known as of July 2018.
+
+:up boat with tail:  = {trans-boat with tail}
+
+:U-pentomino:  Conway's name for the following {pentomino}, which
+   rapidly dies.
+
+	*.*
+	***

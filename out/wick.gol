@@ -1,0 +1,33 @@
+//   A stable or oscillating linearly repeating pattern that can be
+   made to {burn} at one end.  See {fuse}.  Wicks are often fairly
+   dense, with repeating units directly connected or at least adjacent
+   to each other, as in the beehive {lightspeed wire} for example.
+   However, sparse wicks such as the blocks in the
+   {31c/240 Herschel-pair climber} are known, and arbitrarily sparse
+   wicks can be constructed.
+
+:wickstretcher:  A {spaceship}-like object which stretches a {wick} that
+   is fixed at the other end.  The wick here is assumed to be in some
+   sense connected, otherwise most {puffer}s would qualify as
+   wickstretchers.  The first example of a wickstretcher was found in
+   October 1992 (front end by Hartmut Holzwart and back end by Dean
+   Hickerson) and stretches {ants} at a speed of c/4.  This is shown
+   below with an improved back end found by Hickerson the following
+   month.
+
+	.................**..............................
+	.............**....*.............................
+	............***.*................................
+	*.**..**...*...****.*.*....**.......**...........
+	*....**..*........*.***....*....**.*..*.**.*.....
+	*.**....**.**....*...........*...*.*.**.*.**.....
+	......*.......*.............**.....*..*.*...**...
+	.....*.........*.*....***...*....*..*.*.***...*..
+	.....*.........*.*....***.**.*..**.*.*...*..**.*.
+	......*.......*.............**.*...**....**....*.
+	*.**....**.**....*..........*........**.*.*.**.**
+	*....**..*........*.***........*...*...**.*..*.*.
+	*.**..**...*...****.*.*.......*.*...**....*..*.*.
+	............***.*..............*.....*.***....*..
+	.............**....*.................*.*.........
+	.................**...................*..........

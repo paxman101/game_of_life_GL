@@ -1,0 +1,17 @@
+//  (p1)  This large symmetric {eater}, found by Dave Buckingham,
+   has a very different eating action from the {eater1} and {eater2}.
+   The {loaf} can take bites out things, being flipped over in the
+   process.  The rest of the object merely flips it back again.
+
+	.........**.
+	....**..*..*
+	.*..*....*.*
+	*.*.*.....*.
+	.*..*.**....
+	....*..*....
+	.....*....*.
+	......*****.
+	............
+	........*...
+	.......*.*..
+	........*...

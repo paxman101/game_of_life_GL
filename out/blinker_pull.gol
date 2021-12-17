@@ -1,0 +1,10 @@
+//   The following glider/blinker collision, which moves a
+   blinker (-1,3) toward the glider source:
+
+	***.
+	....
+	....
+	....
+	.***
+	.*..
+	..*.

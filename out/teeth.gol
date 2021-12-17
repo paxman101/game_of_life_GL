@@ -1,0 +1,32 @@
+//   A 65-cell quadratic growth pattern found by Nick Gotts in March
+   2000.  This (and a related 65-cell pattern which Gotts found at about
+   the same time) beat the record previously held by {mosquito5} for
+   smallest population known to have superlinear growth, but was later
+   superseded by {catacryst}.  See {switch-engine ping-pong} for the
+   lowest-population {superlinear growth} pattern as of July 2018, along
+   with a list of the record-holders.
+
+:telegraph:  A pattern created by Jason Summers in February 2003.  It
+   transmits and receives information using a rare type of
+   {reburnable fuse}, a {lightspeed wire} made from a chain of beehives,
+   at the rate of 1440 ticks per bit.  The rate of travel of signals
+   through the entire {transceiver} device can be increased to any speed
+   strictly less than the {speed of light} by increasing the length of
+   the beehive chain appropriately.
+     "Telegraph" may also refer to any device that sends and receives
+   lightspeed signals; see also {p1 telegraph},
+   {high-bandwidth telegraph}.
+
+:ternary reaction:  Any reaction between three objects.  In particular,
+   a reaction in which two gliders from one stream and one glider from a
+   crossing stream of the same period annihilate each other.  This can
+   be used to combine two glider guns of the same period to produce a
+   new glider gun with double the period.
+
+:test tube baby: (p2)
+
+	**....**
+	*.*..*.*
+	..*..*..
+	..*..*..
+	...**...

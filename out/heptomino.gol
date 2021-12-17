@@ -1,0 +1,11 @@
+//   Any 7-cell {polyomino}.  There are 108 such objects. Those
+   with names in common use are the {B-heptomino}, the {Herschel} and
+   the {pi-heptomino}.
+
+:Herschel: (stabilizes at time 128)  The following pattern which occurs
+   at generation 20 of the {B-heptomino}.
+
+	*..
+	*.*
+	***
+	..*

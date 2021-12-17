@@ -1,0 +1,32 @@
+//   = {Kok's galaxy}
+
+:Game of Life:  = {Life}
+
+:Game of Life News:  A blog reporting on new Life discoveries, started
+   by Heinrich Koenig in December 2004, currently found at
+   {http://pentadecathlon.com/lifenews/}.
+
+:Garden of Eden:  A configuration of ON and OFF cells that can only
+   occur in generation 0.  (This term was first used in connection with
+   cellular automata by John W. Tukey, many years before Life.)  It was
+   known from the start that there are Gardens of Eden in Life, because
+   of a theorem by Edward Moore that guarantees their existence in a
+   wide class of cellular automata.  Explicit examples have since been
+   constructed, the first by Roger Banks, et al. at MIT in 1971. This
+   example was 9 x 33.  In 1974 J. Hardouin-Duparc et al. at the
+   University of Bordeaux 1 produced a 6 x 122 example.  The following
+   shows a 12 x 12 example found by Nicolay Beluchenko in February 2006,
+   based on a 13 x 12 one found by Achim Flammenkamp in June 2004.
+
+	..*.***.....
+	**.*.*****.*
+	*.*.**.*.*..
+	.****.*.***.
+	*.*.**.***.*
+	.***.**.*.*.
+	..*...***..*
+	.*.**.*.*.*.
+	***.****.*.*
+	**.****...*.
+	.*.*.**..*..
+	.**.*..**.*.

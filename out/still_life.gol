@@ -1,0 +1,53 @@
+//   Any {stable} pattern, usually assumed to be finite and
+   nonempty.  For the purposes of enumerating still lifes this
+   definition is, however, unsatisfactory because, for example, any pair
+   of blocks would count as a still life, and there would therefore be
+   an infinite number of 8-bit still lifes.
+     For this reason a stricter definition is often used, counting a
+   stable pattern as a {strict still life} only if its {island}s cannot
+   be divided into two or more nonempty sets both of which are stable in
+   their own right. If such a subdivision can be made, the pattern can
+   be referred to as a {constellation}. If its cells form a single
+   {cluster} it is also, more specifically, either a {pseudo still life}
+   or a {quasi still life}.
+     In rare cases above a certain size threshold, a pattern may be
+   divisible into three or four stable nonempty subsets but not into
+   two.  See the 32-bit {triple pseudo} (32 bits) and the 34-bit
+   {quad pseudo} for examples.
+     All still lifes up to 18 bits have been shown to be
+   {glider constructible}.  It is an open question whether all still
+   lifes can be incrementally constructed using glider collisions.  For
+   a subset of small still lifes that have been found to be especially
+   useful in {self-constructing} circuitry, see also {Spartan}.
+     The smallest still life is the {block}.  Arbitrarily large still
+   lifes are easy to construct, for example by extending a {canoe} or
+   {barge}.  The maximum density of a large still life is 1/2, which can
+   be achieved by an arbitrarily large patch of {zebra stripes} or
+   {chicken wire}, among many other options.  See {density} for more
+   precise limits.
+
+	...*..*..*..*..*..*...
+	.********************.
+	*....................*
+	**********************
+	......................
+	**********************
+	*....................*
+	.********************.
+	......................
+	.********************.
+	*....................*
+	**********************
+	......................
+	**********************
+	*....................*
+	.********************.
+	......................
+	.********************.
+	*....................*
+	**********************
+	......................
+	**********************
+	*....................*
+	.********************.
+	...*..*..*..*..*..*...

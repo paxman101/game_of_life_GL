@@ -1,0 +1,28 @@
+//   = {canoe}
+
+:clean:  Opposite of {dirty}.  A reaction which produces a small number
+   of different products which are desired or which are easily deleted
+   is said to be clean.  For example, a {puffer} which produces just one
+   object per period is clean.  Clean reactions are useful because they
+   can be used as building blocks in larger constructions.
+     When a {fuse} is said to be clean, or to {burn} cleanly, this
+   usually means that no debris at all is left behind.
+
+:clearance:  In signal circuitry, the distance from an {edge shooter}
+   output {lane} to the last unobstructed lane adjacent to the
+   edge-shooter circuitry.  For example, an {Fx119 inserter} has an
+   unusually high 27{hd} clearance.
+     Also, oscillator and eater variants may be said to have better
+   clearance if they allow {glider}s or other {signal}s to pass closer
+   to them than the standard variant allows.  The following
+   high-clearance {eater1} variant by Karel Suhajda allows gliders to
+   pass one lane closer on the southeast side, than is allowed by the
+   standard fishhook shape.
+
+	.*......**
+	..*..**..*
+	***...*.*.
+	......*.**
+	...**.*...
+	...*..*...
+	....**....

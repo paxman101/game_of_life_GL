@@ -1,0 +1,74 @@
+//   = {speed of light}
+
+:c/10 spaceship:  A {spaceship} travelling at one tenth of the
+   {speed of light}.  The first such spaceship to be discovered was the
+   orthogonally travelling {copperhead}, found by 'zdr' on 5 March 2016.
+   Simon Ekstrom found the related {fireship} two weeks later.  A
+   {Caterloopillar} can theoretically be configured to move at c/10, but
+   there are technical difficulties with speeds of the form 4n+2, and as
+   of June 2018 this has not been done in practice.
+
+:c/12 spaceship:  A {spaceship} travelling at one twelfth of the
+   {speed of light}.  The only diagonal spaceships that are currently
+   known to move at this speed are the {Cordership}s.  An orthogonal
+   {Caterloopillar} has been configured to move at c/12.
+
+:c/2 spaceship:  A {spaceship} travelling at half the {speed of light}.
+   Such spaceships necessarily move orthogonally.  The first to be
+   discovered was the {LWSS}.  For other examples see {Coe ship},
+   {ecologist}, {flotilla}, {hammerhead}, {hivenudger}, {HWSS}, {MWSS},
+   {puffer train}, {puff suppressor}, {pushalong}, {Schick engine},
+   {sidecar}, {still life tagalong} and {x66}.
+
+:c/3 spaceship:  A {spaceship} travelling at one third of the
+   {speed of light}.  All known c/3 spaceships travel orthogonally.  The
+   first was {25P3H1V0.1}, found in August 1989 by Dean Hickerson.  For
+   further examples see {brain}, {dart}, {edge-repair spaceship}, {fly},
+   {turtle} and {wasp}.
+
+:c/4 spaceship:  A {spaceship} travelling at one quarter of the
+   {speed of light}.  The first such spaceship to be discovered was, of
+   course, the {glider}, and this remained the only known example until
+   December 1989, when Dean Hickerson found the first orthogonal
+   example, {119P4H1V0}, and also a new diagonal example (the
+   {big glider}). For other examples see {B29}, {Canada goose}, {crane},
+   {Enterprise}, {edge-repair spaceship} (third pattern),
+   {non-monotonic}, {Orion}, {quarter}, {sparky}, {swan} and {tagalong}.
+   It is known that c/4 is the fastest possible speed for a (45-degree)
+   diagonal spaceship.
+
+:c/5 spaceship:  A {spaceship} travelling at one fifth of the
+   {speed of light}.  The first such spaceship to be discovered was the
+   {snail}, found by Tim Coe in January 1996.  The first diagonally
+   moving example, {295P5H1V1}, was found by Jason Summers in November
+   2000.  For other c/5 ships see {58P5H1V1}, {67P5H1V1}, {86P5H1V1} and
+   {spider}.  A {Caterloopillar} has also been configured to move at
+   c/5.
+
+:c/6 spaceship:  A {spaceship} travelling at one sixth of the
+   {speed of light}.  The first such spaceship to be discovered was the
+   {dragon}, found by Paul Tooke in April 2000.  The first diagonally
+   moving example was the {seal}, found by Nicolay Beluchenko in
+   September 2005.  Another orthogonal c/6 spaceship, found by Paul
+   Tooke in March 2006, is shown below.  For the smallest known c/6
+   spaceship see {56P6H1V0}.
+
+	..*..............*..................................*.....
+	*..*..***.......*.****...............**...........**.*....
+	*..*............***.*.*.........*.....*.......*...*.......
+	.*.*..*.....................***..*.*.***.....*.*.*....*...
+	..**......*....*................******..*..*...*...*..*...
+	.*.*...**.....*...**......**.**..*..**..*.*.**..*.........
+	..*.....*.**..*...**......**....*.*.*..*..*.*.*......**..*
+	..*....***..*.........***.......***.*.**.....*.......***.*
+	............*********...*........**.***...****.........*.*
+	..........................................................
+	............*********...*........**.***...****.........*.*
+	..*....***..*.........***.......***.*.**.....*.......***.*
+	..*.....*.**..*...**......**....*.*.*..*..*.*.*......**..*
+	.*.*...**.....*...**......**.**..*..**..*.*.**..*.........
+	..**......*....*................******..*..*...*...*..*...
+	.*.*..*.....................***..*.*.***.....*.*.*....*...
+	*..*............***.*.*.........*.....*.......*...*.......
+	*..*..***.......*.****...............**...........**.*....
+	..*..............*..................................*.....

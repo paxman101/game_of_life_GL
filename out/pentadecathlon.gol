@@ -1,0 +1,12 @@
+//  (p15)  Found in 1970 by Conway while tracking the
+   history of short rows of cells, 10 cells giving this object, which is
+   the most {natural} {oscillator} of period greater than 3.  In fact it
+   is the fifth most common {oscillator} overall, appearing in random
+   soups slightly more frequently than the {clock}, but much less
+   frequently than the {blinker}, {toad}, {beacon} or {pulsar}.  The
+   pentadecathlon can be constructed using just three gliders, as shown
+   in {glider synthesis}.
+
+	..*....*..
+	**.****.**
+	..*....*..

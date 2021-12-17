@@ -1,0 +1,36 @@
+//   Undergoing simultaneous reflection and translation. A
+   glide symmetric {spaceship} is sometimes called a {flipper}.
+
+:Gn:  An abbreviation specific to {converter}s that produce multiple
+   {glider}s.  A "G" followed by any integer value means that the
+   converter produces a {tandem glider} - two parallel glider outputs
+   with lanes separated by the specified number of {half diagonal}s.
+
+:gnome:  = {fox}
+
+:GoE:  = {Garden of Eden}
+
+:GoL:  = {Game of Life}
+
+:Golly:  A cross-platform open source Life program by Andrew Trevorrow
+   and Tomas Rokicki.  Unlike most Life programs it includes the ability
+   to run patterns using the {hashlife} algorithm.  It is available from
+   {http://golly.sourceforge.net}.
+
+:Gosper glider gun:  The first known {gun}, and indeed the first known
+   finite pattern displaying {infinite growth}, found by Bill Gosper in
+   November 1970.  This period 30 gun remains the smallest known gun in
+   terms of its bounding box, though some variants of the p120
+   {Simkin glider gun} have a lower population. Gosper later constructed
+   several other guns, such as {new gun} and the p144 gun shown under
+   {factory}.  See also {p30 gun}.
+
+	........................*...........
+	......................*.*...........
+	............**......**............**
+	...........*...*....**............**
+	**........*.....*...**..............
+	**........*...*.**....*.*...........
+	..........*.....*.......*...........
+	...........*...*....................
+	............**......................

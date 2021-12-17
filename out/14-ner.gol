@@ -1,0 +1,22 @@
+//   = {fourteener}
+
+:17c/45 spaceship:  A {spaceship} travelling at seventeen forty-fifths
+   of the {speed of light}.  This was the first known {macro-spaceship}
+   speed.  See {Caterpillar} for details.
+
+:180-degree kickback:  The only other two-{glider} collision besides the
+   standard {kickback} that produces a clean output glider with no
+   leftover {ash}.  The 180-degree change in direction is occasionally
+   useful in {glider synthesis}, but is rarely used in {signal}
+   circuitry or in {self-supporting} patterns like the {Caterpillar} or
+   {Centipede}, because 90-degree collisions are generally much easier
+   to arrange.
+
+	.*.
+	*..
+	***
+	...
+	...
+	.**
+	*.*
+	..*

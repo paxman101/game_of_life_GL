@@ -1,0 +1,12 @@
+//   The cells of an {oscillator} that change state.  Compare
+   {stator}.  It is easy to see that any rotor cell must be adjacent to
+   another rotor cell.
+
+:R-pentomino:  This is by far the most active {polyomino} with less than
+   six cells: all the others stabilize in at most 10 generations, but
+   the R-pentomino does not do so until generation 1103, by which time
+   it has a {population} of 116, including six {glider}s.
+
+	.**
+	**.
+	.*.

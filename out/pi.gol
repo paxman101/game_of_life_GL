@@ -1,0 +1,64 @@
+//   = {pi-heptomino}
+
+:Pianola breeder:  A series of patterns by Paul Tooke in 2010, based on
+   a simplification and extension of the {Gemini} spaceship's
+   construction mechanism.  Tooke  produced a number of
+   slow-salvo-constructed patterns with {superlinear growth}, including
+   a series of breeder patterns of previously unknown types.  For some
+   patterns, the Gemini's two {construction arm}s were moved to a
+   permanent stationary platform, using fourteen glider-loop channels
+   instead of twelve.
+     Some of these breeder patterns remain difficult to classify
+   unambiguously.  For example, one pattern was designed to be an MSS
+   breeder - a modified {Gemini} spaceship puffing {slide gun}s which
+   build lines of {block}s.  However, the slide guns produce both moving
+   and stationary objects at a linear rate, because streams of gliders
+   are needed to reach out to the construction zone to do the {push}
+   reaction and build more blocks.  The pattern could therefore be
+   classified as a hybrid MSM/MSS breeder.  Other breeder patterns
+   utilizing slide guns and {universal constructor} technology are
+   likely to cause similar classification ambiguities.
+
+:pi calculator: (p1 circuitry)  A device constructed by Adam P. Goucher
+   in February 2010, which calculates the decimal digits of pi (the
+   transcendental number, not the Life pattern!) and displays them in
+   the Life universe as 8x10 dot matrix characters formed by
+   arrangements of blocks along a diagonal stripe at the top.  A {push}
+   reaction moves a ten-block diagonal cursor to the next position as
+   part of the "printing" operation for each new digit.
+     The actual calculation is done in binary, using a streaming spigot
+   algorithm based on linear fractional transformations.  The pi
+   calculator is made up of a 188-state computer connected to a printing
+   device via period-8 {regulator}s and a binary-to-decimal conversion
+   mechanism.  The complete pattern can be found in {Golly}'s Very Large
+   Patterns online archive, along with the very similar 177-state phi
+   calculator which uses a simpler algorithm to calculate and print the
+   Golden Ratio.
+
+:pi climber:  The reaction that defines rate of travel of the
+   {Caterpillar} spaceship.  A pi climber consists of a pi-heptomino
+   "climbing" a chain of blinkers, moving 17 cells every 45 ticks, and
+   leaving behind an identical chain of blinkers, shifted downward by 6
+   cells.  A single pi climber does not produce any gliders or other
+   output, but two or more of them travelling on nearby blinker chains
+   can be arranged to emit gliders every 45 ticks.  Compare
+   {Herschel-pair climber}.
+
+	..*..
+	..*..
+	..*..
+	.....
+	.....
+	.....
+	.....
+	.....
+	.....
+	.....
+	.....
+	.....
+	.....
+	.....
+	.....
+	..*..
+	.***.
+	.*.*.

@@ -1,0 +1,38 @@
+//   Not reducible to a combination of smaller parts.
+   Elementary {spaceship}s in particular are usually those found by
+   search programs, and they can't be subdivided into smaller
+   spaceships, tagalongs, and supporting reactions, as contrasted with
+   engineered {macro-spaceship}s.
+
+:elementary conduit:  A {conduit} with no recognizable active signal
+   stage besides its input and output.  An early example still very
+   commonly used is Buckingham's {BFx59H}, which transforms a
+   {B-heptomino} into an inverted {Herschel} in 59 ticks.  The BFx59H
+   elementary conduit is a component in many of the original {universal}
+   {toolkit} of Herschel conduits.  An extension of the same naming
+   convention is used for elementary conduits, with the first and last
+   letters of the name specifying the input and output {signal} objects.
+   As with Herschels, an arbitrary orientation and center point is
+   chosen for each object.  "Fx" means the signal moves forward and
+   produces a mirror-image output.  See {Herschel conduit} for further
+   details.
+     Theoretically an elementary conduit may become a composite conduit,
+   if another conduit can be found that shares the beginning or end of
+   the conduit in question.  In practice this happens only rarely,
+   because many of the most likely branch points have already been
+   identified: {glider} (G), {LWSS} (L) or {MWSS} (M), {Herschel} (H),
+   {B-heptomino} (B), {R-pentomino} (R), {pi-heptomino} (P),
+   {queen bee shuttle} (Q), {century} or {bookend} (C), {dove} (D), and
+   {wing} (W).  A {Herschel descendant} might qualify, due to the
+   elementary conduit that can be seen in the {p184 gun}.  However,
+   there are very few simple conduits that produce Herschel descendants
+   without Herschels, so in practice this is not a useful branch point.
+
+:elevener: (p1)
+
+	**....
+	*.*...
+	..*...
+	..***.
+	.....*
+	....**

@@ -1,0 +1,41 @@
+//   As an alternative to a {torus}, it's possible to make a
+   finite Life universe in the form of a Klein bottle.  The simplest way
+   to do this is to use an m x n rectangle with the top edge joined to
+   the bottom edge (as for a torus) and the left edge twisted and joined
+   to the right.
+
+:knightship:  Any {spaceship} of type (2m,m)/n - that is, a spaceship of
+   any speed that moves obliquely in a (2,1) direction.  The first
+   Conway's Life knightship was a variant of Andrew Wade's {Gemini}
+   spaceship, constructed in May 2010.  The next was an even slower
+   knightship based on the {half-bakery reaction}.
+     A knightship must be asymmetric and its period must be at least 6.
+   This is barely within the range of current {search program}s, as
+   proven by the discovery on March 6, 2018 of an {elementary}
+   knightship, {Sir Robin}, by Adam P. Goucher and Tomas Rokicki.
+     By analogy with the corresponding fairy chess pieces, spaceships of
+   types (3m,m)/n, (3m,2m)/n and (4m,m)/n would presumably be called
+   camelships, zebraships and giraffeships, respectively.  Such
+   spaceships do exist (see {universal constructor}) but small
+   elementary versions are even more difficult to search for.  Any of
+   these ship types could be constructed by trivially modifying a Gemini
+   spaceship, or less trivially by reprogramming one of the more recent
+   small {Geminoid} {construction arm}s, but as of July 2018 a camelship
+   Gemini is the only example that has been explicitly built.
+     Alternatively, the term "knightship" is regularly used to refer to
+   any {oblique} spaceship, such as the original {Gemini} or the
+   {waterbear}.
+
+:Kok's galaxy: (p8)  An {oscillator} found by Jan Kok in 1971, currently
+   serving as the icon for {Golly}.  See {converter} for a use of this
+   {sparker}.
+
+	******.**
+	******.**
+	.......**
+	**.....**
+	**.....**
+	**.....**
+	**.......
+	**.******
+	**.******

@@ -1,0 +1,74 @@
+//   = {ash}.
+
+:de Bruijn diagram:  = {de Bruijn graph}
+
+:de Bruijn graph:  As applied to Life, a de Bruijn graph is a graph
+   showing which pieces can be linked to which other pieces to form a
+   valid part of a Life pattern of a particular kind.
+     For example, if we are interested in {still life}s, then we could
+   consider 2x3 rectangular pieces and the de Bruijn graph would show
+   which pairs of these can be overlapped to form 3x3 squares in which
+   the centre cell remains unchanged in the next generation.
+     David Eppstein's {search program} {gfind} is based on de Bruijn
+   graphs.
+
+:Deep Cell:  A pattern by Jared James Prince, based on David Bell's
+   {unit Life cell}, in which each unit cell simulates two Life cells,
+   in such a way that a Life universe filled with Deep Cells simulates
+   two independent Life universes running in parallel.
+     In fact, a Life universe filled with Deep Cells can simulate
+   infinitely many Life universes, as follows.  Let P_1, P_2, P_3, ...
+   be a sequence of Life patterns.  Set the Deep Cells to run a
+   simulation of P_1 in parallel with a simulation of a universe filled
+   with Deep Cells, with these simulated Deep Cells running a simulation
+   of P_2 in parallel with another simulation of a universe filled with
+   Deep Cells, with these doubly simulated Deep Cells simulating P_3 in
+   parallel with yet another universe of Deep Cells, and so on.
+     Deep Cell is available from {http://psychoticdeath.com/life.htm}.
+
+:Demonoid:  The first {self-constructing} diagonal spaceship. A 0{hd}
+   Demonoid was completed by Chris Cain in December 2015, shortly after
+   a much larger 10hd version was constructed the previous month in
+   collaboration with Dave Greene. The 0hd spaceship fits in a bounding
+   box about 55,000 cells square, and displaces itself by 65 cells
+   diagonally every 438,852 generations.
+     The first 0hd Demonoid was fired by a {gun}.  No spaceship gun
+   pattern had previously been completed before the first appearance of
+   the actual spaceship.
+     In June 2017 Dave Greene completed a much simpler {single-channel}
+   Demonoid using a temporary {lossless elbow}, which displaces itself
+   79 cells diagonally every 1,183,842 ticks.  This was an improvement
+   in terms of design complexity, but not in terms of speed, population,
+   or bounding box.  However, all of these could be further optimized.
+   A smaller Hashlife-friendly single-channel Demonoid design was
+   completed in 2018.
+
+:demultiplexer:  A simple {Herschel} {circuit} consisting of three
+   {eater1}s, found by Brice Due in August 2006.  An input Herschel
+   places a boat in a location accessible to an input glider.  If the
+   boat is present, a {one-time} {turner} reaction occurs and the glider
+   is turned 90 degrees onto a new lane.
+
+	...........................*.....
+	........**.................*.*...
+	.........*.................**....
+	.........*.*.....................
+	..........**.....................
+	.......................**........
+	.......................*.*.......
+	........................*........
+	.................................
+	.................................
+	.............................**..
+	..........*..................*.*.
+	..........*.*..................*.
+	..........***............**....**
+	............*............*.*.....
+	...........................*.....
+	...........................**....
+	.................................
+	.................................
+	..**.............................
+	.*.*.............................
+	.*...............................
+	**...............................

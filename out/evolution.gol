@@ -1,0 +1,43 @@
+//   The process or result of running one or more generations of
+   an object.  For example, a row of 10 cells evolves into a
+   {pentadecathlon}.
+
+:evolutionary factor:  For an unstable pattern, the time to
+   stabilization divided by the initial {population}.  For example, the
+   {R-pentomino} has an evolutionary factor of 220.6, while {bunnies}
+   has an evolutionary factor of 1925.777...  The term is no longer in
+   use.
+
+:exhaust:  The debris or {smoke} left behind by a {puffer}, especially
+   if the debris is {dirty} and takes many {generation}s to settle.  The
+   term is not usually used for the objects created by {clean} puffers.
+
+:exponential filter:  A {toolkit} developed by Gabriel Nivasch in 2006,
+   enabling the construction of patterns with asymptotic population
+   growth matching O((log log ... log(t))) for any number of nested log
+   operations.  See also {quadratic filter}, {recursive filter}.
+
+:exposure:  = {underpopulation}
+
+:extensible:  A pattern is said to be extensible if arbitrarily large
+   patterns of the same type can be made by repeating parts of the
+   original pattern in a regular way.  For examples, see {p6 shuttle},
+   {pentoad}, {pufferfish spaceship}, {snacker}, {wavestretcher},
+   {wicktrailer} and {branching spaceship}.
+
+:extra extra long:  = {long^4}
+
+:extra long:  = {long^3}
+
+:extremely impressive: (p6)  Found by Dave Buckingham, August 1976.
+
+	....**......
+	...*.***....
+	...*....*...
+	**.*...**...
+	**.*.....**.
+	....*****..*
+	..........**
+	......*.....
+	.....*.*....
+	......*.....

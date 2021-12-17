@@ -1,0 +1,43 @@
+//   A {breeder} constructed by Nick Gotts in February 1997.  In the
+   original version Jaws had an initial {population} of 150, which at
+   the time was the smallest for any known pattern with
+   {superlinear growth}.  In November 1997 Gotts produced a 130-cell
+   Jaws using some {switch engine} {predecessor}s found by Paul
+   Callahan.  See {switch-engine ping-pong} for the lowest-population
+   superlinear growth pattern as of July 2018, along with a list of the
+   record-holders.
+     Jaws consists of eight pairs of switch engines which produce a new
+   block-laying switch engine (plus masses of junk) every 10752
+   generations.  It is therefore an MMS breeder.
+
+:JC:  = {dead spark coil}
+
+:JHC:  John Horton Conway.  Also another name for {monogram}.
+
+:J-heptomino:  = {Herschel}
+
+:JLS:  = {JavaLifeSearch}
+
+:Jolson: (p15)  Two {block}s {hassle}d by two {pentadecathlon}s. Found
+   by Robert Wainwright in November 1984 and named by Bill Gosper.  A p9
+   version using {snacker}s instead of pentadecathlons is also possible.
+
+	.**......**..
+	*..*....*..*.
+	*..*....*..*.
+	*..*....*..*.
+	.**......**..
+	.............
+	.............
+	.......*.....
+	.....*..*.**.
+	......**..**.
+	.............
+	.............
+	......****...
+	.....******..
+	....********.
+	...**......**
+	....********.
+	.....******..
+	......****...

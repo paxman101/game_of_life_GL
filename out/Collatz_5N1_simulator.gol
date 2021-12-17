@@ -1,0 +1,43 @@
+//   An {unknown fate} pattern constructed by David
+   Bell in December 2017 that simulates the Collatz 5N+1 algorithm using
+   {sliding block memory} and {p1} {technology}, while always having a
+   population below 32000.
+     The algorithm is simple.  Starting with a number, if it is even
+   divide it by 2, otherwise multiply it by 5 and add 1.  When this
+   process is iterated a sequence of numbers is generated.  When
+   starting with the value of 7, it is currently unknown whether or not
+   the sequence ever forms a cycle.
+     Because of this the fate of the simulator is also currently
+   unknown. It may become stable, or become an oscillator with a high
+   period, or have a bounding box which grows irregularly.
+
+:colour:  = {colour of a glider}
+
+:colour-changing:  See {colour of a glider}.  The {reflector} shown in
+   {p8 bouncer} is colour-changing, as are its 5/6/7/8 and higher-period
+   versions.
+
+:colour-changing semi-Snark:  = {CC semi-Snark}.
+
+:colourised Life:  A {cellular automaton} that is the same as Life
+   except for the use of a number of different ON states ("colours").
+   All ON states behave the same for the purpose of applying the Life
+   rule, but additional rules are used to specify the colour of the
+   resulting ON cells.  Examples are {Immigration} and {QuadLife}.
+
+:colour of a glider:  The colour of a {glider} is a property of the
+   glider that remains constant while the glider is moving along a
+   straight path, but that can be changed when the glider bounces off a
+   {reflector}.  It is an important consideration when building
+   something using reflectors.
+     The colour of a glider can be defined as follows.  First choose
+   some cell to be the origin.  This cell is then considered to be
+   white, and all other cells to be black or white in a checkerboard
+   pattern.  (So the cell with coordinates (m,n) is white if m+n is
+   even, and black otherwise.)  Then the colour of a glider is the
+   colour of its leading cell when it is in a phase that can be rotated
+   to look like this:
+
+	***
+	..*
+	.*.

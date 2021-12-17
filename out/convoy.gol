@@ -1,0 +1,22 @@
+//   A collection of {spaceship}s all moving in the same direction
+   at the same speed.  Convoys are usually not destroyed by the
+   reactions that they cause.  Compare {salvo}.  For examples, see
+   {reanimation}, {fly-by deletion} and {glider turner}.
+
+:copperhead: (c/10 orthogonally, p10)  The following small c/10
+   {spaceship}, discovered by conwaylife.com forum user 'zdr' on 5 March
+   2016, using a simple depth-first search program.  A
+   {glider synthesis} was found on the same day.
+
+	.****.
+	......
+	.*..*.
+	*.**.*
+	*....*
+	......
+	*....*
+	**..**
+	******
+	.*..*.
+	..**..
+	..**..
