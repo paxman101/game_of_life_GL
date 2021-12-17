@@ -34,7 +34,7 @@ public:
     // A callback for mouse input to camera
     void processMouseMovement(float xoffset, float yoffset);
     // A callback for mouse scrolling input. Simply subtracts the input from zoom.
-    void processMouseScroll(float scroll_length) { zoom *= (scroll_length+mouse_sensitivity)/scroll_length; }
+    void processMouseScroll(float scroll_length) { zoom *= (scroll_length+0.5f)/scroll_length; }
 
     // getters and setters
     float getZoom() { return zoom; }
