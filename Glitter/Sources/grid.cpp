@@ -9,8 +9,7 @@ Grid::Grid(const CoordVec& in_coords) {
     }
 }
 
-Cell& Grid::getCell(const Coord& in_coord)
-{
+Cell& Grid::getCell(const Coord& in_coord) {
     if (in_coord.first < 0 || in_coord.second < 0
         || in_coord.first >= width || in_coord.second >= height) {
         return off_grid_cell;
@@ -18,8 +17,7 @@ Cell& Grid::getCell(const Coord& in_coord)
     return cell_grid.at(in_coord.second * width + in_coord.first); 
 }
 
-const Cell& Grid::getCell(const Coord& in_coord) const
-{
+const Cell& Grid::getCell(const Coord& in_coord) const {
     if (in_coord.first < 0 || in_coord.second < 0
         || in_coord.first >= width || in_coord.second >= height) {
         return off_grid_cell;
@@ -79,8 +77,7 @@ Cell &Grid::getAdjacentCell(const Coord &in_coords, RelativeDir dir) {
 }
 
 // Checks every adjacent cell for alive cells
-int Grid::getAdjacentAliveCount(const Coord &in_coords)
-{
+int Grid::getAdjacentAliveCount(const Coord &in_coords) {
     int alive_count = 0;
     for (int dir = NORTHWEST; dir <= WEST; dir++) {
         CellState current_state = getAdjacentCell(in_coords, static_cast<RelativeDir>(dir)).state;
@@ -135,7 +132,10 @@ void Grid::addAlive(const Coord& in_coord) {
 void Grid::killCell(const Coord& in_coord) {
     getCell(in_coord).state = CellState::DEAD;
     alive_cells.erase(in_coord);
-
+    
+    if (getAdjacentAliveCount(in_coord) > 0 ) {
+        alive_candidates.insert(in_coord);
+    }
     for (int dir = NORTHWEST; dir <= WEST; dir++) {
         Coord current_coord = getAdjacentCoord(in_coord, static_cast<RelativeDir>(dir));
         if (getState(current_coord) == CellState::DEAD
