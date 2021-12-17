@@ -69,11 +69,11 @@ void GridLineRenderer::initRenderData() {
     glBindVertexArray(0);
 }
 
-void GridRenderer::renderGrid(CellRenderer& renderer, bool update_on_render) {
-    for (const Coord& coord : grid_bog.alive_cells) {
-        renderer.DrawCell(coordToVec(getScreenCoord(coord)), {20.0f, 20.0f}, {1.0f, 1.0f, 1.0f});
+void GridRenderer::renderGrid(Grid &grid_to_render, CellRenderer &renderer, bool update_on_render) {
+    for (const Coord& coord : grid_to_render.alive_cells) {
+        renderer.DrawCell(coordToVec(getScreenCoord(coord)), {cell_size, cell_size}, {1.0f, 1.0f, 1.0f});
     }
     if (update_on_render) {
-        grid_bog.update();
+        grid_to_render.update();
     }
 }

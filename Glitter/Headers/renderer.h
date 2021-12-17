@@ -26,6 +26,7 @@ public:
     std::shared_ptr<Shader> getShader() { return shader; }
 };
 
+// TODO: Finish this class
 class GridLineRenderer {
 private:
     std::shared_ptr<Shader> shader;
@@ -43,16 +44,19 @@ private:
     using Coord = std::pair<int, int>;
     using CoordVec = std::vector<Coord>;
 
-    float cell_size = 20.0f;
-    Grid grid_bog;
+    // cell size in pixels when drawn
+    float cell_size;
 public:
-    GridRenderer(const CoordVec& in_vecs) : grid_bog{ in_vecs } {};
+    // Default cell_size is 20
+    GridRenderer(float cell_size = 20.0f) : cell_size{cell_size} {};
     
-    void renderGrid(CellRenderer& renderer, bool update_on_render = true);
+    void renderGrid(Grid &grid_to_render, CellRenderer &renderer, bool update_on_render = true);
 
-    Grid& getGrid() { return grid_bog;  }
+    float getCellSize() { return cell_size; }
+    void setCellSize(float in_size) { cell_size = cell_size; }
+
     // Converts from 
-    Coord getScreenCoord(const Coord& grid_coord) { return { grid_coord.first * cell_size, grid_coord.second * cell_size }; }
+    Coord getScreenCoord(const Coord &grid_coord) { return {grid_coord.first * cell_size, grid_coord.second * cell_size}; }
     // Converts from world space to grid coordinates
-    Coord getGridCoord(const Coord& screen_coord) { return  {screen_coord.first / cell_size, screen_coord.second / cell_size}; }
+    Coord getGridCoord(const Coord &screen_coord) { return  {screen_coord.first / cell_size, screen_coord.second / cell_size}; }
 };
