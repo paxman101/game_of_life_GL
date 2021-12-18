@@ -65,8 +65,9 @@ void App::initRendering() {
     std::shared_ptr<Shader> main_shader = std::make_shared<Shader>();
     main_shader->compile(vertex_source, frag_source);
     main_shader->use();
-    glm::mat4 projection = glm::ortho(0.0f, static_cast<float>(app_configuration_.window_width), static_cast<float>( app_configuration_.window_height),
-        0.0f, -1.0f, 1.0f) ;
+    glm::mat4 projection = glm::ortho(0.0f, static_cast<float>(app_configuration_.window_width), 
+                                      static_cast<float>( app_configuration_.window_height),
+                                      0.0f, -1.0f, 1.0f);
     main_shader->setMatrix4("projection", projection);
 
     // renderer object

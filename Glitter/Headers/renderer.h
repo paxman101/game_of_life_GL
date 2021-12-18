@@ -54,7 +54,7 @@ public:
     void renderGrid(Grid &grid_to_render, CellRenderer &renderer, bool update_on_render = true);
 
     float getCellSize() { return cell_size; }
-    void setCellSize(float in_size) { cell_size = cell_size; }
+    void setCellSize(float in_size) { cell_size = in_size; }
 
     // Converts from 
     Coord getScreenCoord(const Coord &grid_coord) { return {grid_coord.first * cell_size, grid_coord.second * cell_size}; }
