@@ -9,7 +9,8 @@ int main(int argc, char **argv) {
     config.initial_fps = 10.0f;
 
     App app{config};
-    app.loadPatternFromFile("../out/56P6H1V0.coord");
+    // default pattern
+    app.loadPatternFromFile(PROJECT_SOURCE_DIR"/out/56P6H1V0.coord");
     app.run();
     return 0;
 }

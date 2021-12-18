@@ -58,8 +58,8 @@ void App::initGlfw() {
 
 void App::initRendering() {
     // load shaders
-    const char* vertex_source = readShader("./Shaders/cell.vert");
-    const char* frag_source = readShader("./Shaders/cell.frag");
+    const char* vertex_source = readShader(PROJECT_SHADER_DIR"/cell.vert");
+    const char* frag_source = readShader(PROJECT_SHADER_DIR"/cell.frag");
 
     // Make shader program from source files.
     std::shared_ptr<Shader> main_shader = std::make_shared<Shader>();
@@ -111,7 +111,7 @@ void App::loadPatternFromFile(const std::string &file_path) {
 
 void App::loadPatternFromFilePicker() {
     const char *file_filters[] = {"*.coord"};
-    char const *file_name = tinyfd_openFileDialog(NULL, NULL, 1, file_filters, NULL, 0);
+    char const *file_name = tinyfd_openFileDialog(NULL, PROJECT_SOURCE_DIR, 1, file_filters, NULL, 0);
     loadPatternFromFile(file_name);
 }
 
