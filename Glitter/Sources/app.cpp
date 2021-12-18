@@ -104,8 +104,8 @@ void App::render() {
 void App::loadPatternFromFile(const std::string &file_path) {
     auto pattern_vec = ReadPatternFile(file_path);
     for (auto &pair : pattern_vec) {
-        pair.first += 400;
-        pair.second += 400;
+        pair.first += app_configuration_.window_width / 2.0f;
+        pair.second += app_configuration_.window_height / 2.0f;
     }
     cell_grid_ = Grid(pattern_vec);
 }
