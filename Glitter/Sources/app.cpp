@@ -79,7 +79,6 @@ void App::init() {
     //init opengl
     initGlfw();
     initRendering();
-
 }
 
 void App::render() {
@@ -145,19 +144,21 @@ void App::processInput() {
 }
 
 void App::scrollCallback(GLFWwindow *window, double xoffset, double yoffset) {
-    camera_.processMouseScroll(yoffset);
-    min_x = min_x + (app_configuration_.window_width*yoffset / (2 * zoom_factor_ + min_x/2.0f));
-    max_x = max_x - (app_configuration_.window_width*yoffset/ (2*zoom_factor_ + max_x/2.0f));
-    min_y = min_y + (app_configuration_.window_height*yoffset/ (2 * zoom_factor_ + min_y/2.0f));
-    max_y = max_y - (app_configuration_.window_height*yoffset/ (2*zoom_factor_ +max_y/2.0f));
-   
-    std::cout << "X (" << min_x << "," << max_x << ")" << std::endl;
-    std::cout << "Y (" << min_y << "," << max_y << ")" << std::endl;
+    min_x += app_configuration_.window_width  * yoffset * zoom_factor_;
+    max_x -= app_configuration_.window_width  * yoffset * zoom_factor_;
+    min_y += app_configuration_.window_height * yoffset * zoom_factor_;
+    max_y -= app_configuration_.window_height * yoffset * zoom_factor_;
 }
 
 void App::cursorCallback(GLFWwindow *window, double xoffset, double yoffset) {
     glm::mat4 view = camera_.getViewMatrix();
-    glm::vec4 yep{ xoffset/zoom_factor_, yoffset/zoom_factor_, 0.0f, 0.0f };
+    float delta_x = max_x - min_y;
+    float delta_y = max_y - min_y;
+    float scaled_x = xoffset * delta_x / app_configuration_.window_width;
+    float scaled_y = yoffset * delta_y / app_configuration_.window_height;
+
+    glm::vec4 yep{scaled_x + 0.5*(app_configuration_.window_width - delta_x), 
+                  scaled_y + 0.5*(app_configuration_.window_height - delta_y), 0.0f, 0.0f };
     yep.x -= view[3][0];
     yep.y -= view[3][1];
     mouse_last_x_ = yep.x;

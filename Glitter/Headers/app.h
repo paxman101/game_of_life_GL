@@ -29,6 +29,7 @@ private:
     float fps_ = app_configuration_.initial_fps;
     float cell_size_ = app_configuration_.initial_cell_size;
     float zoom_factor_ = app_configuration_.inital_zoom_factor;
+
     Camera camera_{{app_configuration_.window_width* cell_size_ / 2.f, app_configuration_.window_height * cell_size_ / 2.f, 0.0f}, 
         cell_size_, zoom_factor_};
 
