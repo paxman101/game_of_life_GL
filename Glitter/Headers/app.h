@@ -30,6 +30,7 @@ private:
     float cell_size_ = app_configuration_.initial_cell_size;
     float zoom_factor_ = app_configuration_.inital_zoom_factor;
 
+    // Initialize camera location to middle of grid.
     Camera camera_{{app_configuration_.window_width* cell_size_ / 2.f, app_configuration_.window_height * cell_size_ / 2.f, 0.0f}, 
         cell_size_, zoom_factor_};
 
@@ -60,6 +61,8 @@ public:
 
     // Loads a pattern from the given filename and sets the grid to the pattern
     void loadPatternFromFile(const std::string &file_path);
+    // Uses tinyfiledialogs file picker to choose a file to load.
+    void loadPatternFromFilePicker();
 
     // A function that polls GLFW for keyboard inputs. Will be refactored into a
     // proper callback function.

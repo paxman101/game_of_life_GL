@@ -7,6 +7,7 @@
 #include "camera.h"
 
 #include <glm/glm.hpp>
+#include <tinyfiledialogs.h>
 
 #include <memory>
 #include <chrono>
@@ -53,7 +54,6 @@ void App::initGlfw() {
     glfwSetScrollCallback(glfw_window_, scrollCallbackWrapper);
     glfwSetCursorPosCallback(glfw_window_, cursorCallbackWrapper);
     glfwSetMouseButtonCallback(glfw_window_, mouseButtonCallbackWrapper);
-
 }
 
 void App::initRendering() {
@@ -109,6 +109,12 @@ void App::loadPatternFromFile(const std::string &file_path) {
     cell_grid_ = Grid(pattern_vec);
 }
 
+void App::loadPatternFromFilePicker() {
+    const char *file_filters[] = {"*.coord"};
+    char const *file_name = tinyfd_openFileDialog(NULL, NULL, 1, file_filters, NULL, 0);
+    loadPatternFromFile(file_name);
+}
+
 void App::processInput() {
     if (glfwGetKey(glfw_window_, GLFW_KEY_ESCAPE) == GLFW_PRESS)
         glfwSetWindowShouldClose(glfw_window_, true);
@@ -140,6 +146,9 @@ void App::processInput() {
         if (fps_ > 5) {
             fps_ -= 5;
         }
+    }
+    if (glfwGetKey(glfw_window_, GLFW_KEY_O)) {
+        loadPatternFromFilePicker();
     }
 }
 
