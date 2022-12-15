@@ -3,6 +3,7 @@
 #include <vector>
 #include <utility>
 #include <set>
+#include <cstddef>
 
 enum class CellState {
     ALIVE,
