@@ -84,7 +84,7 @@ void App::init() {
 
 void App::render() {
     processInput();
-    std::this_thread::sleep_for(round<std::chrono::nanoseconds>(std::chrono::duration<double>{1./fps_}));
+    std::this_thread::sleep_for(std::chrono::round<std::chrono::nanoseconds>(std::chrono::duration<double>{1./fps_}));
 
     glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
     glClear(GL_COLOR_BUFFER_BIT);
