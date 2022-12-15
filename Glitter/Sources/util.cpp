@@ -14,7 +14,7 @@ char* readShader(const std::string& filename) {
  
     std::string contents((std::istreambuf_iterator<char>(cur_file)), 
         std::istreambuf_iterator<char>());
-    char* content_str = new char[contents.size()];
+    char* content_str = new char[contents.size() + 1];
     strcpy(content_str, contents.c_str());
     
     return content_str;
